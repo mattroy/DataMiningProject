@@ -16,4 +16,4 @@ The test file is checked in here. The training data is not checked in due to siz
 The output of scripts will be put here.
 
 ####scripts
-Scripts to be run on data here.
+Scripts to be run on data here. You will need python and numpy installed to run the scripts.
