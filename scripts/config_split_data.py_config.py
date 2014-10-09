@@ -6,3 +6,4 @@ training_location=../data/AP_train.txt
 output_location=../output
 training_output_location=training_data.txt
 validation_location=validation.txt
+gt_location=validation_gt.txt
