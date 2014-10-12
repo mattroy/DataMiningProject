@@ -49,6 +49,14 @@ class TestPapersFunctions(unittest.TestCase):
 
         self.assertEqual(0, sim)
 
+    def testCosineSimilarityPunctuation(self):
+        self.paper1.abstract = "A sentence. with some, punctuation."
+        self.paper2.abstract = "with, some sentence a. punctuation"
+
+        sim = self.paper1.abstractCosineSimilarity(self.paper2.abstract)
+
+        self.assertEqual(1, sim)
+
 
 suite = unittest.TestLoader().loadTestsFromTestCase(TestPapersFunctions)
 unittest.TextTestRunner(verbosity=2).run(suite)

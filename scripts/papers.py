@@ -7,6 +7,20 @@
 #Team ELSAMAT
 
 import math
+import string
+
+def splitWords(words):
+	"""
+	Split a string into a sorted, normalized list, with punctuation removed.
+	"""
+
+	exclude = set(string.punctuation)
+
+	sortedWords = [x.strip().lower() for x in words.split()]
+	sortedWords.sort()
+	sortedWords = map(lambda x: ''.join(ch for ch in x if ch not in exclude), sortedWords)
+
+	return sortedWords
 
 class Paper:
 	"""
@@ -27,12 +41,9 @@ class Paper:
 		Computes the TF-IDF vectors of the abstract of this paper and a given
 		 string.
 		"""
-
-		sortedAb1 = [x.strip().lower() for x in self.abstract.split()]
-		sortedAb1.sort()
-
-		sortedAb2 = [x.strip().lower() for x in secondAbstract.split()]
-		sortedAb2.sort()
+	
+		sortedAb1 = splitWords(self.abstract)
+		sortedAb2 = splitWords(secondAbstract)
 
 		vec1 = []
 		vec2 = []
@@ -56,7 +67,7 @@ class Paper:
 				vec2.append(1)
 				j += 1
 
-
+		# One of the lists is longer, vectors must be made the same length
 		if i < len(sortedAb1):
 			while i < len(sortedAb1):
 				vec1.append(1)
