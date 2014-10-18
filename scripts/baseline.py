@@ -35,35 +35,32 @@ validationData.readCorpus(validationLocation)
 
 #heurisitic based prediction
 predictions = []
-for paper in validationData.papersByRef:
-	currentPaper = validationData.papersByRef[paper]
-	refs = []
-	for otherPaper in trainingData.papersByRef:
-		nextPaper = trainingData.papersByRef[otherPaper]
-		if(nextPaper.year < currentPaper.year and nextPaper.index != currentPaper.index):
-			sim = currentPaper.abstractCosineSimilarity(nextPaper.abstract)
-			refs = papers.appendMax((nextPaper.index, sim), refs, 10)
-
-	print "Add prediction for paper: ", paper
-	predictions.append((paper, [x[0] for x in refs]))
-
-
-	# refs = []
-	# authors = validationData.papersByRef[paper].authors
-	# for author in authors:
-	# 	if author in validationData.indicesByAuthor:
-	# 		refs += validationData.indicesByAuthor[author]
-	# for author in authors:
-	# 	if author in trainingData.indicesByAuthor:
-	# 		refs += trainingData.indicesByAuthor[author]
-	# predictions.append((paper, refs)) 
-
-with open(predictionLocation, "w") as file:
+with open(predictionLocation, "w", 0) as file:
 	file.write("index, references\n")
-	for entry in predictions:
-		reference, refs = entry
-		file.write(reference + ", " + " ".join(refs) + "\n")
+	for paper in validationData.papersByRef:
+		currentPaper = validationData.papersByRef[paper]
+		refs = []
+		if currentPaper.venue in trainingData.indicesByVenue:
+			print "For paper: ", paper, " there are ", len(trainingData.indicesByVenue[currentPaper.venue])
+			for nextPaperId in trainingData.indicesByVenue[currentPaper.venue]:
+				nextPaper = trainingData.papersByRef[nextPaperId]
+				if(nextPaper.year < currentPaper.year and nextPaper.index != currentPaper.index):
+					sim = currentPaper.abstractCosineSimilarity(nextPaper.abstract)
+					refs = papers.appendMax((nextPaper.index, sim), refs, 10)
+			prediction = [x[0] for x in refs]
+			# predictions.append((paper, ))
+		else:
+			prediction = []
+			# predictions.append((paper, []))
+		file.write(paper + ", " + " ".join(prediction) + "\n")
 
+
+
+
+	
+	# for entry in predictions:
+	# 	reference, refs = entry
+		
 print "- Number of training papers:   ", len(trainingData.papersByRef)
 print "- Number of validation papers: ", len(validationData.papersByRef)
 print "----------------------------------------------------------------------------"
