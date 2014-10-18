@@ -44,19 +44,19 @@ gtCount = 0
 badDataCount = 0
 validationCount = 0
 trainingCount = 0
+sampleYear = 0
 with open(trainingData) as f:
     for line in f:
         if line.startswith("#index"):
-            if gtCount >= 10:
+            print sampleYear
+            if sampleYear == "2012":
                 if(random.randint(1,100) < int(validationSize)):
                     validationFile.write(sample)
                     validationCount += 1
                     gtFile.write(validationGTLine + "\n")
-                else:
-                    trainingFile.write(sample)
-                    trainingCount += 1
             else:
-                badDataCount += 1
+                trainingFile.write(sample)
+                trainingCount += 1
                 
             gtCount = 0
             sample = line
@@ -67,6 +67,9 @@ with open(trainingData) as f:
                 validationGTLine += " " + line[3:-1]
                 gtCount += 1    
             sample += line
+
+        elif line.startswith("#t"):
+            sampleYear = line[3:].strip()
             
         else:
             sample += line
