@@ -36,15 +36,27 @@ validationData.readCorpus(validationLocation)
 #heurisitic based prediction
 predictions = []
 for paper in validationData.papersByRef:
+	currentPaper = validationData.papersByRef[paper]
 	refs = []
-	authors = validationData.papersByRef[paper].authors
-	for author in authors:
-		if author in validationData.indicesByAuthor:
-			refs += validationData.indicesByAuthor[author]
-	for author in authors:
-		if author in trainingData.indicesByAuthor:
-			refs += trainingData.indicesByAuthor[author]
-	predictions.append((paper, refs)) 
+	for otherPaper in trainingData.papersByRef:
+		nextPaper = trainingData.papersByRef[otherPaper]
+		if(nextPaper.year < currentPaper.year and nextPaper.index != currentPaper.index):
+			sim = currentPaper.abstractCosineSimilarity(nextPaper.abstract)
+			refs = papers.appendMax((nextPaper.index, sim), refs, 10)
+
+	print "Add prediction for paper: ", paper
+	predictions.append((paper, [x[0] for x in refs]))
+
+
+	# refs = []
+	# authors = validationData.papersByRef[paper].authors
+	# for author in authors:
+	# 	if author in validationData.indicesByAuthor:
+	# 		refs += validationData.indicesByAuthor[author]
+	# for author in authors:
+	# 	if author in trainingData.indicesByAuthor:
+	# 		refs += trainingData.indicesByAuthor[author]
+	# predictions.append((paper, refs)) 
 
 with open(predictionLocation, "w") as file:
 	file.write("index, references\n")

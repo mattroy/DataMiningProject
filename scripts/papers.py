@@ -22,6 +22,15 @@ def splitWords(words):
 
 	return sortedWords
 
+def appendMax(newItem, refList, maxNum):
+	for i in range(0,len(refList)):
+		if refList[i][1] > newItem[1]:
+			refList.insert(i, newItem)
+			break
+		if i == len(refList) -1:
+			refList.insert(i + 1, newItem)
+	return refList[0:maxNum]
+
 class Paper:
 	"""
 	Papers with fields for all attributes of the paper.
@@ -89,6 +98,12 @@ class Paper:
 		"""
 
 		vec1, vec2 = self.abstractVectors(secondAbstract)
+
+		if len(vec1) == 0 or len(vec2) == 0:
+			return 0
+
+		if sum(vec1) == 0 or sum(vec2) == 0:
+			return 0
 
 		sumxx = 0
 		sumyy = 0

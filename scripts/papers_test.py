@@ -57,6 +57,36 @@ class TestPapersFunctions(unittest.TestCase):
 
         self.assertEqual(1, sim)
 
+    def testCosineSimilarityEmpty(self):
+        self.paper1.abstract = "test sentence"
+
+        sim = self.paper1.abstractCosineSimilarity('')
+        self.assertEqual(0, sim)
+
+    def testMaxAppend(self):
+        test = [(1,3),(2,5),(3,8)]
+        res = papers.appendMax((4,6), test, 3)
+
+        self.assertEqual(res, [(1,3), (2,5), (4,6)])
+
+    def testMaxAppendLess(self):
+        test = [(1,3),(2,5),(3,8)]
+        res = papers.appendMax((4,6), test, 4)
+
+        self.assertEqual(res, [(1,3), (2,5), (4,6), (3,8)])
+
+    def testMaxAppendMore(self):
+        test = [(1,3),(2,5),(3,8)]
+        res = papers.appendMax((4,6), test, 6)
+
+        self.assertEqual(res, [(1,3), (2,5), (4,6), (3,8)])
+
+    def testMaxAppendEnd(self):
+        test = [(1,3),(2,5),(3,8)]
+        res = papers.appendMax((4,9), test, 6)
+
+        self.assertEqual(res, [(1,3), (2,5), (3,8), (4,9)])
+
 
 suite = unittest.TestLoader().loadTestsFromTestCase(TestPapersFunctions)
 unittest.TextTestRunner(verbosity=2).run(suite)
