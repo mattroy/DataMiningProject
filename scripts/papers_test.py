@@ -89,6 +89,12 @@ class TestPapersFunctions(unittest.TestCase):
 
         self.assertEqual(res, [(1,3), (2,5), (3,8), (4,9)])
 
+    def testMaxAppendEmpty(self):
+        test = []
+        res = papers.appendMax((1,2), test, 3)
+
+        self.assertEqual(res, [(1,2)])
+        
     def testPaperCount(self):
         self.assertEqual(4, len(self.corpus.papersByRef))
 

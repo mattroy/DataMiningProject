@@ -23,12 +23,15 @@ def splitWords(words):
 	return sortedWords
 
 def appendMax(newItem, refList, maxNum):
+	if len(refList) == 0:
+		return [newItem]
 	for i in range(0,len(refList)):
 		if refList[i][1] > newItem[1]:
 			refList.insert(i, newItem)
 			break
 		if i == len(refList) -1:
 			refList.insert(i + 1, newItem)
+
 	return refList[0:maxNum]
 
 class Paper:
