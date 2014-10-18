@@ -14,6 +14,8 @@ class TestPapersFunctions(unittest.TestCase):
     def setUp(self):
         self.paper1 = papers.Paper()
         self.paper2 = papers.Paper()
+        self.corpus = papers.Corpus()
+        self.corpus.readCorpus("../test/test_corpus.txt")
 
     def testVector(self):
         self.paper1.abstract = "The first test sentence"
@@ -87,6 +89,15 @@ class TestPapersFunctions(unittest.TestCase):
 
         self.assertEqual(res, [(1,3), (2,5), (3,8), (4,9)])
 
+    def testPaperCount(self):
+        self.assertEqual(4, len(self.corpus.papersByRef))
+
+    def testAuthorCount(self):
+        self.assertEqual(20, len(self.corpus.indicesByAuthor))
+
+    def testVenueCount(self):
+        self.assertEqual(2, len(self.corpus.indicesByVenue))
+        self.assertEqual(2, len(self.corpus.indicesByVenue["Computational Geometry: Theory and Applications"]))
 
 suite = unittest.TestLoader().loadTestsFromTestCase(TestPapersFunctions)
 unittest.TextTestRunner(verbosity=2).run(suite)

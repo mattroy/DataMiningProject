@@ -127,19 +127,24 @@ class Corpus:
 	def __init__(self):
 		self.papersByRef = {}
 		self.indicesByAuthor = {}
+		self.indicesByVenue = {}
 
 
 	def readCorpus(self, location):
 		with open(location, "r") as file:
 			for line in file:
+
+				#paper id
 				if line.startswith("#index"):
 					index = line[7:].strip()
 					paper = Paper(index)
 					self.papersByRef[index] = paper
 				
+				#title
 				elif line.startswith('#*'):
 					paper.title = line[3:].strip()
 
+				#authors
 				elif line.startswith("#@"):
 					authors = [x.strip() for x in line[3:].split(";")]
 					paper.authors = authors
@@ -149,14 +154,22 @@ class Corpus:
 						else:
 							self.indicesByAuthor[author] = [paper.index]
 
+				#year
 				elif line.startswith("#t"):
 					paper.year = line[3:].strip()
 
+				#venue
 				elif line.startswith("#c"):
 					paper.venue = line[3:].strip()
+					if paper.venue in self.indicesByVenue:
+						self.indicesByVenue[paper.venue].append(paper.index)
+					else:
+						self.indicesByVenue[paper.venue] = [paper.index]
 
+				#references
 				elif line.startswith("#%"):
 					paper.references.append(line[3:].strip())
 
+				#abstract
 				elif line.startswith("#!"):
 					paper.abstract = line[3:].strip()

@@ -1,0 +1,27 @@
+#index 1875320
+#* Maximizing maximal angles for plane straight-line graphs
+#@ Oswin Aichholzer;Thomas Hackl;Michael Hoffmann;Clemens Huemer;Attila PóR;Francisco Santos;Bettina Speckmann;Birgit Vogtenhuber
+#t 2013
+#c Computational Geometry: Theory and Applications
+#! Let G=(S,E) be a plane straight-line graph on a finite point set S@?R^2 in general position. The incident angles of a point p@?S in G are the angles between any two edges of G that appear consecutively in the circular order of the edges incident to p. A plane straight-line graph is called @f-open if each vertex has an incident angle of size at least @f. In this paper we study the following type of question: What is the maximum angle @f such that for any finite set S@?R^2 of points in general position we can find a graph from a certain class of graphs on S that is @f-open? In particular, we consider the classes of triangulations, spanning trees, and spanning paths on S and give tight bounds in most cases.
+
+#index 1875325
+#* On approximating the Riemannian 1-center
+#@ Marc Arnaudon;Frank Nielsen
+#t 2013
+#c Computational Geometry: Theory and Applications
+#! We generalize the Euclidean 1-center approximation algorithm of Badoiu and Clarkson (2003) [6] to arbitrary Riemannian geometries, and study the corresponding convergence rate. We then show how to instantiate this generic algorithm to two particular settings: (1) the hyperbolic geometry, and (2) the Riemannian manifold of symmetric positive definite matrices.
+
+#index 1890816
+#* Variability-tolerant workload allocation for MPSoC energy minimization under real-time constraints
+#@ Francesco Paterna;Andrea Acquaviva;Francesco Papariello;Giuseppe Desoli;Luca Benini
+#t 2013
+#c ACM Transactions on Embedded Computing Systems (TECS)
+#! Sub-50nm CMOS technologies are affected by significant variability, which causes power and performance variations among nominally similar cores in MPSoC platforms. This undesired heterogeneity threatens execution predictability and energy efficiency. We propose two techniques to allocate sets of barrier-synchronized tasks. The first technique models allocation as an ILP and achieves optimal results, but requires an offline solver. The second technique adopts a two-stage heuristic approach, and it can be adapted to work online. We tested our approach on the virtual prototype of a next-generation industrial multicore platform. Experimental results demonstrate that our approach minimizes deadline violations while increasing energy efficiency.
+
+#index 1890830
+#* Optimization of task allocation and priority assignment in hard real-time distributed systems
+#@ Qi Zhu;Haibo Zeng;Wei Zheng;Marco DI Natale;Alberto Sangiovanni-Vincentelli
+#t 2013
+#c ACM Transactions on Embedded Computing Systems (TECS)
+#! The complexity and physical distribution of modern active safety, chassis, and powertrain automotive applications requires the use of distributed architectures. Complex functions designed as networks of function blocks exchanging signal information are deployed onto the physical HW and implemented in a SW architecture consisting of a set of tasks and messages. The typical configuration features priority-based scheduling of tasks and messages and imposes end-to-end deadlines. In this work, we present and compare formulations and procedures for the optimization of the task allocation, the signal to message mapping, and the assignment of priorities to tasks and messages in order to meet end-to-end deadline constraints and minimize latencies. Our formulations leverage worst-case response time analysis within a mixed integer linear optimization framework and are compared for performance against a simulated annealing implementation. The methods are applied for evaluation to an automotive case study of complexity comparable to industrial design problems.
