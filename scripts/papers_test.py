@@ -105,5 +105,9 @@ class TestPapersFunctions(unittest.TestCase):
         self.assertEqual(2, len(self.corpus.indicesByVenue))
         self.assertEqual(2, len(self.corpus.indicesByVenue["Computational Geometry: Theory and Applications"]))
 
+    def testVenueNormalization(self):
+        self.assertEqual(papers.normalizeYears("PLDI '00 Proceedings of the ACM SIGPLAN 2000 conference on Programming language design and implementation"),
+            "PLDI  Proceedings of the ACM SIGPLAN  conference on Programming language design and implementation")
+
 suite = unittest.TestLoader().loadTestsFromTestCase(TestPapersFunctions)
 unittest.TextTestRunner(verbosity=2).run(suite)

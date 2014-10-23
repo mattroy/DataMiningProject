@@ -8,6 +8,17 @@
 
 import math
 import string
+import re
+
+def normalizeYears(phrase):
+	"""
+	Remove abrievated years from a string.
+	"""
+
+	phrase = re.sub("'\d\d", "", phrase)
+	phrase = re.sub("\d\d\d\d", "", phrase)
+
+	return phrase
 
 def splitWords(words):
 	"""
@@ -127,10 +138,11 @@ class Corpus:
 	Holds a collection of papers with ability to query by fields.
 	"""
 
-	def __init__(self):
+	def __init__(self, normalizeVenues=True):
 		self.papersByRef = {}
 		self.indicesByAuthor = {}
 		self.indicesByVenue = {}
+		self.normalizeVenues = normalizeVenues
 
 
 	def readCorpus(self, location):
@@ -163,7 +175,10 @@ class Corpus:
 
 				#venue
 				elif line.startswith("#c"):
-					paper.venue = line[3:].strip()
+					if(self.normalizeVenues):
+						paper.venue = normalizeYears(line[3:].strip())
+					else:
+						paper.venue = line[3:].strip()
 					if paper.venue in self.indicesByVenue:
 						self.indicesByVenue[paper.venue].append(paper.index)
 					else:
