@@ -14,11 +14,20 @@ def normalizeYears(phrase):
 	"""
 	Remove abrievated years from a string.
 	"""
+	phrase = phrase.lower().strip()
 
 	phrase = re.sub("'\d\d", "", phrase)
 	phrase = re.sub("\d\d\d\d", "", phrase)
+	phrase = re.sub("\d\d(st|nd|th|rd)", "", phrase)
+	phrase = re.sub("(first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|thirteenth)", "", phrase)
+	phrase = re.sub("\d(st|nd|th)", "",phrase)
+	phrase = re.sub("( - volume \d| - volume \d\d)", "", phrase)
+	phrase = re.sub("-\d\d", "", phrase)
+	phrase = re.sub("-.+$", "", phrase)
+	phrase = re.sub("(\d$|\d\d$)", "", phrase)
+	phrase = re.sub("\s+", " ", phrase)
 
-	return phrase
+	return phrase.strip()
 
 def splitWords(words):
 	"""

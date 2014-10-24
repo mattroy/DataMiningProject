@@ -103,11 +103,24 @@ class TestPapersFunctions(unittest.TestCase):
 
     def testVenueCount(self):
         self.assertEqual(2, len(self.corpus.indicesByVenue))
-        self.assertEqual(2, len(self.corpus.indicesByVenue["Computational Geometry: Theory and Applications"]))
+        self.assertEqual(2, len(self.corpus.indicesByVenue["computational geometry: theory and applications"]))
 
     def testVenueNormalization(self):
-        self.assertEqual(papers.normalizeYears("PLDI '00 Proceedings of the ACM SIGPLAN 2000 conference on Programming language design and implementation"),
-            "PLDI  Proceedings of the ACM SIGPLAN  conference on Programming language design and implementation")
+        normVenue = papers.normalizeYears("PLDI '00 Proceedings of the ACM SIGPLAN 2000 conference on Programming language design and implementation")
+        self.assertEqual(normVenue,
+            "pldi proceedings of the acm sigplan conference on programming language design and implementation")
+
+        normVenue = papers.normalizeYears("AAAI Proceedings of the 19th national conference on Artifical intelligence")
+        self.assertEqual(normVenue, "aaai proceedings of the national conference on artifical intelligence")
+
+        normVenue = papers.normalizeYears("AAAI Proceedings of the  national conference on Artificial intelligence - Volume 1")
+        self.assertEqual(normVenue, "aaai proceedings of the national conference on artificial intelligence")
+
+        normVenue = papers.normalizeYears("AAAI Proceedings of the eighth National conference on Artificial intelligence")
+        self.assertEqual(normVenue, "aaai proceedings of the national conference on artificial intelligence")
+
+        normVenue = papers.normalizeYears("advances in fuzzy systems - special issue on fuzzy function, relations, and fuzzy transforms ()")
+        self.assertEqual(normVenue, "advances in fuzzy systems")
 
 suite = unittest.TestLoader().loadTestsFromTestCase(TestPapersFunctions)
 unittest.TextTestRunner(verbosity=2).run(suite)
