@@ -48,7 +48,7 @@ sampleYear = 0
 with open(trainingData) as f:
     for line in f:
         if line.startswith("#index"):
-            if sampleYear == "2012":
+            if sampleYear == 2012:
                 if(random.randint(1,100) < int(validationSize)):
                     validationFile.write(sample)
                     validationCount += 1
