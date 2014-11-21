@@ -10,51 +10,7 @@ import math
 import string
 import re
 
-def getCanonicalVenue(venue):
-	if 'IJCAI' in venue:
-		return "IJCAI"
-	elif 'AAAI' in venue:
-		return 'AAAI'
-	elif 'ICDE' in venue:
-		return 'ICDE'
-	elif 'VLDB' in venue:
-		return 'VLDB'
-	elif 'SIGMOD' in venue:
-		return 'SIGMOD'
-	elif 'SIGIR' in venue:
-		return 'SIGIR'
-	elif 'ICML' in venue:
-		return 'ICML'
-	elif 'NIPS' in venue:
-		return 'NIPS'
-	elif 'CIKM' in venue:
-		return 'CIKM'
-	elif 'KDD' in venue:
-		return 'KDD'
-	elif 'WWW' in venue:
-		return 'WWW'
-	elif 'ECML' in venue:
-		return 'ECML'
-	elif 'PODS' in venue:
-		return 'PODS'
-	elif 'PAKDD' in venue:
-		return 'PAKDD'
-	elif 'ICDM' in venue:
-		return 'ICDM'
-	elif 'PKDD' in venue:
-		return 'PKDD'
-	elif 'EDBT' in venue:
-		return 'EDBT'
-	elif 'SDM' in venue:
-		return 'SDM'
-	elif 'ECIR' in venue:
-		return 'ECIR'
-	elif 'WSDM' in venue:
-		return 'WSDM'
-	else:
-		return ''
-
-def normalizeYears(phrase):
+def getCanonicalVenue(phrase):
 	"""
 	Remove abrievated years from a string.
 	"""
@@ -260,18 +216,14 @@ class Corpus:
 
 				#venue
 				elif line.startswith("#c"):
-					if(self.normalizeVenues):
-						paper.venue = normalizeYears(line[3:].strip())
-					else:
-						paper.venue = line[3:].strip()
+					paper.venue = line[3:].strip()
+
 					if paper.venue in self.indicesByVenue:
 						self.indicesByVenue[paper.venue].append(paper.index)
 					else:
 						self.indicesByVenue[paper.venue] = [paper.index]
+						
 					paper.canonicalVenue = getCanonicalVenue(paper.venue)
-					if paper.canonicalVenue != "":
-						self.smallSet[paper.id] = paper
-
 
 				#references
 				elif line.startswith("#%"):
