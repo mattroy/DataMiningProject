@@ -15,7 +15,7 @@ import papers
 config = ConfigParser.ConfigParser()
 config.read(sys.argv[1])
 
-trainingLocation = config.get('prediction', 'training_location')
+trainingLocation = config.get('data_analysis', 'training_location')
 outputLocation = config.get('data_analysis', 'output_location')
 
 trainingData = papers.Corpus()
