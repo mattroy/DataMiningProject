@@ -36,7 +36,7 @@ validationData.readCorpus(validationLocation)
 #heurisitic based prediction
 predictions = []
 with open(predictionLocation, "w", 0) as file:
-	file.write("index, references\n")
+	file.write("Id,References\n")
 	for paper in validationData.papersByRef:
 		currentPaper = validationData.papersByRef[paper]
 		refs = []
