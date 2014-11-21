@@ -14,6 +14,7 @@ Project for cs6220
 * data
 * output
 * scripts
+* test
 
 ####data
 The test file is checked in here. The training data is not checked in due to size issues. You will need to add your copy of ap_train.txt here.
@@ -31,3 +32,6 @@ Scripts to be run on data here.
 * papers_test - unit tests for the papers class
 * mapk.py - this was taken from Ben Horners implementation of the MAPK function from Kaggle. It is used in the scoring script.
 * config.cfg - contains settings for all scripts, this will be useful to run multiple experiments without needing to edit the code or move/edit the existing ouputs
+
+####tests
+Files for testing.

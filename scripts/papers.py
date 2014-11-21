@@ -10,6 +10,50 @@ import math
 import string
 import re
 
+def getCanonicalVenue(venue):
+	if 'IJCAI' in venue:
+		return "IJCAI"
+	elif 'AAAI' in venue:
+		return 'AAAI'
+	elif 'ICDE' in venue:
+		return 'ICDE'
+	elif 'VLDB' in venue:
+		return 'VLDB'
+	elif 'SIGMOD' in venue:
+		return 'SIGMOD'
+	elif 'SIGIR' in venue:
+		return 'SIGIR'
+	elif 'ICML' in venue:
+		return 'ICML'
+	elif 'NIPS' in venue:
+		return 'NIPS'
+	elif 'CIKM' in venue:
+		return 'CIKM'
+	elif 'KDD' in venue:
+		return 'KDD'
+	elif 'WWW' in venue:
+		return 'WWW'
+	elif 'ECML' in venue:
+		return 'ECML'
+	elif 'PODS' in venue:
+		return 'PODS'
+	elif 'PAKDD' in venue:
+		return 'PAKDD'
+	elif 'ICDM' in venue:
+		return 'ICDM'
+	elif 'PKDD' in venue:
+		return 'PKDD'
+	elif 'EDBT' in venue:
+		return 'EDBT'
+	elif 'SDM' in venue:
+		return 'SDM'
+	elif 'ECIR' in venue:
+		return 'ECIR'
+	elif 'WSDM' in venue:
+		return 'WSDM'
+	else:
+		return ''
+
 def normalizeYears(phrase):
 	"""
 	Remove abrievated years from a string.
@@ -43,6 +87,10 @@ def splitWords(words):
 	return sortedWords
 
 def appendMax(newItem, refList, maxNum):
+	"""
+	Add a new item to a list in refList never exceeding the maximum. Item should be a 
+	2-tuple, with the second element being the score.
+	"""
 	if len(refList) == 0:
 		return [newItem]
 	for i in range(0,len(refList)):
@@ -67,6 +115,8 @@ class Paper:
 		self.title = ''
 		self.year = ''
 		self.venue = ''
+		self.canonicalVenue = ''
+		self.titleList = []
 
 	def abstractVectors(self, secondAbstract):
 		"""
@@ -77,6 +127,7 @@ class Paper:
 		sortedAb1 = splitWords(self.abstract)
 		sortedAb2 = splitWords(secondAbstract)
 
+		#vec1 and vec2 will contain 1 for an existing word, or 0 for non existing word
 		vec1 = []
 		vec2 = []
 		i = 0
@@ -152,9 +203,28 @@ class Corpus:
 		self.indicesByAuthor = {}
 		self.indicesByVenue = {}
 		self.normalizeVenues = normalizeVenues
+		self.smallSet = {}
+		self.stopWords = {}
+		self.loadStopWords()
 
+	def loadStopWords(self):
+		"""
+		Initialize the stop word list from a file. Each stopword should be on a separate line.
+		"""
+		with open("../scripts/stop_words.txt", "r") as file:
+			for line in file:
+				self.stopWords[line.strip().lower()] = 1
+
+	def isStopWord(self, word):
+		"""
+		True if the given word is a stop word.
+		"""
+		return word in self.stopWords
 
 	def readCorpus(self, location):
+		"""
+		Load the corpus from a file.
+		"""
 		with open(location, "r") as file:
 			for line in file:
 
@@ -167,6 +237,9 @@ class Corpus:
 				#title
 				elif line.startswith('#*'):
 					paper.title = line[3:].strip()
+					for word in paper.title.split():
+						if not self.isStopWord(word.strip().lower()):
+							paper.titleList.append(word.strip().lower())
 
 				#authors
 				elif line.startswith("#@"):
@@ -180,7 +253,10 @@ class Corpus:
 
 				#year
 				elif line.startswith("#t"):
-					paper.year = line[3:].strip()
+					if line[3:].strip() != '':
+						paper.year = int(line[3:].strip())
+					else:
+						paper.year = 0
 
 				#venue
 				elif line.startswith("#c"):
@@ -192,6 +268,10 @@ class Corpus:
 						self.indicesByVenue[paper.venue].append(paper.index)
 					else:
 						self.indicesByVenue[paper.venue] = [paper.index]
+					paper.canonicalVenue = getCanonicalVenue(paper.venue)
+					if paper.canonicalVenue != "":
+						self.smallSet[paper.id] = paper
+
 
 				#references
 				elif line.startswith("#%"):
