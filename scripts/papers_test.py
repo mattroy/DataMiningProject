@@ -122,5 +122,9 @@ class TestPapersFunctions(unittest.TestCase):
         normVenue = papers.normalizeYears("advances in fuzzy systems - special issue on fuzzy function, relations, and fuzzy transforms ()")
         self.assertEqual(normVenue, "advances in fuzzy systems")
 
+    def testStopWords(self):
+        self.assertEqual(False, self.corpus.isStopWord("computer"))
+        self.assertEqual(True, self.corpus.isStopWord("the"))
+
 suite = unittest.TestLoader().loadTestsFromTestCase(TestPapersFunctions)
 unittest.TextTestRunner(verbosity=2).run(suite)
