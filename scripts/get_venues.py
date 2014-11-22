@@ -22,5 +22,5 @@ trainingData = papers.Corpus()
 trainingData.readCorpus(trainingLocation)
 
 with open(outputLocation, "w") as f:
-	for venue in sorted(trainingData.indicesByVenue):
+	for venue in sorted(trainingData.indicesByCanonicalVenue):
 		f.write(venue + "\n")

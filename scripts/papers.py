@@ -227,9 +227,9 @@ class Corpus:
 					paper.canonicalVenue = getCanonicalVenue(paper.venue)
 
 					if paper.canonicalVenue in self.indicesByCanonicalVenue:
-						self.indicesByCanonicalVenue[paper.venue].append(paper.index)
+						self.indicesByCanonicalVenue[paper.canonicalVenue].append(paper.index)
 					else:
-						self.indicesByCanonicalVenue[paper.venue] = [paper.index]
+						self.indicesByCanonicalVenue[paper.canonicalVenue] = [paper.index]
 
 				#references
 				elif line.startswith("#%"):
