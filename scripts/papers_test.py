@@ -103,28 +103,28 @@ class TestPapersFunctions(unittest.TestCase):
 
     def testVenueCount(self):
         self.assertEqual(2, len(self.corpus.indicesByVenue))
-        self.assertEqual(2, len(self.corpus.indicesByVenue["computational geometry: theory and applications"]))
 
     def testVenueNormalization(self):
-        normVenue = papers.normalizeYears("PLDI '00 Proceedings of the ACM SIGPLAN 2000 conference on Programming language design and implementation")
+        normVenue = papers.getCanonicalVenue("PLDI '00 Proceedings of the ACM SIGPLAN 2000 conference on Programming language design and implementation")
         self.assertEqual(normVenue,
             "pldi proceedings of the acm sigplan conference on programming language design and implementation")
 
-        normVenue = papers.normalizeYears("AAAI Proceedings of the 19th national conference on Artifical intelligence")
+        normVenue = papers.getCanonicalVenue("AAAI Proceedings of the 19th national conference on Artifical intelligence")
         self.assertEqual(normVenue, "aaai proceedings of the national conference on artifical intelligence")
 
-        normVenue = papers.normalizeYears("AAAI Proceedings of the  national conference on Artificial intelligence - Volume 1")
+        normVenue = papers.getCanonicalVenue("AAAI Proceedings of the  national conference on Artificial intelligence - Volume 1")
         self.assertEqual(normVenue, "aaai proceedings of the national conference on artificial intelligence")
 
-        normVenue = papers.normalizeYears("AAAI Proceedings of the eighth National conference on Artificial intelligence")
+        normVenue = papers.getCanonicalVenue("AAAI Proceedings of the eighth National conference on Artificial intelligence")
         self.assertEqual(normVenue, "aaai proceedings of the national conference on artificial intelligence")
 
-        normVenue = papers.normalizeYears("advances in fuzzy systems - special issue on fuzzy function, relations, and fuzzy transforms ()")
+        normVenue = papers.getCanonicalVenue("advances in fuzzy systems - special issue on fuzzy function, relations, and fuzzy transforms ()")
         self.assertEqual(normVenue, "advances in fuzzy systems")
 
     def testStopWords(self):
         self.assertEqual(False, self.corpus.isStopWord("computer"))
         self.assertEqual(True, self.corpus.isStopWord("the"))
+
 
 suite = unittest.TestLoader().loadTestsFromTestCase(TestPapersFunctions)
 unittest.TextTestRunner(verbosity=2).run(suite)

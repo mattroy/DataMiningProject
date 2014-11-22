@@ -158,6 +158,7 @@ class Corpus:
 		self.papersByRef = {}
 		self.indicesByAuthor = {}
 		self.indicesByVenue = {}
+		self.indicesByCanonicalVenue = {}
 		self.normalizeVenues = normalizeVenues
 		self.smallSet = {}
 		self.stopWords = {}
@@ -222,8 +223,13 @@ class Corpus:
 						self.indicesByVenue[paper.venue].append(paper.index)
 					else:
 						self.indicesByVenue[paper.venue] = [paper.index]
-						
+
 					paper.canonicalVenue = getCanonicalVenue(paper.venue)
+
+					if paper.canonicalVenue in self.indicesByCanonicalVenue:
+						self.indicesByCanonicalVenue[paper.venue].append(paper.index)
+					else:
+						self.indicesByCanonicalVenue[paper.venue] = [paper.index]
 
 				#references
 				elif line.startswith("#%"):
