@@ -125,6 +125,19 @@ class TestPapersFunctions(unittest.TestCase):
         self.assertEqual(False, self.corpus.isStopWord("computer"))
         self.assertEqual(True, self.corpus.isStopWord("the"))
 
+    def testAbstractList(self):
+        for id in self.corpus.papersByRef:
+            paper = self.corpus.papersByRef[id]
+            
+        self.assertEqual(['fopen', 'fopen', 'angle',
+'angle', 'angles', 'angles', 'appear', 'bounds', 'called', 'cases', 'circular',
+'class', 'classes', 'consecutively', 'consider', 'edges', 'edges', 'find', 'finite',
+ 'finite', 'gse', 'general', 'general', 'graph', 'graph', 'graph', 'graphs',
+ 'incident', 'incident', 'incident', 'maximum', 'order', 'ps', 'paper', 'paths',
+ 'plane', 'plane', 'point', 'point', 'points', 'position', 'position', 'question',
+  'sr2', 'sr2', 'set', 'set', 'size', 'spanning', 'spanning', 'straightline', 
+  'straightline', 'study', 'tight', 'trees', 'triangulations', 'two', 'type', 
+  'vertex', 'we', 'we', 'we'], paper.abstractList)
 
 suite = unittest.TestLoader().loadTestsFromTestCase(TestPapersFunctions)
 unittest.TextTestRunner(verbosity=2).run(suite)

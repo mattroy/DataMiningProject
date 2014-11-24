@@ -73,15 +73,16 @@ class Paper:
 		self.venue = ''
 		self.canonicalVenue = ''
 		self.titleList = []
+		self.abstractList = []
 
-	def abstractVectors(self, secondAbstract):
+	def abstractVectors(self, secondAbstractList):
 		"""
 		Computes the TF-IDF vectors of the abstract of this paper and a given
 		 string.
 		"""
 	
-		sortedAb1 = splitWords(self.abstract)
-		sortedAb2 = splitWords(secondAbstract)
+		sortedAb1 = self.abstractList #splitWords(self.abstract)
+		sortedAb2 = secondAbstractList #splitWords(secondAbstract)
 
 		#vec1 and vec2 will contain 1 for an existing word, or 0 for non existing word
 		vec1 = []
@@ -121,13 +122,13 @@ class Paper:
 
 		return (vec1, vec2)
 
-	def abstractCosineSimilarity(self, secondAbstract): 
+	def abstractCosineSimilarity(self, secondAbstractList): 
 		"""
 		Compute the cosine similarity between the abstract of this paper 
 		and the given string.
 		"""
 
-		vec1, vec2 = self.abstractVectors(secondAbstract)
+		vec1, vec2 = self.abstractVectors(secondAbstractList)
 
 		if len(vec1) == 0 or len(vec2) == 0:
 			return 0
@@ -163,6 +164,26 @@ class Corpus:
 		self.smallSet = {}
 		self.stopWords = {}
 		self.loadStopWords()
+		self.computeAllVenueReferences()
+
+	def computeAllVenueReferences(self):
+		"""
+		Builds a dictionary of dictionarys where each key is a canonicalVenue and the sub-dictionary
+		contains all canonicalVenues listed as references by papers from the first venue.
+		"""
+		self.venueReferences = {}
+		for paperId in self.papersByRef:
+			currentPaper = self.papersByRef[paperId]
+
+			if currentPaper.canonicalVenue not in self.venueReferences:
+				self.venueReferences[currentPaper.canonicalVenue] = {}
+
+			for ref in currentPaper.references:
+				refPaper = self.papersByRef[ref]
+				if refPaper.canonicalVenue in self.venueReferences[currentPaper.canonicalVenue]:
+					self.venueReferences[currentPaper.canonicalVenue][refPaper.canonicalVenue] += 1
+				else:
+					self.venueReferences[currentPaper.canonicalVenue][refPaper.canonicalVenue] = 1
 
 	def loadStopWords(self):
 		"""
@@ -238,3 +259,6 @@ class Corpus:
 				#abstract
 				elif line.startswith("#!"):
 					paper.abstract = line[3:].strip()
+					for word in splitWords(paper.abstract):
+						if not self.isStopWord(word):
+							paper.abstractList.append(word)
