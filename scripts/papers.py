@@ -164,6 +164,7 @@ class Corpus:
 		self.smallSet = {}
 		self.stopWords = {}
 		self.loadStopWords()
+		self.venueReferences = {}
 		self.computeAllVenueReferences()
 
 	def computeAllVenueReferences(self):
