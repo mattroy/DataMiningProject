@@ -33,14 +33,19 @@ trainingData.readCorpus(trainingLocation)
 validationData = papers.Corpus()
 validationData.readCorpus(validationLocation)
 
+print "- Loaded training file with: ", len(trainingData.papersByRef), " papers in it."
+print "- Loaded validation file with: ", len(validationData.papersByRef), " papers in it."
+print "----------------------------------------------------------------------------"
+
 #heurisitic based prediction
 predictions = []
 with open(predictionLocation, "w", 0) as file:
 	file.write("Id,References\n")
 	for paper in validationData.papersByRef:
 		currentPaper = validationData.papersByRef[paper]
+		print "-Processing paper: ", paper
 		refs = []
-		if currentPaper.venue in trainingData.venueReferences:
+		if currentPaper.canonicalVenue in trainingData.venueReferences:
 			print "For paper: ", paper, " there are ", len(trainingData.venueReferences[currentPaper.canonicalVenue]), " venues"
 			for venue in trainingData.venueReferences[currentPaper.canonicalVenue]:
 				for nextPaperId in trainingData.indicesByCanonicalVenue[venue]:
@@ -56,7 +61,7 @@ with open(predictionLocation, "w", 0) as file:
 		file.write(paper + ", " + " ".join(prediction) + "\n")
 
 
-		
+print "----------------------------------------------------------------------------"
 print "- Number of training papers:   ", len(trainingData.papersByRef)
 print "- Number of validation papers: ", len(validationData.papersByRef)
 print "----------------------------------------------------------------------------"

@@ -165,7 +165,6 @@ class Corpus:
 		self.stopWords = {}
 		self.loadStopWords()
 		self.venueReferences = {}
-		self.computeAllVenueReferences()
 
 	def computeAllVenueReferences(self):
 		"""
@@ -180,11 +179,12 @@ class Corpus:
 				self.venueReferences[currentPaper.canonicalVenue] = {}
 
 			for ref in currentPaper.references:
-				refPaper = self.papersByRef[ref]
-				if refPaper.canonicalVenue in self.venueReferences[currentPaper.canonicalVenue]:
-					self.venueReferences[currentPaper.canonicalVenue][refPaper.canonicalVenue] += 1
-				else:
-					self.venueReferences[currentPaper.canonicalVenue][refPaper.canonicalVenue] = 1
+				if ref in self.papersByRef:
+					refPaper = self.papersByRef[ref]
+					if refPaper.canonicalVenue in self.venueReferences[currentPaper.canonicalVenue]:
+						self.venueReferences[currentPaper.canonicalVenue][refPaper.canonicalVenue] += 1
+					else:
+						self.venueReferences[currentPaper.canonicalVenue][refPaper.canonicalVenue] = 1
 
 	def loadStopWords(self):
 		"""
@@ -263,3 +263,4 @@ class Corpus:
 					for word in splitWords(paper.abstract):
 						if not self.isStopWord(word):
 							paper.abstractList.append(word)
+		self.computeAllVenueReferences()
