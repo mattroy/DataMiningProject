@@ -29,10 +29,20 @@ Scripts to be run on data here.
 * baseline.py - this script is a basic baseline predictor...
 * score_results - evaluate the ground truth and the predictions based on the MAPK function the eval will use.
 * papers.py - class for paper, which holds data about a single paper. Class for corpus which holds a large set of papers and allows for retrieval in a few different ways.
+* papers_test.py - unit tests for the papers class.
 * mapk.py - this was taken from Ben Horners implementation of the MAPK function from Kaggle. It is used in the scoring script.
+* feature_gen.py - creates feature file for training svm. Output is in format for libsvm.
+* stop_words.txt - a list of stopwords to be removed from paper titles and abstracts when processing.
+* get_venues.py - list all the canonical venues found in a corpus. This is useful for seeing if papers have the same venue, but a slight naming difference causes them to be in different venues.
+
+
 * config.cfg - contains settings for all scripts, this will be useful to run multiple experiments without needing to edit the code or move/edit the existing ouputs
+* config2.cfg - a config file for the evaluation set
+* test.cfg - this specifies some test data instead of evaluation data.
 
 ####tests
 Files for testing.
 
-* papers_test - unit tests for the papers class
+* feature_tests.txt - used for testing the feature generation code
+* test_corpus.txt - used for unit tests
+* 
