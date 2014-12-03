@@ -35,7 +35,7 @@ Scripts to be run on data here.
 * stop_words.txt - a list of stopwords to be removed from paper titles and abstracts when processing.
 * get_venues.py - list all the canonical venues found in a corpus. This is useful for seeing if papers have the same venue, but a slight naming difference causes them to be in different venues.
 
-
+---
 * config.cfg - contains settings for all scripts, this will be useful to run multiple experiments without needing to edit the code or move/edit the existing ouputs
 * config2.cfg - a config file for the evaluation set
 * test.cfg - this specifies some test data instead of evaluation data.
@@ -45,4 +45,3 @@ Files for testing.
 
 * feature_tests.txt - used for testing the feature generation code
 * test_corpus.txt - used for unit tests
-* 
