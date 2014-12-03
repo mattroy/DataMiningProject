@@ -69,20 +69,19 @@ class Paper:
 		self.index = index
 		self.abstract = ''
 		self.title = ''
-		self.year = ''
+		self.year = 0
 		self.venue = ''
 		self.canonicalVenue = ''
 		self.titleList = []
 		self.abstractList = []
 
-	def abstractVectors(self, secondAbstractList):
+	def buildVectors(self, firstList, secondList):
 		"""
-		Computes the TF-IDF vectors of the abstract of this paper and a given
-		 string.
+		Computes the TF-IDF vectors of the two lists.
 		"""
 	
-		sortedAb1 = self.abstractList #splitWords(self.abstract)
-		sortedAb2 = secondAbstractList #splitWords(secondAbstract)
+		sortedAb1 = firstList #splitWords(self.abstract)
+		sortedAb2 = secondList #splitWords(secondAbstract)
 
 		#vec1 and vec2 will contain 1 for an existing word, or 0 for non existing word
 		vec1 = []
@@ -121,6 +120,13 @@ class Paper:
 				j += 1
 
 		return (vec1, vec2)
+		
+	def titleCosineSimilarity(self, secondTitleList):
+		"""
+		Compute the similarity between the titles of two papers.
+		"""
+		
+		return self.cosineSimilarity(self.titleList, secondTitleList)
 
 	def abstractCosineSimilarity(self, secondAbstractList): 
 		"""
@@ -128,8 +134,15 @@ class Paper:
 		and the given string.
 		"""
 
-		vec1, vec2 = self.abstractVectors(secondAbstractList)
-
+		return self.cosineSimilarity(self.abstractList, secondAbstractList)
+		
+	def cosineSimilarity(self, list1, list2):
+		"""
+		Compute the cosine similarity between two lists of words.
+		"""
+		
+		vec1, vec2 = self.buildVectors(list1, list2)
+		
 		if len(vec1) == 0 or len(vec2) == 0:
 			return 0
 
@@ -165,6 +178,7 @@ class Corpus:
 		self.stopWords = {}
 		self.loadStopWords()
 		self.venueReferences = {}
+		self.venueReferenceCount = {}
 
 	def computeAllVenueReferences(self):
 		"""
@@ -177,10 +191,12 @@ class Corpus:
 
 			if currentPaper.canonicalVenue not in self.venueReferences:
 				self.venueReferences[currentPaper.canonicalVenue] = {}
+				self.venueReferenceCount[currentPaper.canonicalVenue] = 0
 
 			for ref in currentPaper.references:
 				if ref in self.papersByRef:
 					refPaper = self.papersByRef[ref]
+					self.venueReferenceCount[currentPaper.canonicalVenue] += 1
 					if refPaper.canonicalVenue in self.venueReferences[currentPaper.canonicalVenue]:
 						self.venueReferences[currentPaper.canonicalVenue][refPaper.canonicalVenue] += 1
 					else:
