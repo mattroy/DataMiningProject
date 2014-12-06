@@ -78,7 +78,7 @@ with open(featureLocation, "w", 0) as file:
 			file.write("3:" + str(currentPaper.abstractCosineSimilarity(comparisonPaper.abstractList)) + " ")
 			
 			#feature 4: years since publish
-			file.write("4:" + str(currentPaper.year - comparisonPaper.year) + "\n")
+			file.write("4:" + str(currentPaper.year - comparisonPaper.year) + " ")
 
             #feature 5: authors similarity
             file.write("5:" + str(currentPaper.authorsCosineSimilarity(comparisonPaper.authors)) + "\n")
