@@ -80,8 +80,8 @@ class Paper:
 		Computes the TF-IDF vectors of the two lists.
 		"""
 	
-		sortedAb1 = firstList #splitWords(self.abstract)
-		sortedAb2 = secondList #splitWords(secondAbstract)
+		sortedAb1 = sorted(firstList) #splitWords(self.abstract)
+		sortedAb2 = sorted(secondList) #splitWords(secondAbstract)
 
 		#vec1 and vec2 will contain 1 for an existing word, or 0 for non existing word
 		vec1 = []
@@ -137,15 +137,15 @@ class Paper:
 		return self.cosineSimilarity(self.abstractList, secondAbstractList)
 		
 
-    def authorsCosineSimilarity(self, secondAuthorsList):
-    """
-        Compute the cosine similarity between the authors of this paper
-        and the given string.
-        """
-            
-            return self.cosineSimilarity(self.authors, secondAuthorsList)
+	def authorsCosineSimilarity(self, secondAuthorsList):
+		"""
+		Compute the cosine similarity between the authors of this paper
+		and the given string.
+		"""
 
-    def cosineSimilarity(self, list1, list2):
+		return self.cosineSimilarity(self.authors, secondAuthorsList)
+
+	def cosineSimilarity(self, list1, list2):
 		"""
 		Compute the cosine similarity between two lists of words.
 		"""
@@ -188,6 +188,7 @@ class Corpus:
 		self.loadStopWords()
 		self.venueReferences = {}
 		self.venueReferenceCount = {}
+		self.paperReferenceCount = {}
 
 	def computeAllVenueReferences(self):
 		"""
@@ -203,6 +204,12 @@ class Corpus:
 				self.venueReferenceCount[currentPaper.canonicalVenue] = 0
 
 			for ref in currentPaper.references:
+
+				if ref in self.paperReferenceCount:
+					self.paperReferenceCount[ref] += 1
+				else:
+					self.paperReferenceCount[ref] = 1
+
 				if ref in self.papersByRef:
 					refPaper = self.papersByRef[ref]
 					self.venueReferenceCount[currentPaper.canonicalVenue] += 1
