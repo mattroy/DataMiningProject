@@ -31,7 +31,6 @@ trainingData.readCorpus(trainingLocation)
 print "- Loaded training file with: ", len(trainingData.papersByRef), " papers in it."
 print "----------------------------------------------------------------------------"
 with open(featureLocation, "w", 0) as file:
-	file.write("Id,References\n")
 	for paperId in trainingData.papersByRef:
 		currentPaper = trainingData.papersByRef[paperId]
 		
