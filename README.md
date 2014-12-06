@@ -2,7 +2,14 @@ DataMiningProject
 =================
 Project for cs6220
 
-###Steps
+###Steps for SVM Approach
+1.Run the gen_features.py script to generate training feature files.
+2.Run the eval_features.py script to generate feature files for prediction.
+3.Run svm-train on training features.
+4.Run svm-predict on eval features.
+5.Run generate_prediction.py script on svm prediction files.
+
+###Steps for Baseline
 1. Copy the ap_train.txt file to the data directory.
 2. Make sure you have python and numpy installed.
 2. Edit the config file if you have renamed any files or directories.
@@ -34,6 +41,7 @@ Scripts to be run on data here.
 * feature_gen.py - creates feature file for training svm. Output is in format for libsvm.
 * stop_words.txt - a list of stopwords to be removed from paper titles and abstracts when processing.
 * get_venues.py - list all the canonical venues found in a corpus. This is useful for seeing if papers have the same venue, but a slight naming difference causes them to be in different venues.
+* eval_features.py - creates a feature file for papers in the eval data set.
 
 ---
 * config.cfg - contains settings for all scripts, this will be useful to run multiple experiments without needing to edit the code or move/edit the existing ouputs
