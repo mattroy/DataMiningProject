@@ -62,7 +62,7 @@ with open(featureLocation, "w", 0) as file:
                         continue    
 
                     #Map file holds a list of the comparisions for lookup after the prediction step
-                    mapFile.write(str(currentPaper) + ":" + str(comparisonId))
+                    mapFile.write(paperId + ":" + comparisonId + "\n")
                     
                     #label
                     if comparisonId in currentPaper.references:
