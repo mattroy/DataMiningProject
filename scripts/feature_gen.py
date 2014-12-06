@@ -45,7 +45,7 @@ with open(featureLocation, "w", 0) as file:
 		for comparisonId in queue:
 
 			if nextPaperId not in trainingData.papersByRef:
-                continue
+				continue
 
 			comparisonPaper = trainingData.papersByRef[comparisonId]
 			
