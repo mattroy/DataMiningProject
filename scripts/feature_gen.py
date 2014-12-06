@@ -44,7 +44,7 @@ with open(featureLocation, "w", 0) as file:
 		print "Queue length for paper: ", paperId, " is ", len(queue)
 		for comparisonId in queue:
 
-			if nextPaperId not in trainingData.papersByRef:
+			if comparisonId not in trainingData.papersByRef:
 				continue
 
 			comparisonPaper = trainingData.papersByRef[comparisonId]
