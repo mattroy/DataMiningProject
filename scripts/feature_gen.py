@@ -79,3 +79,8 @@ with open(featureLocation, "w", 0) as file:
 			
 			#feature 4: years since publish
 			file.write("4:" + str(currentPaper.year - comparisonPaper.year) + "\n")
+
+            #feature 4: years since publish
+            file.write("5:" + str(currentPaper.author + "\n")
+
+
