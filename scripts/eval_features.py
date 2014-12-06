@@ -60,7 +60,7 @@ with open(featureLocation, "w", 0) as file:
                         if comparisonPaper.canonicalVenue in trainingData.venueReferences[currentPaper.canonicalVenue]:
                             percent = trainingData.venueReferences[currentPaper.canonicalVenue][comparisonPaper.canonicalVenue] / float(trainingData.venueReferenceCount[currentPaper.canonicalVenue])
 
-                    if percent < 0.001:
+                    if percent < 0.01:
                         continue
 
                     if comparisonId == paperId: 
@@ -88,7 +88,7 @@ with open(featureLocation, "w", 0) as file:
                     file.write("3:" + str(currentPaper.abstractCosineSimilarity(comparisonPaper.abstractList)) + " ")
                     
                     #feature 4: years since publish
-                    file.write("4:" + str(currentPaper.year - comparisonPaper.year) + "\n")
+                    file.write("4:" + str(currentPaper.year - comparisonPaper.year) + " ")
 
                     #feature 5: authors similarity
                     file.write("5:" + str(currentPaper.authorsCosineSimilarity(comparisonPaper.authors)) + " ")
