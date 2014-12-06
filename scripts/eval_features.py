@@ -49,6 +49,10 @@ with open(featureLocation, "w", 0) as file:
             
             for venue in trainingData.venueReferences[currentPaper.canonicalVenue]:
                 for nextPaperId in trainingData.indicesByCanonicalVenue[venue]:
+
+                    if nextPaperId not in trainingData.papersByRef:
+                        continue
+
                     comparisonPaper = trainingData.papersByRef[nextPaperId]
 
                     if comparisonId == paperId: 
