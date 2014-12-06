@@ -84,7 +84,7 @@ with open(featureLocation, "w", 0) as file:
 			file.write("5:" + str(currentPaper.authorsCosineSimilarity(comparisonPaper.authors)) + " ")
 
 			#feature 6: number of times the comparison paper has been referenced.
-			if comparisonId in trainingData.papersByRef:
-				file.write("6:" + trainingData.paperReferenceCount[comparisonId] + "\n")
+			if comparisonId in trainingData.paperReferenceCount:
+				file.write("6:" + str(trainingData.paperReferenceCount[comparisonId]) + "\n")
 			else:  
 				file.write("6:" + "0\n")

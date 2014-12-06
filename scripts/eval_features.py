@@ -54,6 +54,14 @@ with open(featureLocation, "w", 0) as file:
                         continue
 
                     comparisonPaper = trainingData.papersByRef[comparisonId]
+                    
+                    percent = 0
+                    if currentPaper.canonicalVenue in trainingData.venueReferences:
+                        if comparisonPaper.canonicalVenue in trainingData.venueReferences[currentPaper.canonicalVenue]:
+                            percent = trainingData.venueReferences[currentPaper.canonicalVenue][comparisonPaper.canonicalVenue] / float(trainingData.venueReferenceCount[currentPaper.canonicalVenue])
+
+                    if percent < 0.001:
+                        continue
 
                     if comparisonId == paperId: 
                         continue
@@ -71,14 +79,7 @@ with open(featureLocation, "w", 0) as file:
                         file.write("0 ")
                         
                     #feature 1: chances of reference
-                    if currentPaper.canonicalVenue in trainingData.venueReferences:
-                        if comparisonPaper.canonicalVenue in trainingData.venueReferences[currentPaper.canonicalVenue]:
-                            percent = trainingData.venueReferences[currentPaper.canonicalVenue][comparisonPaper.canonicalVenue] / float(trainingData.venueReferenceCount[currentPaper.canonicalVenue])
-                            file.write("1:" + str(percent) + " ")
-                        else:
-                            file.write("1:0 ")
-                    else: 
-                        file.write("1:0 ")
+                    file.write("1:" + str(percent) + " ")
                         
                     #feature 2: title similarity
                     file.write("2:" + str(currentPaper.titleCosineSimilarity(comparisonPaper.titleList)) + " ")
@@ -93,8 +94,8 @@ with open(featureLocation, "w", 0) as file:
                     file.write("5:" + str(currentPaper.authorsCosineSimilarity(comparisonPaper.authors)) + " ")
 
                     #feature 6: number of times the comparison paper has been referenced.
-                    if comparisonId in trainingData.papersByRef:
-                        file.write("6:" + trainingData.paperReferenceCount[comparisonId] + "\n")
+                    if comparisonId in trainingData.paperReferenceCount:
+                        file.write("6:" + str(trainingData.paperReferenceCount[comparisonId]) + "\n")
                     else:  
                         file.write("6:" + "0\n")
        
