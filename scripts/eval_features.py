@@ -45,15 +45,15 @@ with open(featureLocation, "w", 0) as file:
         currentPaper = evalData.papersByRef[paperId]
 
         if currentPaper.canonicalVenue in trainingData.venueReferences:
-            print "For paper: ", paper, " there are ", len(trainingData.venueReferences[currentPaper.canonicalVenue]), " venues"
+            print "For paper: ", paperId, " there are ", len(trainingData.venueReferences[currentPaper.canonicalVenue]), " venues"
             
             for venue in trainingData.venueReferences[currentPaper.canonicalVenue]:
-                for nextPaperId in trainingData.indicesByCanonicalVenue[venue]:
+                for comparisonId in trainingData.indicesByCanonicalVenue[venue]:
 
-                    if nextPaperId not in trainingData.papersByRef:
+                    if comparisonId not in trainingData.papersByRef:
                         continue
 
-                    comparisonPaper = trainingData.papersByRef[nextPaperId]
+                    comparisonPaper = trainingData.papersByRef[comparisonId]
 
                     if comparisonId == paperId: 
                         continue
@@ -62,7 +62,7 @@ with open(featureLocation, "w", 0) as file:
                         continue    
 
                     #Map file holds a list of the comparisions for lookup after the prediction step
-                    mapFile.write(currentPaper, ":",nextPaperId)
+                    mapFile.write(str(currentPaper) + ":" + str(comparisonId))
                     
                     #label
                     if comparisonId in currentPaper.references:
