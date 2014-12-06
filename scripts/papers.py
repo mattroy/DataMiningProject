@@ -136,7 +136,16 @@ class Paper:
 
 		return self.cosineSimilarity(self.abstractList, secondAbstractList)
 		
-	def cosineSimilarity(self, list1, list2):
+
+    def authorsCosineSimilarity(self, secondAuthorsList):
+    """
+        Compute the cosine similarity between the authors of this paper
+        and the given string.
+        """
+            
+            return self.cosineSimilarity(self.authors, secondAuthorsList)
+
+    def cosineSimilarity(self, list1, list2):
 		"""
 		Compute the cosine similarity between two lists of words.
 		"""
