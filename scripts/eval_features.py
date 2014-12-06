@@ -24,14 +24,14 @@ featureMapLocation = config.get('prediction', 'feature_map_location')
 
 print "----------------------------------------------------------------------------"
 print "- Load config from:          ", sys.argv[1]
-print "- Load training data from: ", trainingData
-print "- Load eval data from:   ", evalData
+print "- Load training data from: ", trainingDataLocation
+print "- Load eval data from:   ", evalDataLocation
 
 print "- Feature output at:     ", featureLocation
 print "----------------------------------------------------------------------------"
 
 trainingData = papers.Corpus()
-trainingData.readCorpus(trainingLocation)
+trainingData.readCorpus(trainingDataLocation)
 
 evalData = papers.Corpus()
 evalData.readCorpus(evalDataLocation)
