@@ -16,8 +16,8 @@ from itertools import izip
 config = ConfigParser.ConfigParser()
 config.read(sys.argv[1])
 
-mapLocation = config.get('prediction', 'map_location')
-predictionLocation = config.get('prediction', 'prediction_location')
+mapLocation = config.get('prediction', 'feature_map_location')
+predictionLocation = config.get('prediction', 'eval_feature_location')
 fullIdsLocation = config.get('prediction', 'full_id_list')
 resultsLocation = config.get('prediction', 'results_location')
 
@@ -61,6 +61,7 @@ with open(mapLocation, "r") as mapFile, open(predictionLocation, "r") as predict
 
     predictionOut = [x[0] for x in refs]
     resultsFile.write(currentReferee + ", " + " ".join(predictionOut) + "\n")
+    doneRefs[currentReferee] = 1
 
 with open(fullIdsLocation, "r") as fullIds:
     for line in fullIds:
