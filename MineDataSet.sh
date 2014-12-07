@@ -5,14 +5,14 @@ set -e
 
 #1. run the gen_features script
 echo "run the features generator script"
-python /scripts/feature_gen.py
+python ./scripts/feature_gen.py svm_config
 echo "-----------------FINISHED FEATURE GENERATOR--------------------------"
 echo
 
 
 #2. run eval_features
 echo "run the eval features script"
-python /scripts/eval_features.py
+python ./scripts/eval_features.py
 echo "-----------------FINISHED EVAL FEATURE--------------------------"
 echo
 
@@ -33,6 +33,6 @@ echo
 
 #5. run Saoni's new script
 echo "run the parseMap"
-java -jar parseMap.jar
+python ./scripts/parse_prediction.py svm_config
 echo "-----------------FINISHED ParseMap--------------------------"
 echo
