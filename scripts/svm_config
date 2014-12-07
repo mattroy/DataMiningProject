@@ -1,0 +1,4 @@
+[prediction]
+map_location=../predict/feature_map.txt
+prediction_location=../predict/eval_prediction
+results_location=../predict/eval_results.txt
