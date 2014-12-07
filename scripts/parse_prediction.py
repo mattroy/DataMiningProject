@@ -18,24 +18,28 @@ config.read(sys.argv[1])
 
 mapLocation = config.get('prediction', 'map_location')
 predictionLocation = config.get('prediction', 'prediction_location')
+fullIdsLocation = config.get('prediction', 'full_id_list')
 resultsLocation = config.get('prediction', 'results_location')
 
 print "----------------------------------------------------------------------------"
 print "-Parse Prediction Files"
-print "- Load config from:          ", sys.argv[1]
-print "- Load map from:   ", mapLocation
+print "- Load config from:     ", sys.argv[1]
+print "- Load map from:        ", mapLocation
 print "- Load prediction from: ", predictionLocation
-print "- Results output at:     ", resultsLocation
+print "- Results output at:    ", resultsLocation
 print "----------------------------------------------------------------------------"
 
-with open(mapLocation, "r") as mapFile, open(predictionLocation, "r") as predictionFile, open(resultsLocation, "w", 0) as  resultsFile:
+resultsFile = open(resultsLocation, "w", 0)
+
+with open(mapLocation, "r") as mapFile, open(predictionLocation, "r") as predictionFile:
     
     #first line of prediction file is sample
     line = predictionFile.readline()
-    file.write("Id,References\n")
+    resultsFile.write("Id,References\n")
     
     currentReferee = None
     refs = []
+    doneRefs = {}
 
     for mapEntry, prediction in izip(mapFile, predictionFile):
         referee, reference = mapEntry.strip().split(":")
@@ -47,6 +51,7 @@ with open(mapLocation, "r") as mapFile, open(predictionLocation, "r") as predict
             if currentReferee:
                 predictionOut = [x[0] for x in refs]
                 resultsFile.write(currentReferee + ", " + " ".join(predictionOut) + "\n")
+                doneRefs[currentReferee] = 1
             refs = []
             currentReferee = referee
         else:
@@ -56,3 +61,9 @@ with open(mapLocation, "r") as mapFile, open(predictionLocation, "r") as predict
 
     predictionOut = [x[0] for x in refs]
     resultsFile.write(currentReferee + ", " + " ".join(predictionOut) + "\n")
+
+with open(fullIdsLocation, "r") as fullIds:
+    for line in fullIds:
+        evalId, preds = line.split(",")
+        if evalId not in doneRefs:
+            resultsFile.write(evalId + ", "  + "\n")            
