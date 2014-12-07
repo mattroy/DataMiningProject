@@ -32,7 +32,8 @@ with open(mapLocation, "r") as mapFile, open(predictionLocation, "r") as predict
     
     #first line of prediction file is sample
     line = predictionFile.readline()
-
+    file.write("Id,References\n")
+    
     currentReferee = None
     refs = []
 
