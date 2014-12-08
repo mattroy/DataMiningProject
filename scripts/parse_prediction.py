@@ -74,12 +74,8 @@ with open(mapLocation, "r") as mapFile, open(predictionLocation, "r") as predict
     resultsFile.write(currentReferee + ", " + " ".join(predictionOut) + "\n")
     doneRefs[currentReferee] = 1
 
-frequent = sorted(refCounts.items(), key=operator.itemgetter(1))
-frequent = [x[0] for x in frequent]
-frequent = frequent[:10]
-
 with open(fullIdsLocation, "r") as fullIds:
     for line in fullIds:
         evalId, preds = line.split(",")
         if evalId not in doneRefs:
-            resultsFile.write(evalId + ", " + " ".join(frequent) + "\n")            
+            resultsFile.write(evalId + ", " + "\n")            
