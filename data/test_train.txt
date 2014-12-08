@@ -1,0 +1,4996 @@
+#index 1
+#* Book Review: Discover Linux
+#@ Marjorie Richardson
+#t 1998
+#c Linux Journal
+
+#index 2
+#* MOSFET table look-up models for circuit simulation
+#@ 
+#t 1984
+#c Integration, the VLSI Journal
+
+#index 3
+#* The verification of the protection mechanisms of high-level language machines
+#@ Virgil D. Gligor
+#t 1984
+#c International Journal of Parallel Programming
+
+#index 4
+#* Another view of functional and multivalued dependencies in the relational database model
+#@ M. Gyssens;J. Paredaens
+#t 1984
+#c International Journal of Parallel Programming
+
+#index 5
+#* Entity-relationship diagrams which are in BCNF
+#@ Sushil Jajodia;Peter A. Ng;Frederick N. Springsteel
+#t 1984
+#c International Journal of Parallel Programming
+
+#index 6
+#* The computer comes of age
+#@ Rene Moreau
+#t 1984
+#c The computer comes of age
+
+#index 7
+#* Computationally efficient algorithms for a one-time pad scheme
+#@ A. G. Akritas;S. S. Lyengar;A. A. Rampuria
+#t 1984
+#c International Journal of Parallel Programming
+
+#index 8
+#* The hierarchical ordering in Multiattribute files
+#@ C. C. Chang;M. W. Du;R. C. T. Lee
+#t 1983
+#c Information Sciences: an International Journal
+
+#index 9
+#* Insertion languages
+#@ David Haussler
+#t 1983
+#c Information Sciences: an International Journal
+
+#index 10
+#* The Three-Machine No-Wait Flow Shop is NP-Complete
+#@ Hans Röck
+#t 1984
+#c Journal of the ACM (JACM)
+#% 289259
+
+#index 11
+#* Lower Bounds and Fast Algorithms for Sequence Acceleration
+#@ George M. Trojan
+#t 1984
+#c Journal of the ACM (JACM)
+
+#index 12
+#* Space-Time Trade-Offs for Banded Matrix Problems
+#@ John E. Savage
+#t 1984
+#c Journal of the ACM (JACM)
+#% 289024
+#% 408638
+#% 600828
+#% 688897
+
+#index 13
+#* The VLSI Complexity of Selected Graph Problems
+#@ Joseph Já Já
+#t 1984
+#c Journal of the ACM (JACM)
+#% 769
+#% 289452
+#% 319821
+#% 408343
+#% 598672
+#% 598673
+#% 598675
+#% 600547
+#% 600560
+#% 600811
+#% 690081
+#% 1068477
+
+#index 14
+#* Computability with Pascal
+#@ John S. Mallozzi;Nicholas J. De Lillo
+#t 1984
+#c Computability with Pascal
+
+#index 15
+#* Ambiguity and decision problems concerning number systems
+#@ Karel Culik, II;Arto Salomaa
+#t 1984
+#c Information and Control
+
+#index 16
+#* The implication problem for functional and inclusion dependencies
+#@ John C. Mitchell
+#t 1984
+#c Information and Control
+
+#index 17
+#* Cynamic parallel memories
+#@ Uzi Vishkin;Avi Wigderson
+#t 1984
+#c Information and Control
+
+#index 18
+#* Succinct representations of graphs
+#@ Hana Galperin;Avi Wigderson
+#t 1984
+#c Information and Control
+
+#index 19
+#* On storage media with after effects
+#@ H. S. Witsenhausen;A. D. Wyner
+#t 1984
+#c Information and Control
+
+#index 20
+#* A necessary and sufficient condition in order that a Herbrand interpretation be expressive relative to recursive programs
+#@ 
+#t 1984
+#c Information and Control
+
+#index 21
+#* Enclosing methods in perturbed nonlinear operator equations
+#@ J W. Schmidt;H Schneider
+#t 1984
+#c Computing
+
+#index 22
+#* On two more Eigenvalue methods for an alternating sequential parallel system
+#@ Y Wallach
+#t 1984
+#c Computing
+
+#index 23
+#* Random variate generation for unimodal and monotone densities
+#@ L Devroye
+#t 1984
+#c Computing
+
+#index 24
+#* An approximation method of the local type. Application to a problem of heart potential mapping
+#@ M Bozzini;F De Tisi;L Lenarduzzi
+#t 1984
+#c Computing
+
+#index 25
+#* Computing surfaces of constant mean curvature with singularities
+#@ D E Hewgill
+#t 1984
+#c Computing
+
+#index 26
+#* Software engineering with MODULA-2 and ADA
+#@ Richard Wiener;Richard Sincovec
+#t 1984
+#c Software engineering with MODULA-2 and ADA
+
+#index 27
+#* Frame theory and computations
+#@ Viacheslav E. Wolfengagen
+#t 1984
+#c Computers and Artificial Intelligence
+
+#index 28
+#* Natural language interface to the question-answering system for physicians
+#@ Leonard Bolc;Tomek Strzalkowski
+#t 1984
+#c Computers and Artificial Intelligence
+
+#index 29
+#* Some issues in the semantics and pragmatics of definite reference in the context of natural language database access
+#@ Genevieve Berry-Rogghe
+#t 1984
+#c Computers and Artificial Intelligence
+
+#index 30
+#* Stationary wave solutions of a system of reaction-diffusion equations derived from the Fitzhugh-Nagumo equations
+#@ Gene A. Klaasen;William C. Troy
+#t 1984
+#c SIAM Journal on Applied Mathematics
+
+#index 31
+#* Up and running: the small business computer implementation cookbook
+#@ Jess W. Curry, Jr.;David M. Bonner
+#t 1984
+#c Up and running: the small business computer implementation cookbook
+
+#index 32
+#* Proc. IFIP working conference on Programming Languages and System Design
+#@ J Bormann
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 33
+#* Fast automatic liveness analysis of hierarchical parallel systems
+#@ Johannes Rohrich
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 34
+#* Concatenable type declarations: their applications and implementaion
+#@ A Kreczmar;A Salwicki
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 35
+#* On the coherence of programming language and programming methodology
+#@ Broy Manfred;Peter Pepper
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 36
+#* On the design of data abstraction mechanisms for compiler description languages1)
+#@ Harald Ganzinger
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 37
+#* The remodularization of a compiler by abstract data types
+#@ Klaus Bothe
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 38
+#* Experience with abstract data type specifications in a compiler project
+#@ Ulrich L. Hupbach;Heinz Kaphengst
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 39
+#* XYZ: a program development environment based on temporal logic
+#@ Chih-sung Tang
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 40
+#* Design and verification oriented microprogram transformations
+#@ Piotr Dembinski
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 41
+#* ELSA - an extensible programming system
+#@ C. H. Lindsey
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 42
+#* A skeleton interpreter for specialized languages
+#@ J Steensgaard-Madsen
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 43
+#* Comparing PASCAL and MODULA-2 as systems programming languages
+#@ Pieter H. Hartel
+#t 1983
+#c Proc. IFIP working conference on Programming Languages and System Design
+
+#index 44
+#* ADA: Concurrent Programming
+#@ Narain Gehani
+#t 1984
+#c ADA: Concurrent Programming
+
+#index 45
+#* Computers, Data Processing, and The Law
+#@ Steven L. Mandell
+#t 1984
+#c Computers, Data Processing, and The Law
+
+#index 46
+#* On the Multiple Implementation of Abstract Data Types Within a Computation
+#@ J. R White
+#t 1983
+#c IEEE Transactions on Software Engineering
+#! A fundamental step in the software design process is the selection of a refinement (implementation) for a data abstraction. This step traditionally involves investigating the expected performance of a system under different refinements of an abstraction and then selecting a single alternative which minimizes some performance cost metric. In this paper we reformulate this design step to allow different refinements of the same data abstraction within a computation. This reformulation reflects the fact that the implementation appropriate for a data abstraction is dependent on the behavior exhibited by the objects of the abstraction. Since this behavior can vary among the objects of a computation, a single refinement is often inappropriate. Accordingly, three frameworks are presented for understanding and representing variations in the behavior of objects and, thus, the potential for multiple implementations. The three frameworks are based upon: 1) a static partitioning of objects into disjoint implementation classes; 2) static partitioning of classes into implementation regions; and 3) dynamic partitioning of classes into implementation regions. These frameworks and analytic tools useful in investigating expected performance under multiple implementations are described in detail.
+
+#index 47
+#* Matings in matrices
+#@ Wolfgang Bibel
+#t 1983
+#c Communications of the ACM
+#% 25470
+#% 289292
+#% 289318
+#% 384112
+#% 456887
+#% 456888
+#% 556913
+#% 569085
+
+#index 48
+#* on Automata, languages and programming
+#@ M. Nielsen
+#t 1982
+#c on Automata, languages and programming
+
+#index 49
+#* Register Allocation in Optimizing Compilers
+#@ Bruce W. Leverett
+#t 1983
+#c Register Allocation in Optimizing Compilers
+
+#index 50
+#* Polymorphic programming languages: design and implementation
+#@ David M. Harland
+#t 1984
+#c Polymorphic programming languages: design and implementation
+
+#index 51
+#* Analysis of speedup in distributed algorithms
+#@ John P. Fishburn
+#t 1984
+#c Analysis of speedup in distributed algorithms
+
+#index 52
+#* Automated microcode synthesis
+#@ Robert A. Mueller
+#t 1984
+#c Automated microcode synthesis
+
+#index 53
+#* A class of generalized stochastic Petri nets for the performance evaluation of multiprocessor systems
+#@ Marco Ajmone Marsan;Gianni Conte;Gianfranco Balbo
+#t 1984
+#c ACM Transactions on Computer Systems (TOCS)
+#% 317871
+#% 598103
+#% 689727
+
+#index 54
+#* Static grouping of small objects to enhance performance of a paged virtual memory
+#@ James W. Stamos
+#t 1984
+#c ACM Transactions on Computer Systems (TOCS)
+#% 103
+#% 288713
+#% 317781
+#% 320071
+#% 320108
+#% 321612
+#% 322248
+#% 348986
+#% 602671
+#% 602693
+#% 602694
+#% 602695
+#% 606655
+#% 607606
+#% 669003
+#% 669876
+
+#index 55
+#* A supervised learning algorithm for hierarchical classification of fuzzy patterns
+#@ Prasenjit Biswas;Arun K. Majumdar
+#t 1983
+#c Information Sciences: an International Journal
+
+#index 56
+#* Quantifiers in the formulation of multiple objective decision functions
+#@ Ronald R. Yager
+#t 1983
+#c Information Sciences: an International Journal
+
+#index 57
+#* On the implication operator in fuzzy logic
+#@ Ronald R. Yager
+#t 1983
+#c Information Sciences: an International Journal
+
+#index 58
+#* The application of coding theory to the design of combinatorial filing schemes of any order
+#@ Lois Wright Hawkes
+#t 1983
+#c Information Sciences: an International Journal
+
+#index 59
+#* Algorithmic theories of data structures
+#@ Andrzej Salwicki
+#t 1982
+#c on Automata, languages and programming
+
+#index 60
+#* Micro-PROLOG: programming in logic
+#@ K. L Clark;F. G McCabe
+#t 1984
+#c Micro-PROLOG: programming in logic
+
+#index 61
+#* The DISS methodology of distributed system simulation
+#@ Myron Melman;Miron Livny
+#t 1984
+#c Simulation
+
+#index 62
+#* Information Technology Research Development Applications
+#@ C J. van Rijsbergen
+#t 1984
+#c Information Technology Research Development Applications
+
+#index 63
+#* Special-purpose hardware and effective information processing
+#@ Maristella Agosti
+#t 1984
+#c Information Technology Research Development Applications
+
+#index 64
+#* Relevance feedback and a fuzzy set of search terms in an information retrieval system
+#@ A F. Smeaton
+#t 1984
+#c Information Technology Research Development Applications
+
+#index 65
+#* Direct file organization for lemmatized text retrieval
+#@ K Devine;F J. Smith
+#t 1984
+#c Information Technology Research Development Applications
+
+#index 66
+#* Soft evaluation of Boolean search queries in information retrieval systems
+#@ C D. Paice
+#t 1984
+#c Information Technology Research Development Applications
+
+#index 67
+#* Augmented semantic networks for an enterprise knowledge base
+#@ Paltin Sturdza
+#t 1984
+#c Information Technology Research Development Applications
+
+#index 68
+#* Technology and Science of Informatics
+#@ Bertrand Meyer
+#t 1984
+#c Technology and Science of Informatics
+
+#index 69
+#* A comparative study of some distributed systems
+#@ Marc Guillemont
+#t 1984
+#c Technology and Science of Informatics
+
+#index 70
+#* Controlled execution of timed petri nets
+#@ Philippe Chretienne
+#t 1984
+#c Technology and Science of Informatics
+
+#index 71
+#* A two-level control structure for parallel heuristic programming
+#@ Andre Schiper;Giovanni Coray;Beat Hirsbrunner
+#t 1984
+#c Technology and Science of Informatics
+
+#index 72
+#* SCEPTRE: proposed standard for a real-time executive kernel
+#@ F Browaeys;H Derriennic;P Desclaud;H Fallour;C Faulle;J Febvre;J E. Hanne;M Kronental;J J. Simon;D Vojnovic
+#t 1984
+#c Technology and Science of Informatics
+
+#index 73
+#* The application of human factors to the needs of the novice computer user
+#@ Anne Lee Paxton;Edward J. Turner
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 74
+#* Type-checking in an untyped language
+#@ Allan Ramsay
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 75
+#* A methodology for interactive evaluation of user reactions to software packagesn empirical analysis of system performance, interaction, and run time
+#@ Avi Rushinek;Sara F. Rushinek;Joel Stutz
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 76
+#* The depth/breadth trade-off in the design of menu-driven user interfaces
+#@ John I. Kiger
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 77
+#* The influence of rule-generated stress on computer-synthesized speech
+#@ David L. McPeters;Alan L. Tharp
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 78
+#* Formal specification of interactive graphics programming languages
+#@ William R. Mallgren
+#t 1983
+#c Formal specification of interactive graphics programming languages
+
+#index 79
+#* VAX/VMS internals and data structures
+#@ Lawrence J. Kenah;Simon F. Bate
+#t 1984
+#c VAX/VMS internals and data structures
+
+#index 80
+#* Smalltalk-80: bits of history, words of advice
+#@ Glenn Krasner
+#t 1983
+#c Smalltalk-80: bits of history, words of advice
+
+#index 81
+#* Overcoming computer illiteracy: a friendly introduction to computers
+#@ Susan Curran;Ray Curnow
+#t 1984
+#c Overcoming computer illiteracy: a friendly introduction to computers
+
+#index 82
+#* Electronic analog-to-digital converters: principles, circuits, devices, testing
+#@ Dieter Seitzer;Gunter Pretzl;Nadder A. Hamdy
+#t 1983
+#c Electronic analog-to-digital converters: principles, circuits, devices, testing
+
+#index 83
+#* A practical guide to designing expert systems
+#@ Sholom M. Weiss;Casimir A. Kulikowski
+#t 1984
+#c A practical guide to designing expert systems
+
+#index 84
+#* Parallel programming in ansi standard ADA
+#@ George W. Cherry
+#t 1984
+#c Parallel programming in ansi standard ADA
+
+#index 85
+#* Introduction to computer science using the TURING programming language
+#@ R C. Holt;J N.P Hume
+#t 1984
+#c Introduction to computer science using the TURING programming language
+
+#index 86
+#* Best approximate circles on integer grids
+#@ M. D. McIlroy
+#t 1983
+#c ACM Transactions on Graphics (TOG)
+#% 317819
+#% 320076
+
+#index 87
+#* A multiresolution spline with application to image mosaics
+#@ Peter J. Burt;Edward H. Adelson
+#t 1983
+#c ACM Transactions on Graphics (TOG)
+
+#index 88
+#* Efficient polygon-filling algorithms for raster displays
+#@ Michael R. Dunlavey
+#t 1983
+#c ACM Transactions on Graphics (TOG)
+#% 3104
+#% 4093
+#% 602878
+#% 603545
+
+#index 89
+#* Physical structures and application on Database design techniques II
+#@ S B. Yao;T L. Kunii
+#t 1982
+#c Physical structures and application on Database design techniques II
+
+#index 90
+#* Physical database design techniques
+#@ Mario Schkolnick
+#t 1982
+#c Physical structures and application on Database design techniques II
+
+#index 91
+#* Design of optimal balanced filing schemes
+#@ Sumiyasu Yamamoto
+#t 1982
+#c Physical structures and application on Database design techniques II
+
+#index 92
+#* Parallel join and sorting algorithms
+#@ Mamoru Maekawa
+#t 1982
+#c Physical structures and application on Database design techniques II
+
+#index 93
+#* A language for office and business automation
+#@ Moshe M. Zloof
+#t 1982
+#c Physical structures and application on Database design techniques II
+
+#index 94
+#* APAD: an application-adaptable database system - its architecture and design -
+#@ Hiroyuki Kitagawa;Tosiyasu L. Kunii
+#t 1982
+#c Physical structures and application on Database design techniques II
+
+#index 95
+#* Specific requirements in engineering data base
+#@ Hideo Matsuka;Sakae Uno;Masaaki Sibuya
+#t 1982
+#c Physical structures and application on Database design techniques II
+
+#index 96
+#* Pattern databases
+#@ Larry S. Davis;T L. Kunii
+#t 1982
+#c Physical structures and application on Database design techniques II
+
+#index 97
+#* Memories that shaped an industry
+#@ Emerson W. Pugh
+#t 1984
+#c Memories that shaped an industry
+
+#index 98
+#* Effective methods of EDP quality assurance
+#@ William E. Perry
+#t 1983
+#c Effective methods of EDP quality assurance
+
+#index 99
+#* The data center disaster consultant
+#@ Kenniston W. Lord, Jr.
+#t 1983
+#c The data center disaster consultant
+
+#index 100
+#* A structured approach to systems testing
+#@ William E. Perry
+#t 1983
+#c A structured approach to systems testing
+
+#index 101
+#* Creating and planning the corporate data base system project
+#@ Leo J. Cohen
+#t 1983
+#c Creating and planning the corporate data base system project
+
+#index 102
+#* Managing systems maintenance
+#@ William E. Perry
+#t 1983
+#c Managing systems maintenance
+
+#index 103
+#* Smalltalk-80: the language and its implementation
+#@ Adele Goldberg;David Robson
+#t 1983
+#c Smalltalk-80: the language and its implementation
+#! From the Preface (See Front Matter for full Preface) Advances in the design and production of computer hardware have brought many more people into direct contact with computers. Similar advances in the design and production of computer software are required in order that this increased contact be as rewarding as possible. The Smalltalk-80 system is a result of a decade of research into creating computer software that is appropriate for producing highly functional and interactive contact with personal computer systems. This book is the first detailed account of the Smalltalk-80 system. It is divided into four major parts: Part One -- an overview of the concepts and syntax of the programming language. Part Two -- an annotated and illustrated specification of the system's functionality. Part Three -- an example of the design and implementation of a moderate-size application. Part Four -- a specification of the Smalltalk-80 virtual machine.
+
+#index 104
+#* Tree automata and attribute grammars
+#@ Tsutomu Kamimura
+#t 1984
+#c Information and Control
+
+#index 105
+#* Commutative grammars: the complexity of uniform word problems
+#@ Dung T. Huynh
+#t 1984
+#c Information and Control
+
+#index 106
+#* On the random oracle hypothesis
+#@ Stuart A. Kurtz
+#t 1984
+#c Information and Control
+
+#index 107
+#* Deterministic process logic is elementary
+#@ Joseph Y. Halpern
+#t 1984
+#c Information and Control
+
+#index 108
+#* Planning Routes through uncertain territory
+#@ Drew McDermott;Ernest Davis
+#t 1984
+#c Artificial Intelligence
+
+#index 109
+#* Extended person-machine interface
+#@ Rachel Reichman-Adar
+#t 1984
+#c Artificial Intelligence
+
+#index 110
+#* Sequential program structures
+#@ Jim Welsh;John Elder;David Bustard
+#t 1984
+#c Sequential program structures
+
+#index 111
+#* LISP programming
+#@ I Danicic
+#t 1983
+#c LISP programming
+
+#index 112
+#* Microcomputers and their commercial applications
+#@ D E. Avison
+#t 1983
+#c Microcomputers and their commercial applications
+
+#index 113
+#* From logic to computers
+#@ P J. Thewlis;B N.T Foxon
+#t 1983
+#c From logic to computers
+
+#index 114
+#* A first course in formal language theory
+#@ V J. Rayward-Smith
+#t 1983
+#c A first course in formal language theory
+
+#index 115
+#* UNIX for users
+#@ C D.F Miller;R D. Boyle
+#t 1983
+#c UNIX for users
+
+#index 116
+#* Centralized versus decentralized computing: organizational considerations and management options
+#@ John Leslie King
+#t 1983
+#c ACM Computing Surveys (CSUR)
+#% 317884
+#% 317895
+#% 317919
+#% 317957
+#% 318878
+#% 318955
+#% 319551
+#% 319785
+#% 319787
+#% 320151
+#% 320152
+#% 320157
+#% 321669
+#% 322546
+#% 325553
+#% 374487
+#% 374518
+#% 374920
+#% 408020
+#% 599155
+#% 668677
+#% 840575
+
+#index 117
+#* Principles of transaction-oriented database recovery
+#@ Theo Haerder;Andreas Reuter
+#t 1983
+#c ACM Computing Surveys (CSUR)
+#% 2008
+#% 287377
+#% 287664
+#% 287672
+#% 287725
+#% 317894
+#% 317986
+#% 317987
+#% 317988
+#% 319216
+#% 319549
+#% 320902
+#% 531907
+#% 601806
+#% 601807
+#% 635165
+
+#index 118
+#* Voice response systems
+#@ D L. Lee;F H. Lochovsky
+#t 1983
+#c ACM Computing Surveys (CSUR)
+#% 2008
+#% 4834
+#% 375503
+#% 407975
+#% 482080
+#% 598002
+#% 602578
+
+#index 119
+#* Algorithms for trie compaction
+#@ M. Al-Suwaiyel;E Horowitz
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 1158
+#% 252608
+#% 287327
+#% 287498
+#% 289081
+#% 326293
+#% 326878
+#% 408504
+#% 688702
+#! The trie data structure has many properties which make it especially attractive for representing large files of data. These properties include fast retrieval time, quick unsuccessful search determination, and finding the longest match to a given identifier. The main drawback is the space requirement. In this paper the concept of trie compaction is formalized. An exact algorithm for optimal trie compaction and three algorithms for approximate trie compaction are given, and an analysis of the three algorithms is done. The analysis indicate that for actual tries, reductions of around 70 percent in the space required by the uncompacted trie can be expected. The quality of the compaction is shown to be insensitive to the number of nodes, while a more relevant parameter is the alphabet size of the key.
+
+#index 120
+#* LISP: a gentle introduction to symbolic computation
+#@ David S. Touretzky
+#t 1984
+#c LISP: a gentle introduction to symbolic computation
+
+#index 121
+#* Distributed databases principles and systems
+#@ Stefano Ceri;Giuseppe Pelagatti
+#t 1984
+#c Distributed databases principles and systems
+
+#index 122
+#* Proc. of the symposium on A new approach to scientific computation
+#@ Ulrich W. Kulisch;Willard L. Miranker
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 123
+#* A new arithmetic for scientific computation
+#@ Ulrich Kulisch
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 124
+#* Computer demonstration packages for standard problems of numerical mathematics
+#@ Siegfried M. Rump
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 125
+#* Solving algebraic problems with high accuracy
+#@ Siegfried M. Rump
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 126
+#* Evaluation of arithmetic expressions with maximum accuracy
+#@ Harald Böhm
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 127
+#* Solving function space problems with guaranteed close bounds
+#@ Edgar Kaucher
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 128
+#* Ultra-arithmetic: the digital computer set in function space
+#@ W L. Miranker
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 129
+#* A FORTRAN extension for scientific computation
+#@ U. W Kulisch
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 130
+#* An introduction to matrix PASCAL: a PASCAL extension for scientific computation
+#@ J Wolff von Gudenberg
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 131
+#* Realization of an optimal computer arithmetic
+#@ G Bohlender;K Gruner
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 132
+#* Features of a hardware implementation of an optimal arithmetic
+#@ U Kulisch;G Bohlender
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 133
+#* Differentiation and generation of taylor coefficients in PASCAL-SC
+#@ L B. Rall
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 134
+#* MATRIX PASCAL
+#@ G Bohlender;H Böhm;K Gruner;E Kaucher;R Klatte;W Kramer;U W. Kulisch;W L. Miranker;S M. Rump;Ch Ullrich;J Wolff von Gudenberg
+#t 1983
+#c Proc. of the symposium on A new approach to scientific computation
+
+#index 135
+#* Logical, internal, and physical reference behavior in CODASYL database systems
+#@ Wolfgang Effelsberg;Mary E. S. Loomis
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 286820
+#% 287483
+#% 287647
+#% 287681
+#% 287740
+#% 287767
+#% 317988
+#% 318032
+#% 319473
+#% 321686
+#% 323271
+#% 407996
+#% 411552
+#% 482046
+#% 690250
+#% 1825960
+#! This work investigates one aspect of the performance of CODASYL database systems: the data reference behavior. We introduce a model of database traversals at three levels: the logical, internal, and physical levels. The mapping between the logical and internal levels is defined by the internal schema, whereas the mapping between the internal and the physical levels depends on cluster properties of the database. Our model explains the physical reference behavior for a given sequence of DML statements at the logical level.Software has been implemented to monitor references in two selected CODASYL DBMS applications. In a series of experiments the physical reference behavior was observed for varying internal schemas and cluster properties of the database. The measurements were limited to retrieval transactions, so that a variety of queries could be analyzed for the same well-known state of the database. Also, all databases were relatively small in order to allow fast reloading with varying internal schema parameters. In all cases, the database transactions showed less locality of reference than do programs under virtual memory operating systems; some databases showed no locality at all. No evidence of physical sequentiality was found. This suggests that standard page replacement strategies are not optimal for CODASYL database buffer management; instead, replacement decisions in a database buffer should be based on specific knowledge available from higher system layers.
+
+#index 136
+#* A parallel pipelined relational query processor
+#@ Won Kim;Daniel Gajski;David J. Kuck
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 287005
+#% 287294
+#% 287495
+#% 287667
+#% 317955
+#% 321468
+#% 322880
+#% 411554
+#% 411680
+#% 426454
+#% 481892
+#% 599213
+#% 599215
+#% 599216
+#% 599235
+#% 606178
+#% 607454
+#% 689211
+#% 689436
+#% 689861
+#% 689977
+#! This paper presents the design of a relational query processor. The query processor consists of only four processing PIPEs and a number of random-access memory modules. Each PIPE processes tuples of relations in a bit-serial, tuple-parallel manner for each of the primitive database operations which comprise a complex relational query. The design of the query processor meets three major objectives: the query processor must be manufacturable using existing and near-term LSI (VLSI) technology; it must support in a uniform manner both the numeric and nonnumeric processing requirements a high-level user interface like SQL presents; and it must support the query-processing strategy derived in the query optimizer to satisfy certain system-wide performance optimality criteria.
+
+#index 137
+#* Guide to effective software technical writing
+#@ Christine Browning
+#t 1984
+#c Guide to effective software technical writing
+
+#index 138
+#* Electronic speech synthesis
+#@ Geoff Bristow
+#t 1984
+#c Electronic speech synthesis
+
+#index 139
+#* Programming in C
+#@ Stephen G. Kochan
+#t 1983
+#c Programming in C
+
+#index 140
+#* Information systems for planning and decision making
+#@ Ernest A. Kallman;Leon Reinharth
+#t 1984
+#c Information systems for planning and decision making
+
+#index 141
+#* Environments for VLSI and software engineering
+#@ Randy Katz;Walt Scacchi;P Subrahmanyam
+#t 1984
+#c Journal of Systems and Software
+
+#index 142
+#* Parallels between software and VLSI engineering
+#@ S Hirschhorn;A M. Davis
+#t 1984
+#c Journal of Systems and Software
+
+#index 143
+#* a decision-based framework for comparing hardware compilers
+#@ Jack Mostow
+#t 1984
+#c Journal of Systems and Software
+
+#index 144
+#* Application of a transformational software development methodology to VLSI design
+#@ Jack Mostow;Bob Balzer
+#t 1984
+#c Journal of Systems and Software
+
+#index 145
+#* ART-an automated requirements traceability system
+#@ Merlin Dorfman;Richard F. Flynn
+#t 1984
+#c Journal of Systems and Software
+
+#index 146
+#* Metrics to measure the complexity of partial programs
+#@ Robert G. Reynolds
+#t 1984
+#c Journal of Systems and Software
+
+#index 147
+#* Pseudo-extensions of computable functions
+#@ John Case
+#t 1984
+#c Information and Control
+
+#index 148
+#* Cognitive systems engineering: new wine in new bottles
+#@ Erik Hollnagel;David D. Woods
+#t 1983
+#c International Journal of Man-Machine Studies
+
+#index 149
+#* Practical data-swapping: the first steps
+#@ Steven P. Reiss
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 287297
+#% 287298
+#% 289165
+#% 649354
+#! The problem of statistical database confidentiality in releasing microdata is addressed through the use of approximate data-swapping. Here, a portion of the microdata is replaced with a database that has been selected with approximately the same statistics. The result guarantees the confidentiality of the original data, while providing microdata with accurate statistics. Methods for achieving such transformations are considered and analyzed through simulation.
+
+#index 150
+#* Programmer-defined control operations
+#@ R E. Griswold;Michael Novak
+#t 1983
+#c The Computer Journal
+
+#index 151
+#* An extension of conflict-free multivalued dependency sets
+#@ Hirofumi Katsuno
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 287339
+#% 287677
+#% 289282
+#% 289305
+#% 289350
+#% 289424
+#% 374001
+#% 411568
+#% 411706
+#% 416001
+#% 598679
+#! Several researchers (Beeri, Bernstein, Chiu, Fagin, Goodman, Maier, Mendelzon, Ullman, and Yannakakis) have introduced a special class of database schemes, called acyclic or tree schemes. Beeri et al. have shown that an acyclic join dependency, naturally defined by an acyclic database scheme, has several desirable properties, and that an acyclic join dependency is equivalent to a conflict-free set of multivalued dependencies. However, since their results are confined to multivalued and join dependencies, it is not clear whether we can handle functional dependencies independently of other dependencies.In the present paper we define an extension of a conflict-free set, called an extended conflict-free set, including multivalued dependencies and functional dependencies, and show the following two properties of an extended conflict-free set:There are three equivalent definitions of an extended conflict-free set. One of them is defined as a set including an acyclic joint dependency and a set of functional dependencies such that the left and right sides of each functional dependency are included in one of the attribute sets that construct the acyclic join dependency.For a relation scheme with an extended conflict-free set, there is a decomposition into third normal form with a lossless join and preservation of dependencies.
+
+#index 152
+#* Medical Decision Making
+#@ Lee B Lusted
+#t 1984
+#c Medical Decision Making
+
+#index 153
+#* Strategy of computer selection: a step-by-step approach
+#@ Fred Kelly;Peter Poggi
+#t 1984
+#c Strategy of computer selection: a step-by-step approach
+
+#index 154
+#* Database management systems
+#@ R A. Frost
+#t 1984
+#c Database management systems
+
+#index 155
+#* Result sequences
+#@ Stephen B. Wampler;Ralph E. Griswold
+#t 1984
+#c Computer Languages
+
+#index 156
+#* The contraction of control implementations
+#@ Lawrence A. Coon;John P. Kearns;Mary Lou Soffa
+#t 1984
+#c Computer Languages
+
+#index 157
+#* The use of combinators in translating a purely functional language to low-level data-flow graphs
+#@ Peter M. Maurer;Arthur E. Oldehoeft
+#t 1984
+#c Computer Languages
+
+#index 158
+#* Software system testing and quality assurance
+#@ Boris Beizer
+#t 1984
+#c Software system testing and quality assurance
+
+#index 159
+#* Computer organization (2nd ed.)
+#@ V. Carl Hamacher;Zvonko G. Vranesic;Safwat G. Zaky
+#t 1984
+#c Computer organization (2nd ed.)
+
+#index 160
+#* Auditing EDP systems
+#@ Donald A. Watne;Peter B.B Turney
+#t 1984
+#c Auditing EDP systems
+
+#index 161
+#* A rational reconstruction of the MYCIN consultation system
+#@ J Cendrowska;M A. Bramer
+#t 1984
+#c International Journal of Man-Machine Studies - Developments in expert systems, part 3. M. J. Coombs (guest ed.)
+
+#index 162
+#* Using an expert system in merging qualitative and quantitative data analysis
+#@ J G. Ganascia
+#t 1984
+#c International Journal of Man-Machine Studies - Developments in expert systems, part 3. M. J. Coombs (guest ed.)
+
+#index 163
+#* Spacetime representations of computational structures
+#@ W L. Miranker;A Winkler
+#t 1984
+#c Computing
+
+#index 164
+#* Asymptotic error expansions for defect correction iterates
+#@ R Frank;F Macsek;C W. Ueberhuber
+#t 1984
+#c Computing
+
+#index 165
+#* A quadratically convergent method for computing simple singular roots and its application to determining simple bifurcation points
+#@ R Menzel;G Ponisch
+#t 1984
+#c Computing
+
+#index 166
+#* On preconditioned iterative methods for solving (A-/lB)=0
+#@ D J Evans
+#t 1984
+#c Computing
+
+#index 167
+#* The lsubp-solution of the linear matrix equation AX+YB=C
+#@ K Zietak
+#t 1984
+#c Computing
+
+#index 168
+#* A numerical solution of the membrane eigenvalue problem
+#@ A B. Sideridis
+#t 1984
+#c Computing
+
+#index 169
+#* Computation of fourier transform integrals using Chebyshev series expansions
+#@ R Piessens;Maria Branders
+#t 1984
+#c Computing
+
+#index 170
+#* Parameter Nets
+#@ Dana H. Ballard
+#t 1984
+#c Artificial Intelligence
+
+#index 171
+#* Domain-independent planning: representation and plan generation
+#@ David E. Wilkins
+#t 1984
+#c Artificial Intelligence
+
+#index 172
+#* A new use of an automated reasoning assistant: open questions in equivalential calculus and the study of infinite domains
+#@ L Wos;S Winker;B Smith;R Veroff;L Henschen
+#t 1984
+#c Artificial Intelligence
+
+#index 173
+#* Probabilities from fuzzy observations
+#@ Ronald R. Yager
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 174
+#* The database designer's workbench
+#@ Richard E. Cobb;James P. Fry;Toby J. Teorey
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 175
+#* Cyclic multiple-valued filing schemes for higher-order queries
+#@ Val Donaldson;Lois Wright Hawkes
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 176
+#* Semantic-syntax-directed translation and its application to image processing
+#@ Q Y. Shi
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 177
+#* Increasing robustness in global adaptive quadrature through interval selection heuristics
+#@ Henry D. Shapiro
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 252608
+#% 288631
+#% 288939
+#% 317219
+#% 317724
+#% 328256
+#% 408504
+#% 408522
+
+#index 178
+#* The computation and communication complexity of a parallel banded system solver
+#@ D H. Lawrie;A H. Sameh
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 288909
+#% 289110
+
+#index 179
+#* Two tapes are better than one for nondeterministic machines
+#@ Pavol Duris;Zvi Galil
+#t 1984
+#c SIAM Journal on Computing
+
+#index 180
+#* Computation of matrix chain products. Part II
+#@ T C. Hu;M T. Shing
+#t 1984
+#c SIAM Journal on Computing
+
+#index 181
+#* Parallel solution of certain toeplitz linear systems
+#@ Dario Bini
+#t 1984
+#c SIAM Journal on Computing
+
+#index 182
+#* Self-organizing heuristics for implicit data structures
+#@ Greg N. Frederickson
+#t 1984
+#c SIAM Journal on Computing
+
+#index 183
+#* Verification of probabilistic programs
+#@ Micha Sharir;Amir Pnueli;Sergiu Harts
+#t 1984
+#c SIAM Journal on Computing
+
+#index 184
+#* Constrained optimum communication trees and sensitivity analysis
+#@ Sunita Agarwal;A K. Mittal;P Sharma
+#t 1984
+#c SIAM Journal on Computing
+
+#index 185
+#* Immunity, relativizations, and nondeterminism
+#@ Uwe Schoning;Ronald V. Book
+#t 1984
+#c SIAM Journal on Computing
+
+#index 186
+#* Fast algorithms for finding nearest common ancestors
+#@ Dov Harel;Robert Endre Tarjan
+#t 1984
+#c SIAM Journal on Computing
+
+#index 187
+#* Recursive programs as definitions in first order logic
+#@ Robert Cartwright
+#t 1984
+#c SIAM Journal on Computing
+
+#index 188
+#* Differentiation in PASCAL-SC: type GRADIENT
+#@ L B. Rall
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 317433
+#% 404010
+#% 408155
+#% 835736
+#% 836002
+
+#index 189
+#* A weakest precondition semantics for communicating processes
+#@ Tzilla Elrad;Nissim Francez
+#t 1984
+#c Theoretical Computer Science
+
+#index 190
+#* Reduction graphs in the lambda calculus
+#@ Marisa Venturini Zilli
+#t 1984
+#c Theoretical Computer Science
+
+#index 191
+#* Remarks on an example of jantzen
+#@ D. H. Potts
+#t 1984
+#c Theoretical Computer Science
+
+#index 192
+#* The Ehrenfeucht conjecture: a compactness claim for finitely generated free monoids
+#@ Juhani Karhumaki
+#t 1984
+#c Theoretical Computer Science
+
+#index 193
+#* Optimal quadratures in H(sub)p spaces
+#@ K. Sikorski;F. Stenger
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+
+#index 194
+#* Algorithm 614: a FORTRAN subroutine for numerical integration in H(sub)p
+#@ K. Sikorski;F. Stenger;J. Schwing
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 193
+
+#index 195
+#* On solving almost block diagonal (staircase) linear systems
+#@ J. K. Reid;A. Jennings
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 317424
+#% 317425
+#% 317573
+
+#index 196
+#* Fault-tolerant broadcasts
+#@ Fred B. Schneider;David Gries;Richard D. Schlichting
+#t 1984
+#c Science of Computer Programming
+
+#index 197
+#* Structuring transformational developments: a case study based on Earley's recognizer
+#@ H Partsch
+#t 1984
+#c Science of Computer Programming
+
+#index 198
+#* The Mathematical construction of a program
+#@ J R. Abrial
+#t 1984
+#c Science of Computer Programming
+
+#index 199
+#* Cryptanalysis of a Maclaren-Marsaglia system
+#@ Charles T. Retter
+#t 1984
+#c Cryptologia
+
+#index 200
+#* MODELLER: computer-assisted modelling of continuous systems
+#@ Paul A. Luker
+#t 1984
+#c Simulation
+
+#index 201
+#* DPS - a digital simulation language for the process industries
+#@ R K. Wood;R K.M Thambynayagam;R G. Noble;D J. Sebastian
+#t 1984
+#c Simulation
+
+#index 202
+#* EDP administration and control
+#@ William E. Perry
+#t 1984
+#c EDP administration and control
+
+#index 203
+#* The multibus design guidebook: structures, architectures, and applications
+#@ James B. Johnson;Steve Kassel
+#t 1984
+#c The multibus design guidebook: structures, architectures, and applications
+
+#index 204
+#* Digital system design and microprocessors
+#@ John P. Hayes
+#t 1984
+#c Digital system design and microprocessors
+
+#index 205
+#* Hypernetworks as tools for modelling multiport systems
+#@ M Gattinger;G Wenzel
+#t 1984
+#c Journal of the Franklin Institute
+
+#index 206
+#* Synchronous debugging of real-time microprocessor-based control systems
+#@ Henry G. Pajak
+#t 1984
+#c Simulation
+
+#index 207
+#* Digital simulation of guidance and control system of an advanced supersonic fighter
+#@ Ching-Fang Lin;Khai-Li Hsu
+#t 1984
+#c Simulation
+
+#index 208
+#* A heuristic search algorithm with modifiable estimate
+#@ Laszlo Mero
+#t 1984
+#c Artificial Intelligence
+
+#index 209
+#* General branch and bound, and its relation to A* and AO*
+#@ Dana S. Nau;Vipin Kumar;Laveen Kanal
+#t 1984
+#c Artificial Intelligence
+
+#index 210
+#* An algebraic approach to shape-from-image problems
+#@ Kokichi Sugihara
+#t 1984
+#c Artificial Intelligence
+
+#index 211
+#* Using chunking to solve chess pawn endgames
+#@ Hans Berliner;Murray Campbell
+#t 1984
+#c Artificial Intelligence
+
+#index 212
+#* Literate programming
+#@ Donald E. Knuth
+#t 1984
+#c The Computer Journal
+
+#index 213
+#* The rainbow workstation
+#@ A J. Wilkes;D W. Singer;J J. Gibbons;T R. King;P Robinson;N E. Wiseman
+#t 1984
+#c The Computer Journal
+
+#index 214
+#* The implementation of abstract objects in a capability based addressing architecture
+#@ P Corsini;G Frosini;L Lopriore
+#t 1984
+#c The Computer Journal
+
+#index 215
+#* A lumped-state model of clustering in dynamic storage allocation
+#@ C M. Reeves
+#t 1984
+#c The Computer Journal
+
+#index 216
+#* A dynamic file organization model
+#@ R H. Davis;P Coumpas
+#t 1984
+#c The Computer Journal
+
+#index 217
+#* Backtrack programming with SIMULA
+#@ Keld Helsgaun
+#t 1984
+#c The Computer Journal
+
+#index 218
+#* A problem with algebra systems - revisited
+#@ D Barton
+#t 1984
+#c The Computer Journal
+
+#index 219
+#* The performance of algorithms for colouring planar graphs
+#@ M H. Williams;K T. Milne
+#t 1984
+#c The Computer Journal
+
+#index 220
+#* The Cyclic towers of Hanoi: a representation approach
+#@ M C. Er
+#t 1984
+#c The Computer Journal
+
+#index 221
+#* On two problems reducible to topological sorting
+#@ Alan D. Kalvin;Yaakov L. Varol
+#t 1984
+#c The Computer Journal
+
+#index 222
+#* An O(n) algorithm for the linear multiple choice knapsack problem and related problems
+#@ Eitan Zemel
+#t 1984
+#c Information Processing Letters
+
+#index 223
+#* Experiments with a fast string searching algorithm
+#@ Peter Moller-Nielsen;Jorgen Staunstrup
+#t 1984
+#c Information Processing Letters
+
+#index 224
+#* A technique for developing loop invariants
+#@ John H. Remmers
+#t 1984
+#c Information Processing Letters
+
+#index 225
+#* A fast VLSI conversion between binary and residue systems
+#@ G Alia;F Barsi;E Martinelli
+#t 1984
+#c Information Processing Letters
+
+#index 226
+#* On computing the determinant in small parallel time using a small number of processors
+#@ Stuart J. Berkowitz
+#t 1984
+#c Information Processing Letters
+
+#index 227
+#* Pattern matching machine implementation of a fast test for unique decipherability
+#@ A Apostolico;R Giancarlo
+#t 1984
+#c Information Processing Letters
+
+#index 228
+#* Algorithms for adaptive Huffman codes
+#@ Gordon V. Cormack;R Nigel Horspool
+#t 1984
+#c Information Processing Letters
+
+#index 229
+#* Algebraic approach to p-adic conversion of rational numbers
+#@ Alfonso Miola
+#t 1984
+#c Information Processing Letters
+
+#index 230
+#* ARIADNE: a knowledge-based interactive system for planning and decision support
+#@ Andrew P. Sage;Chelsea C. White, III
+#t 1984
+#c IEEE Transactions on Systems, Man and Cybernetics
+
+#index 231
+#* Effectiveness analysis of C (super)3 systems
+#@ Vincent Bouthonnier;Alexander H. Levis
+#t 1984
+#c IEEE Transactions on Systems, Man and Cybernetics
+
+#index 232
+#* A fuzzy rule-based model of human problem solving
+#@ Ruston M. Hunt;William B. Rouse
+#t 1984
+#c IEEE Transactions on Systems, Man and Cybernetics
+
+#index 233
+#* Human-oriented information acquisition in sequential pattern classification: part 1--single membership classification
+#@ Moshe Ben-Bassat;Dov Teeni
+#t 1984
+#c IEEE Transactions on Systems, Man and Cybernetics
+
+#index 234
+#* A mathematical model of fish behavior in a water tank
+#@ Nobuo Sannomiya;Ko Matuda
+#t 1984
+#c IEEE Transactions on Systems, Man and Cybernetics
+
+#index 235
+#* Computers information and manufacturing systems
+#@ David Rhodes;Michael Wright;Michael Jarrett
+#t 1984
+#c Computers information and manufacturing systems
+
+#index 236
+#* Distributed data processing: technology and critical issues
+#@ M P. Mariani
+#t 1984
+#c Distributed data processing: technology and critical issues
+
+#index 237
+#* Large sparse numerical optimization
+#@ Thomas F. Coleman
+#t 1984
+#c Large sparse numerical optimization
+
+#index 238
+#* Channel selection and effective communication for managerial decision making
+#@ Eileen M. Trauth;Stephen K Kwan;Susanna Barber
+#t 1984
+#c ACM Transactions on Information Systems (TOIS)
+#% 319240
+#% 319490
+
+#index 239
+#* The dimensions of accessibility to online information: implications for implementing office information systems
+#@ Mary J. Culnan
+#t 1984
+#c ACM Transactions on Information Systems (TOIS)
+#% 319240
+#% 320012
+#% 407915
+
+#index 240
+#* The well-trained computer: designing systematic instructional materials for theclassroom microcomputer
+#@ Mynga K. Futrell;Paul Geisert
+#t 1984
+#c The well-trained computer: designing systematic instructional materials for theclassroom microcomputer
+
+#index 241
+#* Heuristics: intelligent search strategies for computer problem solving
+#@ Judea Pearl
+#t 1984
+#c Heuristics: intelligent search strategies for computer problem solving
+
+#index 242
+#* The AI business: commercial uses of artificial intelligence
+#@ Patrick H. Winston;Karen A. Prendergast
+#t 1984
+#c The AI business: commercial uses of artificial intelligence
+
+#index 243
+#* Prelude to programming: problem solving and algorithms
+#@ William Mitchell
+#t 1984
+#c Prelude to programming: problem solving and algorithms
+
+#index 244
+#* A simple separate compilation mechanism for block-structured languages
+#@ Richard J. Le Blanc;Charles N. Fischer
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! A very simple and efficient technique for the introduction of separate compilation facilities into compilers for block-structured languages is presented. Using this technique, programs may be compiled in parts while the compile-time checking advantages of compilation as a whole are retained. These features are simple for a programmer to understand and are easy to implement. Experience has shown this separate compilation mechanism to be a useful tool in the development of large programs in block-structured languages.
+
+#index 245
+#* Implementing language support in high-level languages
+#@ Martin S. McKendry;Roy H. Campbell
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! One of the requirements for building an operating system in a high-level operating system language, such as Ada, Concurrent Pascal, or Modula, is the construction of a language support system, or kernel. This paper presents a model that generalizes the concept of a kernel, and defines a kernel and the processes it supports to be at different levels of abstraction. A high-level language mechanism, the Execute statement, is then proposed as the basis of the interface between a kernel and the processes it supports. Software capabilities control access between levels and the Execute statement controls processor context switching between levels. The mechanisms rely on data typing for reliability and protection. They encourage systems that are well protected and exhibit an explicit hierarchical structure. Software capabilities and the Execute statement are illustrated with a pilot implementation on the Prime 650. An experimental operating system that encompasses their use is discussed. Extensions are presented which manage interrupts, timeslicing and preemption, and hardware protection mechanisms.
+
+#index 246
+#* Multiaccess in a nonqueueing mailbox environment
+#@ Michael J. Ferguson
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! A new and flexible solution to the problem of multiple users accessing a single resource, such as communication bandwidth or composite object in memory, is derived. The means of communication consists of sending and receiving messages in known locations (or equivalently, mailboxes without queueing). Any particular user is able to deposit, and hence destroy, previous messages in a mailbox. It is assumed that exclusive access to a mailbox is supplied by an underlying system. The major results of this paper are: 1) a simple tree-based algorithm that guarantees 驴 no user or group of users can conspire to prevent access by some other user to the resource; 驴 only one user accesses the resource at a time; 驴 if there are N users, an individual user is guaranteed access, when requested, to the resource in no more than N-1 turns; Knuth's solution [6] can delay a user up to 2** (N-1)-1 turns; 2) an extension of Dekker's algorithm (2 users) [2] that allows the relative rates of reservations for access to the resource to be proportional to a set of N integers. When a reservation is not being used by its ``owner,'' it will be assigned to another contending request. The assignment is optimal for periodic requests.
+
+#index 247
+#* Dataflow resource managers and their synthesis from open path expressions
+#@ Arthur E. Oldehoeft;Steven F. Jennings
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! The control of concurrent access to shared resources is an important feature of both centralized and distributed operating systems. In conventional systems, exclusive access is the rule while concurrent access is the exception. Dataflow computer systems, along with an applicative style of programming, provide an execution environment in which this philosophy is reversed. In these latter systems, it is necessary to reexamine the manner in which synchronization of access to shared resources is specified and implemented. A basic design for a dataflow resource manager is reviewed, illustrating the clear separation between access mechanism and scheduling policy. The semantics of the access mechanism is based solely on the principle of data dependency. Specifications are presented for a general scheduler to further constrain or order accesses to the resource. Using ``open path expressions'' as a very high-level specification language for synchronization, it is shown how to automatically synthesize a scheduler as a distributed network of communicating modules.
+
+#index 248
+#* Resilient distributed computing
+#@ Liba Svobodova
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! A control abstraction called atomic action is a powerful general mechanism for ensuring consistent behavior of a system in spite of failures of individual computations running in the system, and in spite of system crashes. However, because of the ``all-or-nothing'' property of atomic actions, an important amount of work might be abandoned needlessly when an internal error is encountered. This paper discusses how implementation of resilient distributed systems can be supported using a combination of nested atomic actions and stable checkpoints. Nested atomic actions form a tree structure. When an internal atomic action terminates, its results are not made permanent until the outermost atomic action commits, but they survive local node failures. Each subtree of atomic actions is recoverable individually. A checkpoint is established in stable storage as part of a remote request so that results of such a request can be reclaimed if the requesting node fails in the meantime, The paper shows how remote procedure call primitives with ``at-most-once'' semantics and recovery blocks can be built with these mechanisms.
+
+#index 249
+#* Intervention schedules for real-time programming
+#@ Curtis Abbott
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! A way of programming real-time systems is described which inverts the usual image of parallel processes: instead of processes which are ordinarily running and which wait occasionally in order to synchronize with other cooperating processes, ``intervention schedules'' are ordinarily waiting and run nonpreemptibly, triggered by events, which may be external (modeling hardware interrupts) or generated by other intervention schedules. In order for nonpreemptive scheduling to make sense, the maximum period of time for which any event in an intervention schedule runs must be carefully controlled. This and other aspects of the model are considered, and it is compared with more traditional models of parallel processes, and with message passing models. Programming language features to support this programmming model are discussed. Strengths and limitations of the model are discussed.
+
+#index 250
+#* A heuristic for deriving loop functions
+#@ Douglas D. Dunlop;Victor R. Basili
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! The problem of analyzing an initialized loop and verifying that the program computes some particular function of its inputs is addressed. A heuristic technique for solving these problems is proposed that appears to work well in many commonly occurring cases. The use of the technique is illustrated with a number of applications. An attribute of initialized loops is identified that corresponds to the ``effort'' required to apply this method in a deterministic (i.e., guaranteed to succeed) manner. It is explained that in any case, the success of the proposed heuristic relies on the loop exhibiting a ``reasonable'' form of behavior.
+
+#index 251
+#* Safe data type specifications
+#@ N C.K Phillips
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! This paper discusses the current style of algebraic data type specifications. Some simple examples illustrate that whether or not two objects of the type being specified are equal can be implementation dependent, even for very simple objects of the type. To remedy this, it is proposed that specifications should be safe, where safety is a stronger requirement than Guttag's sufficient completeness. The paper also discusses when an operator should be part of a specification and when it should be introduced by extension, and concludes with safe specifications of some common data types.
+
+#index 252
+#* Prototyping versus specifying: a multiproject experiment
+#@ Barry W. Boehm;Terence E. Gray;Thomas Seewaldt
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! In this experiment, seven software teams developed versions of the same small-size (2000-4000 source instruction) application software product. Four teams used the Specifying approach. Three teams used the Prototyping approach. The main results of the experiment were the following. 1) Prototyping yielded products with roughly equivalent performance, but with about 40 percent less code and 45 percent less effort. 2) The prototyped products rated somewhat lower on functionality and robustness, but higher on ease of use and ease of learning. 3) Specifying produced more coherent designs and software that was easier to integrate. The paper presents the experimental data supporting these and a number of additional conclusions.
+
+#index 253
+#* A relational representation of an abstract type system
+#@ Daniel L. Weller;Bryant W. York
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! Programming languages have traditionally had more data types than database systems. The flexibility of abstract types could make a database system more useful in supporting application development. Abstract types allow users to think about and manipulate data in terms and structures that they are familiar with. This paper proposes that databases have a type system interface and describes a representation of a type system in terms of relations. The type system model supports a variety of programming language constructs, such as user-defined parameterized data types and user-defined generic operations. The efficiency of the type system is compared to the access time of the database system.
+
+#index 254
+#* A unifying approach to the design of a secure database operating system
+#@ David L. Spooner;Ehud Gudes
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! Database management systems (DBMS's) today are usually built as subsystems on top of an operating system (OS). This design approach can lead to problems of unreliability and inefficient performance as well as forcing a duplication of functions between the DBMS and OS. A new design approach is proposed which eliminates much of this duplication by integrating the duplicated functions into independent subsystems used by both the DBMS and OS. Specifically, an I/O and file support subsystem and a security subsystem are defined. Both subsystems make use of a logical information model which models the stored information in secondary storage. The new database operating system organization and the logical information model are presented in detail. Design of the security subsystem is based on the access control model, and is extended with Boolean predicates to produce an access control model capable of enforcing content-dependent security policies. The access matrix is implemented using a combination of access lists and capabilities. Authorization models and multiple user processes are discussed in relation to the new system organization. The outline of a formal specification and proof of correctness of the security subsystem is also discussed.
+
+#index 255
+#* A note on denial-of-service in operating systems
+#@ Virgil D. Gligor
+#t 1984
+#c IEEE Transactions on Software Engineering
+#! A simple and general definition of denial-of-service in operating systems is presented. It is argued that no current protection mechanism nor model resolves this problem in any demonstrable way. The notion of interuser dependency is introduced and identified as the common cause for all problem instances. Decomposition of operating systems into hierarchies of services is assumed for the discovery of denial-of-service instances.
+
+#index 256
+#* Holophrasted displays in an interactive environment
+#@ Scott R. Smith;David T. Barnard;Ian A. Macleod
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 257
+#* An investigation of the utility of flowcharts during computer program debugging
+#@ D J. Gilmore;H T. Smith
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 258
+#* Natural artificial languages: low level processes
+#@ Gary Perlman
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 259
+#* Optimal orientations of cells in slicing floorplan designs
+#@ Larry Stockmeyer
+#t 1984
+#c Information and Control
+
+#index 260
+#* Connections between two theories of concurrency: metric spaces and synchronization trees
+#@ William G. Golson;William C. Rounds
+#t 1984
+#c Information and Control
+
+#index 261
+#* Loops in combinator-based compilers
+#@ Mitchell Wand
+#t 1984
+#c Information and Control
+
+#index 262
+#* On the strength of "sometimes" and "always" in program verification
+#@ L Csirmaz
+#t 1984
+#c Information and Control
+
+#index 263
+#* Some applications of a theorem of Shirshov to language theory
+#@ Antonio Restivo;Christophe Reutenauer
+#t 1984
+#c Information and Control
+
+#index 264
+#* A Directly Executable Encoding for APL
+#@ Richard F. Hobson
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS)
+#% 319642
+#% 320094
+#% 322292
+#% 348985
+#% 375180
+#% 598055
+#% 599815
+#% 599934
+#% 600641
+#% 685214
+
+#index 265
+#* Construction of data processing software
+#@ John Elder
+#t 1984
+#c Construction of data processing software
+
+#index 266
+#* Using message passing for distributed programming: proof rules and disciplines
+#@ Richard D. Schlichting;Fred B. Schneider
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS)
+#% 54742
+#% 60779
+#% 318213
+#% 318325
+#% 320204
+#% 320262
+#% 323377
+#% 384051
+#% 399229
+#% 411604
+#% 490745
+#% 529749
+#% 602790
+#% 729828
+
+#index 267
+#* Modeling the distributed termination convention of CSP
+#@ Krzysztof R. Apt;Nissim Francez
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS)
+#% 289408
+#% 318183
+#% 318192
+#% 318205
+#% 318213
+#% 318297
+#% 320204
+#% 374130
+#% 473633
+
+#index 268
+#* Distributed algorithms for finding centers and medians in networks
+#@ E Korach;D Rotem;N Santoro
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS)
+#% 318282
+#% 318291
+#% 320308
+#% 600800
+#% 836124
+
+#index 269
+#* Translation of attribute grammars into procedures
+#@ Takuya Katayama
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS)
+#% 318179
+#% 320583
+#% 321644
+#% 399073
+#% 490428
+#% 598737
+#% 601741
+#% 607477
+#% 686953
+
+#index 270
+#* Algorithms for on-the-fly garbage collection
+#@ Mordechai Ben-Ari
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS)
+#% 317993
+#% 320266
+#% 320492
+#% 598025
+
+#index 271
+#* validating database updates
+#@ Isamu Kobayashi
+#t 1984
+#c Information Systems
+
+#index 272
+#* Performance of videbas in an operational environment
+#@ H M. Blanken
+#t 1984
+#c Information Systems
+
+#index 273
+#* Lipski's approach to incomplete information data bases restated and generalized in the setting of Zadeh's possibility theory
+#@ Henri Prade
+#t 1984
+#c Information Systems
+
+#index 274
+#* Towards multi-level and modular conceptual schema specifications
+#@ Ulrich Schiel;Antonio L. Furtado;Erich J. Neuhold;Marco A. Casanova
+#t 1984
+#c Information Systems
+
+#index 275
+#* A storage structure definition language for CODASYL databases
+#@ M. Negri;R. Zicari
+#t 1984
+#c Information Systems
+
+#index 276
+#* Data management support for database management
+#@ Rudolf Bayer;Peter Schlichtiger
+#t 1984
+#c Acta Informatica
+
+#index 277
+#* LALR(1, 1) parser generation for regular right part grammars
+#@ N P. Chapman
+#t 1984
+#c Acta Informatica
+
+#index 278
+#* Optimal multiway search trees for variable size keys
+#@ Jayme Luiz Szwarcfiter
+#t 1984
+#c Acta Informatica
+
+#index 279
+#* Axiomatising finite delay operators
+#@ Matthew Hennessy
+#t 1984
+#c Acta Informatica
+
+#index 280
+#* Maintaining order in a generalized linked list
+#@ Athanasios K. Tsakalidis
+#t 1984
+#c Acta Informatica
+
+#index 281
+#* Generalized binary split trees
+#@ Shou-Hsuan Stephen Huang;C K. Wong
+#t 1984
+#c Acta Informatica
+
+#index 282
+#* LISPcraft
+#@ Robert Wilensky
+#t 1984
+#c LISPcraft
+
+#index 283
+#* Transborder data flows: importance, impact, policies
+#@ Karl P. Sauvant
+#t 1984
+#c Information Services and Use
+
+#index 284
+#* An evaluation of the UNIVAC 1100/82 text editor as an alternative word processorfor generating a newspaper index
+#@ Michael Knee
+#t 1984
+#c Information Services and Use
+
+#index 285
+#* Optimizing convenient online access to bibliographic databases
+#@ Cyril Cleverdon
+#t 1984
+#c Information Services and Use
+
+#index 286
+#* Systems, Objectives, Solutions
+#@ Henry C. Lucas, Jr.
+#t 1984
+#c Systems, Objectives, Solutions
+
+#index 287
+#* Building effective multiple criteria decision models: a decision support systemapproach
+#@ Tung Bui
+#t 1984
+#c Systems, Objectives, Solutions
+
+#index 288
+#* Factors common to the successful implementation of twelve decision support systems and how they differ from three failures
+#@ Andrew M. McCosh
+#t 1984
+#c Systems, Objectives, Solutions
+
+#index 289
+#* MIS/DSS success measure
+#@ G Larry Sanders
+#t 1984
+#c Systems, Objectives, Solutions
+
+#index 290
+#* Handbook of software engineering
+#@ C R. Vick;C V. Ramamoorthy
+#t 1984
+#c Handbook of software engineering
+
+#index 291
+#* Operating systems principles (2nd ed.)
+#@ Stanley A. Kurzban;Thomas S. Heines;Anthony P. Sayers
+#t 1984
+#c Operating systems principles (2nd ed.)
+
+#index 292
+#* The coming computer industry shakeout: winners, losers, and survivors
+#@ Stephen T. McClellan
+#t 1984
+#c The coming computer industry shakeout: winners, losers, and survivors
+
+#index 293
+#* Abstract algebra: a computational approach
+#@ Charles C. Sims
+#t 1984
+#c Abstract algebra: a computational approach
+
+#index 294
+#* Coordinated computing: tools and techniques for distributed software
+#@ Robert E. Filman;Daniel P. Friedman
+#t 1984
+#c Coordinated computing: tools and techniques for distributed software
+
+#index 295
+#* Real-time clinical computing
+#@ Ian R. Perry
+#t 1984
+#c Real-time clinical computing
+
+#index 296
+#* Proc. of the third international conference on Entity-relationship approach to software engineering
+#@ Carl G. Davis;Sushil Jajodia;Peter Ann-Beng Ng;Raymond T. Yeh
+#t 1983
+#c Proc. of the third international conference on Entity-relationship approach to software engineering
+
+#index 297
+#* Proc. of the second international conference on Entity-relationship approach to information modeling and analysis
+#@ Peter P. Chen
+#t 1983
+#c Proc. of the second international conference on Entity-relationship approach to information modeling and analysis
+
+#index 298
+#* Fire in the valley: the making of the personal computer
+#@ Paul Freiberger;Michael Swaine
+#t 1984
+#c Fire in the valley: the making of the personal computer
+
+#index 299
+#* Some performance tests of convex hull algorithms
+#@ D C. S. Allison;M T. Noga
+#t 1984
+#c BIT
+
+#index 300
+#* Improving worst-case behavior of heaps
+#@ Svante Carlsson
+#t 1984
+#c BIT
+
+#index 301
+#* Estimating the length of minimal spanning trees in compression of files
+#@ J Ernvall;O Nevalainen
+#t 1984
+#c BIT
+
+#index 302
+#* Loop-free algorithms for traversing binary trees
+#@ T I. Fenner;G Loizou
+#t 1984
+#c BIT
+
+#index 303
+#* On the complexity of partitioning sparse matrix representations
+#@ J P. Malmquist;E L. Robertson
+#t 1984
+#c BIT
+
+#index 304
+#* A formal methodology using attributed grammars for multiprocessing-system software development. I. Design representation; II. Validation
+#@ P M. Lu;S S. Yau;W Hong
+#t 1983
+#c Information Sciences: an International Journal
+
+#index 305
+#* A formal methodology using attributed grammars for multiprocessing-system software development. I. design representation
+#@ P M. Lu;S S. Yau;W Hong
+#t 1983
+#c Information Sciences: an International Journal
+
+#index 306
+#* Fast compact prime number sieves (among others)
+#@ Paul Pritchard
+#t 1984
+#c Journal of Algorithms
+
+#index 307
+#* Structure, logic, and program design
+#@ Alan Cohen
+#t 1984
+#c Structure, logic, and program design
+
+#index 308
+#* Graphs and algorithms
+#@ Michel Gondran;Michel Minoux;Steven Vajda
+#t 1984
+#c Graphs and algorithms
+
+#index 309
+#* Human factors in computer systems
+#@ John C. Thomas;Michael L. Schneider
+#t 1984
+#c Human factors in computer systems
+
+#index 310
+#* Heuristics for designing enjoyable user interfaces: lessons from computer games
+#@ Thomas W. Malone
+#t 1984
+#c Human factors in computer systems
+
+#index 311
+#* Learning to use a word processor: by doing, by thinking, and by knowing
+#@ John M. Carroll;Robert L. Mack
+#t 1984
+#c Human factors in computer systems
+
+#index 312
+#* Stochastic modeling of individual resource consumption during the programming phase of software development
+#@ Daniel G. McNicholl;Kenneth Magel
+#t 1984
+#c Human factors in computer systems
+
+#index 313
+#* An empirical investigation of the tacit plan knowledge in programming
+#@ Kate Ehrlich;Elliot Soloway
+#t 1984
+#c Human factors in computer systems
+
+#index 314
+#* An empirical evaluation of software documentation formats
+#@ Sylvia B. Sheppard;John W. Bailey;Elizabeth Kruesi Bailey
+#t 1984
+#c Human factors in computer systems
+
+#index 315
+#* A Multilevel menu-driven user interface: Design and evaluation through simulation
+#@ Ricky E. Savage;James K. Habinek
+#t 1984
+#c Human factors in computer systems
+
+#index 316
+#* Statistical semantics: analysis of the potential performance of keyword information systems
+#@ G W. Furnas;T K. Landauer;L M. Gomez;S T. Dumais
+#t 1984
+#c Human factors in computer systems
+
+#index 317
+#* A Formal Method for the Abstract Specification of Software
+#@ John McLean
+#t 1984
+#c Journal of the ACM (JACM)
+#% 321969
+#% 555375
+#% 764432
+#! An intuitive presentation of the trace method for the abstractspecification of software contains sample specifications, syntacticand semantic definitions of consistency and totalness, methods forproving specifications consistent and total, and a comparison ofthe method with the algebraic approach to specification. Thisintuitive presentation is underpinned by a formal syntax,semantics, and derivation system for the method. Completeness andsoundness theorems establish the correctness of the derivationsystem with respect to the semantics, the coextensiveness of thesyntactic definitions of consistency and totalness with theirsemantic counterparts, and the correctness of the proof methodspresented. Areas for future research are discussed.
+
+#index 318
+#* On the Optimal Solution of Large Linear Systems
+#@ J. F. Traub;H. Woźniakowski
+#t 1984
+#c Journal of the ACM (JACM)
+#! The information-based study of the optimal solution of largelinear systems is initiated by studying the case of Krylovinformation. Among the algorithms that use Krylov information areminimal residual, conjugate gradient, Chebyshev, and successiveapproximation algorithms. A "sharp" lower bound on the number ofmatrix-vector multiplications required to compute anå-approximation is obtained for any orthogonally invariantclass of matrices. Examples of such classes include many ofpractical interest such as symmetric matrices, symmetric positivedefinite matrices, and matrices with bounded condition number. Itis shown that the minimal residual algorithm is within at most onematrix-vector multiplication of the lower bound. A similar resultis obtained for the generalized minimal residual algorithm. Thelower bound is computed for certain classes of orthogonallyinvariant matrices. How the lack of certam properties (symmetry,positive definiteness) increases the lower bound is shown. Aconjecture and a number of open problems are stated.
+
+#index 319
+#* The Format Model: A Theory of database Organization
+#@ Richard Hull;Chee K. Yap
+#t 1984
+#c Journal of the ACM (JACM)
+#% 2008
+#% 286831
+#% 286856
+#% 286973
+#% 287333
+#% 287370
+#% 287478
+#% 287631
+#% 287730
+#% 320233
+#% 322880
+#% 341248
+#% 374001
+#% 399235
+#% 408062
+#% 411699
+#% 534064
+#% 566100
+#! A mathematical theory for the study of data representation indatabases is introduced and developed. The theory focuses on threedata constructs (collection, composition and classification)."Formats" with semantically rich yet tractable structure are builtrecursively using these constructs. Using formats, we obtainseveral nontrivial results concerning notions of relativeinformation capacity and restructuring of data sets. As such, theformat model provides a new approach for the formal study of theconstruction of "user views" and other data manipulations indatabases.
+
+#index 320
+#* A Theory of Communicating Sequential Processes
+#@ S. D. Brookes;C. A. R. Hoare;A. W. Roscoe
+#t 1984
+#c Journal of the ACM (JACM)
+#% 318213
+#% 320204
+#% 374130
+#% 408528
+#% 547421
+#% 555362
+#% 565838
+#% 566545
+#% 566550
+#% 680047
+#% 689431
+#! A mathematical model for communicating sequential processes isgiven, and a number of its interesting and useful properties arestated and proved. The possibilities of nondetermimsm are fullytaken into account.
+
+#index 321
+#* Highly available systems for database applications
+#@ Won Kim
+#t 1984
+#c ACM Computing Surveys (CSUR)
+#% 117
+#% 317986
+#% 317987
+#% 317988
+#% 481901
+#% 598405
+#! As users entrust more and more of their applications to computersystems, the need for systems that are continuously operational (24hours per day) has become even greater. This paper presents asurvey and analysis of representative architectures and techniquesthat have been developed for constructing highly available systemsfor database applications. It then proposes a design of adistributed software subsystem that can serve as a unifiedframework for constructing database application systems that meetvarious requirements for high availability.
+
+#index 322
+#* Multiple-access protocols and time-constrained communication
+#@ James F. Kurose;Mischa Schwartz;Yechiam Yemini
+#t 1984
+#c ACM Computing Surveys (CSUR)
+#% 289077
+#% 319742
+#% 320813
+#% 371812
+#% 375219
+#% 597098
+#% 597889
+#% 598866
+#% 599501
+#% 601348
+#% 688998
+#% 691242
+#% 786913
+#% 835744
+#! During the past ten years, the field of multiple-accesscommunication has developed into a major area of both practical andtheoretical interest within the field of computer communications.The multiple-access problem arises from the necessity of sharing asingle communication channel among a community of distributedusers. The distributed algorithm used by the stations to share thechannel is known as the multiple-access protocol. In this paper weexamine the multiple-access problem and various approaches to itsresolution.In this survey we first define the multiple-access problem andthen present the underlying issues and difficulties in achievingmultiple-access communication. A taxonomy for multiple-accessprotocols is then developed in order to characterize commonapproaches and to provide a framework within which these protocolscan be compared and contrasted. Different proposed protocols arethen described and discussed, and aspects of their performance areexamined. The use of multiple-access protocols for "real- time" or"time-constrained" communication applications, such as voicetransmission, is examined next. Issues in time-constrainedcommunication are identified, and recent work in the design oftime-constrained multiple-access protocols is surveyed.
+
+#index 323
+#* Local networks
+#@ William Stallings
+#t 1984
+#c ACM Computing Surveys (CSUR)
+#% 319035
+#% 320813
+#% 374513
+#% 377198
+#% 377721
+#% 598859
+#% 598866
+#% 601348
+#! The rapidly evolving field of local network technology hasproduced a steady stream of local network products in recent years.The IEEE 802 standards that are now taking shape, because of theircomplexity, do little to narrow the range of alternative technicalapproaches and at the same time encourage more vendors into thefield. The purpose of this paper is to present a systematic,organized overview of the alternative architectures for and designapproaches to local networks.The key elements that determine the cost and performance of alocal network are its topology, transmission medium, and mediumaccess control protocol. Transmission media include twisted pair,baseband and broadband coaxial cable, and optical fiber. Topologiesinclude bus, tree, and ring. Medium access control protocolsinclude CSMA/CD, token bus, token ring, register insertion, andslotted ring. Each of these areas is examined in detail,comparisons are drawn between competing technologies, and thecurrent status of standards is reported.
+
+#index 324
+#* Generating language-based environments
+#@ Thomas W. Reps
+#t 1984
+#c Generating language-based environments
+
+#index 325
+#* Computers and penal legislation: a study of the legal politics of a new technology
+#@ Stein Schjolberg
+#t 1984
+#c Computers and penal legislation: a study of the legal politics of a new technology
+
+#index 326
+#* Sources and development of mathematical software
+#@ Wayne R. Cowell
+#t 1984
+#c Sources and development of mathematical software
+
+#index 327
+#* Faster methods for random sampling
+#@ Jeffrey Scott Vitter
+#t 1984
+#c Communications of the ACM
+#% 36360
+#% 243299
+#% 317449
+#% 327423
+#! Several new methods are presented for selecting n records at random without replacement from a file containing N records. Each algorithm selects the records for the sample in a sequential manner—in the same order the records appear in the file. The algorithms are online in that the records for the sample are selected iteratively with no preprocessing. The algorithms require a constant amount of space and are short and easy to implement. The main result of this paper is the design and analysis of Algorithm D, which does the sampling in O(n) time, on the average; roughly n uniform random variates are generated, and approximately n exponentiation operations (of the form ab, for real numbers a and b) are performed during the sampling. This solves an open problem in the literature. CPU timings on a large mainframe computer indicate that Algorithm D is significantly faster than the sampling algorithms in use today.
+
+#index 328
+#* Portability and style in ADA
+#@ John Nissen;Peter Wallis
+#t 1984
+#c Portability and style in ADA
+
+#index 329
+#* Minimizing access pointers into trees and arrays
+#@ Michael C. Loui
+#t 1984
+#c Journal of Computer and System Sciences
+
+#index 330
+#* New trie data structures which support very fast search operations
+#@ Dan E. Willard
+#t 1984
+#c Journal of Computer and System Sciences
+
+#index 331
+#* The complexity of monadic recursion schemes: exponential time bounds
+#@ H B. Hunt, III;D J. Rosenkrantz
+#t 1984
+#c Journal of Computer and System Sciences
+
+#index 332
+#* One-layer routing without component constraints
+#@ Errol L. Lloyd;S S. Ravi
+#t 1984
+#c Journal of Computer and System Sciences
+
+#index 333
+#* Advent of electronic digital computing
+#@ John Vincent Atanasoff
+#t 1984
+#c IEEE Annals of the History of Computing
+
+#index 334
+#* The discovery of linear programming
+#@ Robert Dorfman
+#t 1984
+#c IEEE Annals of the History of Computing
+
+#index 335
+#* History of mathematical programming systems
+#@ William Orchard-Hays
+#t 1984
+#c IEEE Annals of the History of Computing
+
+#index 336
+#* Eliciting decision-makers' information requirements: application of the rep test methodology
+#@ Gary Grudnitski
+#t 1984
+#c Journal of Management Information Systems
+
+#index 337
+#* Capturing more meaning in databases
+#@ David Maier
+#t 1984
+#c Journal of Management Information Systems
+
+#index 338
+#* Designing financial information systems for auditability
+#@ Abe Lockman;Naftaly Minsky
+#t 1984
+#c Journal of Management Information Systems
+
+#index 339
+#* A database architecture for supporting business transactions
+#@ Matthias Jarke;Jacob Shalev
+#t 1984
+#c Journal of Management Information Systems
+
+#index 340
+#* Problems in implementing and operating a manufacturing resource planning information system
+#@ James F. Cox;Steven J. Clark
+#t 1984
+#c Journal of Management Information Systems
+
+#index 341
+#* Writing simple program generators: a case study in building productivity tools
+#@ Morton Norman;Amador Muriel
+#t 1984
+#c Journal of Management Information Systems
+
+#index 342
+#* Modelling degrees of item interest for a general database query system
+#@ Neil C. Rowe
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 343
+#* Experimental study of a two-dimensional language vs. FORTRAN for first-course progammers
+#@ Melvin Klerer
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 344
+#* Rough classification
+#@ Zdzislaw Pawlak
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 345
+#* Expressive power of knowledge representation systems
+#@ Ewa Orlowska;Zdzislaw Pawlak
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 346
+#* Preserving the integrity of the medium: a method of measuring visual and auditory comprehension of electronic media
+#@ Mary Alice White;Barbara Sandberg;Eda Behar;Jean Mockler;Elizabeth Perez;Janine Pollack;Kenneth Rosenblad
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 347
+#* SMALLTALK-80: the interactive programming environment
+#@ Adele Goldberg
+#t 1984
+#c SMALLTALK-80: the interactive programming environment
+
+#index 348
+#* Introduction to combinatorial theory
+#@ R C. Bose;B Manvel
+#t 1984
+#c Introduction to combinatorial theory
+
+#index 349
+#* Reinventing man: the robot becomes reality
+#@ Igor Aleksander;Piers Burnett
+#t 1984
+#c Reinventing man: the robot becomes reality
+
+#index 350
+#* Computer applications to private office practice
+#@ Byron B. Oberst;Robert A. Reid
+#t 1984
+#c Computer applications to private office practice
+
+#index 351
+#* Mr. Babbage's secret: the tale of a cypher-and APL
+#@ Ole Immanuel Franksen
+#t 1984
+#c Mr. Babbage's secret: the tale of a cypher-and APL
+
+#index 352
+#* Learning and applying APL
+#@ B Legrand
+#t 1984
+#c Learning and applying APL
+
+#index 353
+#* Determination of the 3D border by repeated elimination of internal surfaces
+#@ H H. Atkinson;I Gargantini;M V.S. Ramanath
+#t 1984
+#c Computing
+
+#index 354
+#* Algorithms for smoothing data on the sphere with tensor product splines
+#@ P. Dierckx
+#t 1984
+#c Computing
+
+#index 355
+#* An optimal algorithm for computing the minimum vertex distance between two crossing convex polygons
+#@ G T. Toussaint
+#t 1984
+#c Computing
+
+#index 356
+#* Advances in data base management, volume II
+#@ E A. Unger;P S. Fisher;Jacob Slonim
+#t 1984
+#c Advances in data base management, volume II
+
+#index 357
+#* Computer simulation in management science
+#@ Michael Pidd
+#t 1984
+#c Computer simulation in management science
+
+#index 358
+#* Coordinated computing: tools and techniques for distributed software
+#@ Robert E. Filman;Daniel P. Friedman
+#t 1984
+#c Coordinated computing: tools and techniques for distributed software
+
+#index 359
+#* Fact-based data analysis and design
+#@ W Kent
+#t 1984
+#c Journal of Systems and Software - Special double issue on the entity-relationship approach to databases and related software
+
+#index 360
+#* Translation of entity-relationship diagrams into relational structures
+#@ Sushil Jajodia;Peter A. Ng
+#t 1984
+#c Journal of Systems and Software - Special double issue on the entity-relationship approach to databases and related software
+
+#index 361
+#* An entity-relationship algebra and its semantic description capabilities
+#@ Victor M. Markowitz;Yoav Raz
+#t 1984
+#c Journal of Systems and Software - Special double issue on the entity-relationship approach to databases and related software
+
+#index 362
+#* Computer aided layout of entity relationship diagrams
+#@ C Batini;M Talamo;R Tamassia
+#t 1984
+#c Journal of Systems and Software - Special double issue on the entity-relationship approach to databases and related software
+
+#index 363
+#* DASS: a data administration support system
+#@ Adolph D'Cunha;T Radhakrishnan
+#t 1984
+#c Journal of Systems and Software - Special double issue on the entity-relationship approach to databases and related software
+
+#index 364
+#* Integrating database and program descriptions using an ER-data dictionary
+#@ Robert W. Marti
+#t 1984
+#c Journal of Systems and Software - Special double issue on the entity-relationship approach to databases and related software
+
+#index 365
+#* ID: an intelligent information dictionary system
+#@ Enrique H. Ruspini;Robert Fraley
+#t 1984
+#c Journal of Systems and Software - Special double issue on the entity-relationship approach to databases and related software
+
+#index 366
+#* Phases, methods, and tools: a triad of system development
+#@ Rodney P. Zimmerman
+#t 1984
+#c Journal of Systems and Software - Special double issue on the entity-relationship approach to databases and related software
+
+#index 367
+#* ISMOS: an experimental database-oriented tool generator
+#@ Shuji Nakata;Go Yamazaki
+#t 1984
+#c Journal of Systems and Software - Special double issue on the entity-relationship approach to databases and related software
+
+#index 368
+#* The design and description of computer architectures
+#@ Subrata Dasgupta
+#t 1984
+#c The design and description of computer architectures
+
+#index 369
+#* American university programs in computer science: their resources, facilities, and course offering
+#@ William W. Lau
+#t 1984
+#c American university programs in computer science: their resources, facilities, and course offering
+
+#index 370
+#* Introduction to computer engineering: hardware and software design (3rd ed.)
+#@ Taylor L. Booth
+#t 1984
+#c Introduction to computer engineering: hardware and software design (3rd ed.)
+
+#index 371
+#* Computation and cognition: toward a foundation for cognitive science
+#@ Zenon W. Pylyshyn
+#t 1984
+#c Computation and cognition: toward a foundation for cognitive science
+
+#index 372
+#* An experiment in document representative modification
+#@ Lorraine M. Purgailis Parker
+#t 1984
+#c Journal of Information Science
+
+#index 373
+#* Downloading: piracy or panacea?
+#@ Mary J. Feeney;Ruth Miller
+#t 1984
+#c Journal of Information Science
+
+#index 374
+#* The Haitun dichotomy and the relevance of Bradford's law
+#@ B C. Brookes
+#t 1984
+#c Journal of Information Science
+
+#index 375
+#* Theory and explanation in information retrieval research
+#@ David Ellis
+#t 1984
+#c Journal of Information Science
+
+#index 376
+#* A fast file system for UNIX
+#@ Marshall K. McKusick;William N. Joy;Samuel J. Leffler;Robert S. Fabry
+#t 1984
+#c ACM Transactions on Computer Systems (TOCS)
+#% 252608
+#% 289254
+#% 318289
+#% 319235
+#% 320903
+#% 321499
+#% 599374
+#% 602589
+#% 602637
+
+#index 377
+#* A security model for military message systems
+#@ Carl E. Landwehr;Constance L. Heitmeyer;John McLean
+#t 1984
+#c ACM Transactions on Computer Systems (TOCS)
+#% 1519
+#% 1547
+#% 317991
+#% 320214
+#% 320629
+#% 602639
+#% 602648
+#% 764439
+
+#index 378
+#* Applications of computer graphics in molecular biology
+#@ R Diamond
+#t 1984
+#c Computer Graphics Forum
+
+#index 379
+#* CAD for intelligent activity of an autonomous submersible system
+#@ G T. Russell;D M. Lane
+#t 1984
+#c Computer Graphics Forum
+
+#index 380
+#* A new method of curve parameterization with applications in computer aided design
+#@ H E. Bez;A Filipe
+#t 1984
+#c Computer Graphics Forum
+
+#index 381
+#* A functional approach to picture manipulation
+#@ K Arya
+#t 1984
+#c Computer Graphics Forum
+
+#index 382
+#* The Winchester graphics system: a technical overview
+#@ T R. Heywood;B N. Galton;J Gillett;A J. Morffew;P Quarendon;S J. P. Todd;W V. Wright
+#t 1984
+#c Computer Graphics Forum
+
+#index 383
+#* Managing multiple context-frames through GKS
+#@ I Herman
+#t 1984
+#c Computer Graphics Forum
+
+#index 384
+#* Computer capacity: a production control approach
+#@ Melvin J. Strauss
+#t 1981
+#c Computer capacity: a production control approach
+
+#index 385
+#* Telecommunications for management
+#@ Charles T. Meadow;Albert S. Tedesco
+#t 1984
+#c Telecommunications for management
+
+#index 386
+#* Essential systems analysis
+#@ Stephen M. McMenamin;John F. Palmer
+#t 1984
+#c Essential systems analysis
+
+#index 387
+#* Discrete random process stabilization
+#@ Aivar A. Lorenc;Janis K. Lapins
+#t 1984
+#c Information and Control
+
+#index 388
+#* Patterns and pattern-matching in trees: an analysis
+#@ Jean-Marc Steyaert;Philippe Flajolet
+#t 1984
+#c Information and Control
+
+#index 389
+#* Nontrivial definability by flow-chart programs
+#@ Pawel Urzyczyn
+#t 1984
+#c Information and Control
+
+#index 390
+#* Relativizations comparing NP and exponential time
+#@ W Ian Gasarch;Steven Homer
+#t 1984
+#c Information and Control
+
+#index 391
+#* The complexity of evaluating relational queries
+#@ Stavros S. Cosmadakis
+#t 1984
+#c Information and Control
+
+#index 392
+#* Parallel computation for well-endowed rings and space-bounded probabilistic machines
+#@ A Borodin;S Cook;N Pippenger
+#t 1984
+#c Information and Control
+
+#index 393
+#* Area-time optimal VLSI integer multiplier with minimum computation time
+#@ Kurt Mehlhorn;Franco P. Preparata
+#t 1984
+#c Information and Control
+
+#index 394
+#* On the computational complexity of ordinary differential equations
+#@ Ker-I Ko
+#t 1984
+#c Information and Control
+
+#index 395
+#* Colour gradation, shading and texture using a limited terminal
+#@ N Magnetat-Thalmann;N Chourout;D Thalmann
+#t 1984
+#c Computer Graphics Forum
+
+#index 396
+#* IDECAP: interactive pictorial information system for demographic and environmental planning applications
+#@ J van den Bos;M van Naelten;W Teunissen
+#t 1984
+#c Computer Graphics Forum
+
+#index 397
+#* The logic designer's guidebook
+#@ E A. Parr
+#t 1984
+#c The logic designer's guidebook
+
+#index 398
+#* An ordered minimal perfect hashing scheme based upon Euler's theorem
+#@ C C. Chang
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 399
+#* Towards a general theory of action and time
+#@ James F. Allen
+#t 1984
+#c Artificial Intelligence
+
+#index 400
+#* Foundations of a functional approach to knowledge representation.
+#@ Hector J. Levesque
+#t 1984
+#c Artificial Intelligence
+
+#index 401
+#* Detection of surface orientation and motion from texture by a stereoogical technique.
+#@ K Kanatani
+#t 1984
+#c Artificial Intelligence
+
+#index 402
+#* Optimal speeding up of parallel algorithms based upon the divide-and-conquer strategy.
+#@ C. Y. Tang;R. C. T. Lee
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 403
+#* A generalized class of certainty and information measures.
+#@ J. C. A. Van Der Lubbe;D. E. Boekee
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 404
+#* Sequence acquistion using bit estimation techniques.
+#@ Gordon Stuber;Jon W. Mark;Ian F. Blake
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 405
+#* "NP-P?" and restricted partitions.
+#@ Zhang Guo-Qiang
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 406
+#* AM: A case study in AI methodology.
+#@ G. D. Ritchie;F. K. Hanna
+#t 1984
+#c Artificial Intelligence
+
+#index 407
+#* Why AM an EUISKO appear to work.
+#@ Douglas B. Lenat;John Seely Brown
+#t 1984
+#c Artificial Intelligence
+
+#index 408
+#* A polymorphic type system for PROLOG.
+#@ Alan Mycroft;Richard A. O'Keefe
+#t 1984
+#c Artificial Intelligence
+
+#index 409
+#* Comutations underlying the measuremnt of visual motion.
+#@ Ellen C. Hildreth
+#t 1984
+#c Artificial Intelligence
+
+#index 410
+#* A software law primer.
+#@ Frederic William Neitzke
+#t 1984
+#c A software law primer.
+
+#index 411
+#* Proc. of the international symposium on Semantics of data types
+#@ Gilles Kahn;David B. MacQueen;Gordon Plotkin
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 412
+#* A kernel language for abstract data types and modules.
+#@ R. Burstall;B. Lampson
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 413
+#* A semantics of multiple inheritance.
+#@ Luca Cardelli
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 414
+#* Understanding Russell–a first attempt
+#@ James G. Hook
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 415
+#* A basic abstract semantic algebra
+#@ Peter Mosses
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 416
+#* The semantics of second order polymorphic lambda calculus.
+#@ Kim B. Bruce;Albert R. Meyer
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 417
+#* A theory of data type representation independence.
+#@ Christopher T. Haynes
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 418
+#* Deriving structural induction in LCF.
+#@ Lawrence Paulson
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 419
+#* Type inference and type containment.
+#@ John Mitchell
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 420
+#* The typechecking of programs with implicit type structure.
+#@ Nancy McCracken
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 421
+#* Partial implementations of abstract data types: a dissenting view on errors.
+#@ Samuel Kamin;Myla Archer
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 422
+#* Building specifications in an arbitrary institution
+#@ Donald Sannella;Andrzej Tarlecki
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 423
+#* A proof system for verifying composability of abstract implementation.
+#@ Fernando Orejas
+#t 1984
+#c Proc. of the international symposium on Semantics of data types
+
+#index 424
+#* Dataflow computation
+#@ A P.W. Bohm
+#t 1984
+#c Dataflow computation
+
+#index 425
+#* Software defect removal
+#@ Robert Dunn
+#t 1984
+#c Software defect removal
+
+#index 426
+#* Readings in medical artificial intelligence: the first decade
+#@ William J. Clancey;Edward H. Shortliffe
+#t 1984
+#c Readings in medical artificial intelligence: the first decade
+
+#index 427
+#* Deterministic two-way one-head pushdown automata are very powerful
+#@ B Monien
+#t 1984
+#c Information Processing Letters - Lecture Notes in Computer Science, no. 173
+
+#index 428
+#* Multiserialization of iterated transactions
+#@ M P. Fle;G Roucairol
+#t 1984
+#c Information Processing Letters - Lecture Notes in Computer Science, no. 173
+
+#index 429
+#* An analytical comparison of two string searching algorithms
+#@ Gerhard Barth
+#t 1984
+#c Information Processing Letters - Lecture Notes in Computer Science, no. 173
+
+#index 430
+#* A note on lossless database decompositions
+#@ Moshe Y. Vardi
+#t 1984
+#c Information Processing Letters - Lecture Notes in Computer Science, no. 173
+
+#index 431
+#* Scheduling independent 2-processor tasks to minimize schedule length
+#@ J Blazewicz;J Weglarz;M Drabowski
+#t 1984
+#c Information Processing Letters - Lecture Notes in Computer Science, no. 173
+
+#index 432
+#* Some equivalent transformations of recursive programs based on their schematic properties
+#@ M B. Trakhtenbrot
+#t 1984
+#c Information Processing Letters - Lecture Notes in Computer Science, no. 173
+
+#index 433
+#* Some negative results concerning DPDAs
+#@ Bruno Courcelle
+#t 1984
+#c Information Processing Letters - Lecture Notes in Computer Science, no. 173
+
+#index 434
+#* On the consecutive retrieval property for generalized binary queries
+#@ Shinsei Tazawa
+#t 1984
+#c Information Processing Letters - Lecture Notes in Computer Science, no. 173
+
+#index 435
+#* A storage-size selection problem
+#@ D K. Friesen;M A. Langston
+#t 1984
+#c Information Processing Letters - Lecture Notes in Computer Science, no. 173
+
+#index 436
+#* Programmed deallocation without dangling reference
+#@ Gianna Cioni;Antoni Kreczmar
+#t 1984
+#c Information Processing Letters
+
+#index 437
+#* A priority queue for the all pairs shortest path problem
+#@ Alistair Moffat;Tadao Takaoka
+#t 1984
+#c Information Processing Letters
+
+#index 438
+#* The L(subscript 1) traveling salesman problem
+#@ Donald C.S. Allison;M T. Noga
+#t 1984
+#c Information Processing Letters
+
+#index 439
+#* A simple linear-time algorithm for in situ merging
+#@ Heikki Mannila;Esko Ukkonen
+#t 1984
+#c Information Processing Letters
+
+#index 440
+#* A new combination of input and unit deductions for Horn sentences
+#@ Susumu Yamasaki;Mikio Yoshida;Shuji Doshita;Mikito Hirata
+#t 1984
+#c Information Processing Letters
+
+#index 441
+#* Fairness and conspiracies
+#@ Eike Best
+#t 1984
+#c Information Processing Letters
+
+#index 442
+#* On verification of programs with goto statements
+#@ Vladimir Lifschitz
+#t 1984
+#c Information Processing Letters
+
+#index 443
+#* Computer and Control Abstracts
+#@ 
+#t 1984
+#c Computer and Control Abstracts
+
+#index 444
+#* A fast voronoi-diagram algorithm with quaternary tree bucketing
+#@ Takao Ohya;Masao Iri;Kazuo Murota
+#t 1984
+#c Information Processing Letters
+
+#index 445
+#* Functional dependencies in relations with null values
+#@ Paolo Atzeni;Nicola M. Morfuni
+#t 1984
+#c Information Processing Letters
+
+#index 446
+#* How can we speed up matrix multiplication?
+#@ Victor Pan
+#t 1984
+#c SIAM Review
+
+#index 447
+#* Quantitative relativizations of complexity classes
+#@ Ronald V. Book;Timothy J. Long;Alan L. Selman
+#t 1984
+#c SIAM Journal on Computing
+
+#index 448
+#* Convex partitions of polyhedra: a lower bound and worst-case optimal algorithm
+#@ Bernard Chazelle
+#t 1984
+#c SIAM Journal on Computing
+
+#index 449
+#* Consistency and serializability in concurrent database systems
+#@ D J. Rosenkrantz;R E. Stearns;P M. Lewis, II
+#t 1984
+#c SIAM Journal on Computing
+
+#index 450
+#* A mathematical model for the verification of systolic networks
+#@ Rami G. Melhem;Werner C. Rheinboldt
+#t 1984
+#c SIAM Journal on Computing
+
+#index 451
+#* Simple linear-time algorithms to test chordality of graphs, test acyclicity of hypergraphs, and selectively reduce acyclic hypergraphs
+#@ Robert E. Tarjan;Mihalis Yannakakis
+#t 1984
+#c SIAM Journal on Computing
+
+#index 452
+#* Efficient parallel algorithms for a class of graph theoretic problems
+#@ Yung H. Tsin;Francis Y. Chin
+#t 1984
+#c SIAM Journal on Computing
+
+#index 453
+#* Insertion and compaction algorithms in sequentially allocated storage
+#@ B S. Baker;E G. Coffman, Jr.
+#t 1984
+#c SIAM Journal on Computing
+
+#index 454
+#* Movement problems for 2-dimensional linkages
+#@ John Hopcroft;Deborah Joseph;Sue Whitesides
+#t 1984
+#c SIAM Journal on Computing
+
+#index 455
+#* On the optimum checkpoint selection problem
+#@ Sam Toueg;Özalp Babaoğlu
+#t 1984
+#c SIAM Journal on Computing
+
+#index 456
+#* On some variants of the bandwidth minimization problem
+#@ Joseph Y-T. Leung;Oliver Vornberger;James D. Witthoff
+#t 1984
+#c SIAM Journal on Computing
+
+#index 457
+#* A tutorial on the construction and operation of a high-quality audio conversion system
+#@ Louis C. Barbeau;M J. Corinthios
+#t 1984
+#c Computer Music Journal
+
+#index 458
+#* The making of octuor
+#@ Horacio Vaggione
+#t 1984
+#c Computer Music Journal
+
+#index 459
+#* Synchronizing shared abstract types
+#@ Peter M. Schwarz;Alfred Z. Spector
+#t 1984
+#c ACM Transactions on Computer Systems (TOCS)
+#% 287220
+#% 289399
+#% 317987
+#% 317988
+#% 320388
+#% 320902
+#% 321582
+#% 324037
+#% 411565
+#% 411601
+#% 534393
+#% 602800
+#% 602802
+#% 602943
+#% 604297
+#% 786914
+
+#index 460
+#* A model-management framework for mathematical programming
+#@ Kenneth H. Palmer;N. K. Boudwin;Helen A. Patton;Jeremy D. Sammes;A J. Rowland;David M. Smith
+#t 1984
+#c A model-management framework for mathematical programming
+
+#index 461
+#* A collocation method for boundary value problems of differential equations with functional arguments
+#@ A. Bellen;M. Zennaro
+#t 1984
+#c Computing
+
+#index 462
+#* The PHS protocol
+#@ Michael Purser;Chris Horn;John Sheehan
+#t 1984
+#c Software—Practice & Experience
+
+#index 463
+#* Experience with a portable debugging tool
+#@ Joseph L. Steffen
+#t 1984
+#c Software—Practice & Experience
+
+#index 464
+#* A methodology and notation for compiler front end design
+#@ Cynthia A. Brown;Paul W. Purdom, Jr.
+#t 1984
+#c Software—Practice & Experience
+
+#index 465
+#* Attributed linear intermediate representations for retargetable code generators
+#@ Mahadevan Ganapathi;Charles N. Fischer
+#t 1984
+#c Software—Practice & Experience
+
+#index 466
+#* Immediate files
+#@ Sape J. Mullender;Andrew S. Tanenbaum
+#t 1984
+#c Software—Practice & Experience
+
+#index 467
+#* Guarded and unguarded coroutines: an implementation in BCPL
+#@ A J. Fisher
+#t 1984
+#c Software—Practice & Experience
+
+#index 468
+#* Mixed language programming
+#@ Bo Einarsson;W. Morven Gentleman
+#t 1984
+#c Software—Practice & Experience
+
+#index 469
+#* The handbook of computers and computing
+#@ Arthur H. Seidman;Ivan Flores
+#t 1984
+#c The handbook of computers and computing
+
+#index 470
+#* An architecture for object management in OIS
+#@ Matts Ahlsen;Anders Bjornerstedt;Stefan Britts;Christer Hulten;Lars Soderlund
+#t 1984
+#c ACM Transactions on Information Systems (TOIS)
+#% 80
+#% 103
+#% 282431
+#% 286831
+#% 287333
+#% 287631
+#% 287730
+#% 317871
+#% 318460
+#% 319277
+#% 319367
+#% 319580
+#% 319810
+#% 320229
+#% 320388
+#% 320477
+#% 320647
+#% 324037
+#% 411663
+#% 411744
+#% 602560
+#% 602671
+#% 674457
+#% 750935
+#% 836047
+
+#index 471
+#* SYSTEM/U: a database system based on the universal relation assumption
+#@ Henry F. Korth;Gabriel M. Kuper;Joan Feigenbaum;Allen van Gelder;Jeffrey D. Ullman
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 286995
+#% 287082
+#% 287316
+#% 287631
+#% 287664
+#% 287667
+#% 287677
+#% 289424
+#% 374001
+#% 415999
+#% 416014
+#% 416021
+#% 671773
+#! System/U is a universal relation database system under development at Standford University which uses the language C on UNIX. The system is intended to test the use of the universal view, in which the entire database is seen as one relation. This paper describes the theory behind System/U, in particular the theory of maximal objects and the connection between a set of attributes. We also describe the implementation of the DDL (Data Description Language) and the DML (Data Manipulation Language), and discuss in detail how the DDL finds maximal objects and how the DML determines the connection between the attributes that appear in a query.
+
+#index 472
+#* Software portability and standards
+#@ Ingemar Dahlstrand
+#t 1984
+#c Software portability and standards
+
+#index 473
+#* Performance of heuristics for a computer resource allocation problem
+#@ Michael A. Langston
+#t 1984
+#c SIAM Journal on Algebraic and Discrete Methods
+
+#index 474
+#* Layouts for the shuffle-exchange graph based on the complex plane diagram
+#@ Frank Thomson Leighton;Margaret Lepley;Gary L. Miller
+#t 1984
+#c SIAM Journal on Algebraic and Discrete Methods
+
+#index 475
+#* An investigation into the skeletonization approach of Hilditch
+#@ Nabil Jean Naccache;Rajjan Shinghal
+#t 1984
+#c Pattern Recognition
+
+#index 476
+#* Linear quadtrees: a blocking technique for contour filling
+#@ I Gargantini;H H. Atkinson
+#t 1984
+#c Pattern Recognition
+
+#index 477
+#* Fingerprint pattern classification
+#@ Masahiro Kawagoe;Akio Tojo
+#t 1984
+#c Pattern Recognition
+
+#index 478
+#* 2D object acquisition using circular scanning
+#@ George C. Stockman;Paul Morawski
+#t 1984
+#c Pattern Recognition
+
+#index 479
+#* A formulation and comparison of two linear feature selection techniques applicable to statistical classification
+#@ Dean M. Young;Patrick L. Odell
+#t 1984
+#c Pattern Recognition
+
+#index 480
+#* A linear time algorithm for computing the convex hull of an ordered crossing polygon
+#@ S K. Ghosh;R K. Shyamasundar
+#t 1984
+#c Pattern Recognition
+
+#index 481
+#* A decision theoretic approach to hierarchical classifier design
+#@ Juergen Schuermann;Wolfgang Doster
+#t 1984
+#c Pattern Recognition
+
+#index 482
+#* Robots: planning and implementation
+#@ Chris Morgan
+#t 1984
+#c Robots: planning and implementation
+
+#index 483
+#* A framework for the creation and management of national computing strategies in developing countries
+#@ A El Sayed Noor
+#t 1984
+#c The Computer Journal
+
+#index 484
+#* Specifying integrity constraints in a network DBMS
+#@ Naveen Prakash;Parimala N;N Bolloju
+#t 1984
+#c The Computer Journal
+
+#index 485
+#* Hash trees versus b-trees
+#@ D A. Bell;S M. Deen
+#t 1984
+#c The Computer Journal
+
+#index 486
+#* Proof of correctness of decision table programs
+#@ Art Lew
+#t 1984
+#c The Computer Journal
+
+#index 487
+#* The measurement of locality and the behaviour of programs
+#@ Richard B. Bunt;Jennifer M. Murphy
+#t 1984
+#c The Computer Journal
+
+#index 488
+#* Architectural considerations of the parallel SIMULA machine
+#@ M P. Papazoglou;P I. Georgiadis;D G. Maritsas
+#t 1984
+#c The Computer Journal
+
+#index 489
+#* Sorting a random access file in situ
+#@ H W. Six;L Wegner
+#t 1984
+#c The Computer Journal
+
+#index 490
+#* The worst case permutation for median-of-three quicksort
+#@ Hannu Erkio
+#t 1984
+#c The Computer Journal
+
+#index 491
+#* Teleconferencing and beyond: communications in the office of the future
+#@ Robert Johansen
+#t 1984
+#c Teleconferencing and beyond: communications in the office of the future
+
+#index 492
+#* Problem oriented programming languages
+#@ Hans Jurgen Schneider
+#t 1984
+#c Problem oriented programming languages
+
+#index 493
+#* A systematic approach to language constructs for concurrent programs
+#@ Manfred Broy;Friedrich L. Bauer
+#t 1984
+#c Science of Computer Programming
+
+#index 494
+#* Partial correctness: the term-wise approach
+#@ Stefan Sokolowski
+#t 1984
+#c Science of Computer Programming
+
+#index 495
+#* A proof system for concurrent ADA programs
+#@ Rob Gerth;Willem P. De Roever
+#t 1984
+#c Science of Computer Programming
+
+#index 496
+#* Supporting control definition in programming languages
+#@ Marco Colombetti;Giovanni Guida
+#t 1984
+#c Computer Languages
+
+#index 497
+#* Using FP as a query language for relational data-bases
+#@ Annalisa Bossi;Carlo Ghezzi
+#t 1984
+#c Computer Languages
+
+#index 498
+#* A new programming environment with a multi-display terminal and early experiences with it
+#@ Yoshihisa Mano;Kazuhito Ohmaki;Koji Torii
+#t 1984
+#c Computer Languages
+
+#index 499
+#* A survey of syntactic error recovery and repair
+#@ K Hammomd;V J. Rayward-Smith
+#t 1984
+#c Computer Languages
+
+#index 500
+#* Evolutionary trends in poetic style: the case of English metaphysical poetry
+#@ Colin Martindale
+#t 1984
+#c Computers and the Humanities
+
+#index 501
+#* The authorship of "a lover's complaint": an application of statistical stylometry to poetry
+#@ M W.A. Smith
+#t 1984
+#c Computers and the Humanities
+
+#index 502
+#* Machine translation in the U.S.S.R.
+#@ Yu N. Marchuk
+#t 1984
+#c Computers and the Humanities
+
+#index 503
+#* Computer-assisted instruction as an integral part of a first-semester French curriculum
+#@ Theodore E.D. Braun;George W. Mulford
+#t 1984
+#c Computers and the Humanities
+
+#index 504
+#* An acceptance-complement analogue of the mixture-plus-acceptance-rejection method for generating random variables
+#@ Richard A. Kronmal;Arthur V. Peterson, Jr.
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 234905
+#% 320259
+#% 320815
+#% 323920
+
+#index 505
+#* A program complex for solving systems of linear algebraic equations
+#@ I N. Molchanov;V S. Zubatenko;L D. Nikolenko;M F. Yakovlev
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 835727
+#% 837646
+
+#index 506
+#* Design and data structure of fully adaptive, multigrid, finite-element software
+#@ Maria-Cecilia Rivara
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 234905
+#% 317365
+#% 317434
+#% 317543
+#% 408159
+#% 685949
+
+#index 507
+#* Resolving the query inference problem using Steiner trees
+#@ Joseph A. Wald;Paul G. Sorenson
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 471
+#% 1877
+#% 286995
+#% 287031
+#% 287082
+#% 287250
+#% 287631
+#% 287664
+#% 289282
+#% 408638
+#% 411719
+#% 411724
+#% 416021
+#% 534217
+#% 534227
+#! The query inference problem is to translate a sentence of a query language into an unambiguous representation of a query. A query is represented as an expression over a set of query trees. A metric is introduced for measuring the complexity of a query and also a proposal that a sentence be translated into the least complex query which “satisfies” the sentence. This method of query inference can be used to resolve ambiguous sentences and leads to easier formulation of sentences.
+
+#index 508
+#* Procedures for optimization problems with a mixture of bounds and general linear constraints
+#@ Philip E. Gill;Walter Murray;Michael A. Saunders;Margaret H. Wright
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 51749
+#% 317394
+
+#index 509
+#* Data communications: a comprehensive approach
+#@ Gilbert Held;Ray Sarch
+#t 1984
+#c Data communications: a comprehensive approach
+
+#index 510
+#* A book on C
+#@ Al Kelley;Ira Pohl
+#t 1984
+#c A book on C
+
+#index 511
+#* Data administration: a practical guide to successful data management
+#@ William R. Durell
+#t 1984
+#c Data administration: a practical guide to successful data management
+
+#index 512
+#* Recursive linear hashing
+#@ K Ramamohanarao;R Sacks-Davis
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 287020
+#% 482041
+#! A modification of linear hashing is proposed for which the conventional use of overflow records is avoided. Furthermore, an implementation of linear hashing is presented for which the amount of physical storage claimed is only fractionally more than the minimum required. This implementation uses a fixed amount of in-core space. Simulation results are given which indicate that even for storage utilizations approaching 95 percent, the average successful search cost for this method is close to one disk access.
+
+#index 513
+#* An experimental evaluation of delimiters in a command language syntax
+#@ M. L. Schneider;K. Hirsh-Pasek;S. Nudelman
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 514
+#* On the complexity of recursion in problem-solving
+#@ M C. Er
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 515
+#* An experimental comparison of tabular and graphic data presentation
+#@ Matthew Powers;Conda Lashley;Pamela Sanchez;Ben Shneiderman
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 516
+#* A description of structural change in a central place system: a speculation using q-analysis
+#@ John R. Beaumont
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 517
+#* Cluster analysis and Q-analysis
+#@ S M. Macgill
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 518
+#* Statistical failure analysis of system timing
+#@ Fred M. Armstrong;Mark R. Reiter;David R. Tryon
+#t 1984
+#c IBM Journal of Research and Development
+#% 596895
+#% 598477
+#% 598479
+#% 599290
+#% 600163
+#% 600668
+#% 605217
+
+#index 519
+#* Measures of ideal execution architectures
+#@ Michael J. Flynn;Lee W. Hoevel
+#t 1984
+#c IBM Journal of Research and Development
+#% 288707
+#% 289071
+#% 320094
+#% 375391
+#% 1010810
+#% 1137023
+
+#index 520
+#* All points addressable raster display memory
+#@ Frederick H. Dill;Satish Gupta;Daniel T. Ling;Richard E. Matick
+#t 1984
+#c IBM Journal of Research and Development
+#% 318368
+#% 323493
+
+#index 521
+#* Empty arrays in extended APL
+#@ Donald L. Orth
+#t 1984
+#c IBM Journal of Research and Development
+#% 319759
+#% 399242
+#% 414757
+#% 597422
+#% 598447
+#% 600641
+#% 601448
+
+#index 522
+#* Software reliability analysis models
+#@ Mitsuru Ohba
+#t 1984
+#c IBM Journal of Research and Development
+#% 1014072
+
+#index 523
+#* The digital data exchange--a space-division switching system
+#@ Emil Hopner;Michael Allen Patten
+#t 1984
+#c IBM Journal of Research and Development
+#% 374791
+
+#index 524
+#* Aspects of the traveling salesman problem
+#@ Michael Held;Alan J. Hoffman;Ellis Lane Johnson;Philip Wolfe
+#t 1984
+#c IBM Journal of Research and Development
+
+#index 525
+#* On the fixpoints of nondeterministic recursive definitions
+#@ Tsong Yueh Chen
+#t 1984
+#c Journal of Computer and System Sciences
+
+#index 526
+#* Consistency in nondeterministic storage
+#@ Walter J. Savitch;Patrick W. Dymond
+#t 1984
+#c Journal of Computer and System Sciences
+
+#index 527
+#* Information Technology Research Development Applications
+#@ C. J. van Rijsbergen
+#t 1984
+#c Information Technology Research Development Applications
+
+#index 528
+#* Computer animation primer
+#@ David Fox;Mitchell Waite
+#t 1984
+#c Computer animation primer
+
+#index 529
+#* CLU reference manual
+#@ B Liskov;E Moss;A Snyder;R Atkinson;J C. Schaffert;T Bloom;R Scheifler
+#t 1984
+#c CLU reference manual
+
+#index 530
+#* The engineering of numerical software
+#@ Webb Miller
+#t 1984
+#c The engineering of numerical software
+
+#index 531
+#* Computer-aided selection of ISO manufacturing limits for interference fit joints
+#@ A G. Lagodimos;E Manolakos
+#t 1984
+#c Computers in Industry
+
+#index 532
+#* Microcomputer real-time multi-tasking operating systems in control applications
+#@ H N. Koivo;A Peltomaa
+#t 1984
+#c Computers in Industry
+
+#index 533
+#* Experience with the development and use of a CAD/CAM system
+#@ J Stark
+#t 1984
+#c Computers in Industry
+
+#index 534
+#* Graphic design for computer graphics
+#@ Aaron Marcus
+#t 1984
+#c Computers in Industry
+
+#index 535
+#* CAD/CAM: electrical engineering education
+#@ 
+#t 1984
+#c Computers in Industry
+
+#index 536
+#* Extension of the Banker's algorithm for resource allocation in a distributed operating system
+#@ Hari Madduri;Raphael Finkel
+#t 1984
+#c Information Processing Letters
+
+#index 537
+#* On converting character strings to integers
+#@ J R. Parker
+#t 1984
+#c Information Processing Letters
+
+#index 538
+#* On the use of extendible hashing without hashing
+#@ Ulrich Bechtold;Klaus Kuspert
+#t 1984
+#c Information Processing Letters
+
+#index 539
+#* Minimizing completion time for a class of scheduling problems
+#@ Ulrich Faigle;Rainer Schrader
+#t 1984
+#c Information Processing Letters
+
+#index 540
+#* On the power of real-time two-way multihead finite automata with jumps
+#@ Walter J. Savitch;Paul M.B. Vitanyi
+#t 1984
+#c Information Processing Letters
+
+#index 541
+#* Dominating sets for split and bipartite graphs
+#@ Alan A. Bertossi
+#t 1984
+#c Information Processing Letters
+
+#index 542
+#* On embedding functions in logic
+#@ P A. Subrahmanyam;J.-H You
+#t 1984
+#c Information Processing Letters
+
+#index 543
+#* An optimal algorithm for parallel selection
+#@ Selim G. Akl
+#t 1984
+#c Information Processing Letters
+
+#index 544
+#* Comments, conjectures, and conclusions
+#@ 
+#t 1984
+#c Journal of Statistical Computation and Simulation
+
+#index 545
+#* A computer and communications network performance analysis primer
+#@ B W. Stuck;E Arthurs
+#t 1984
+#c A computer and communications network performance analysis primer
+
+#index 546
+#* Into the heart of the mind: an American quest for artificial intelligence
+#@ Frank Rose
+#t 1984
+#c Into the heart of the mind: an American quest for artificial intelligence
+
+#index 547
+#* Three degrees above zero: Bell Labs in the information age
+#@ Jeremy Bernstein
+#t 1984
+#c Three degrees above zero: Bell Labs in the information age
+
+#index 548
+#* Methods and applications of error-free computation
+#@ R T. Gregory;E V. Krishnamurthy
+#t 1984
+#c Methods and applications of error-free computation
+
+#index 549
+#* Graph algorithms and NP-completeness
+#@ Kurt Mehlhorn
+#t 1984
+#c Graph algorithms and NP-completeness
+
+#index 550
+#* On the selection of efficient record segmentations and backup strategies for large shared databases
+#@ Salvatore T. March;Gary D. Scudder
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 287019
+#% 287672
+#% 287722
+#% 287741
+#% 287757
+#% 289043
+#% 317876
+#% 317894
+#% 317986
+#% 317988
+#% 318032
+#% 320113
+#% 320804
+#% 346821
+#% 346894
+#% 407996
+#% 411562
+#% 686168
+#% 686946
+#% 688060
+#! In recent years the information processing requirements of business organizations have expanded tremendously. With this expansion, the design of databases to efficiently manage and protect business information has become critical. We analyze the impacts of record segmentation (the assignment of data items to segments defining subfiles), an efficiency-oriented design technique, and of backup and recovery strategies, a data protection technique, on the overall process of database design. A combined record segmentation/backup and recovery procedure is presented and an application of the procedure is discussed. Results in which problem characteristics are varied along three dimensions: update frequencies, available types of access paths, and the predominant type of data retrieval that must be supported by the database, are presented.
+
+#index 551
+#* Task support in an office system
+#@ W Bruce Croft;Lawrence S. Lefkowitz
+#t 1984
+#c ACM Transactions on Information Systems (TOIS)
+#% 317956
+#% 318449
+#% 318450
+#% 318463
+#% 320477
+#% 602581
+
+#index 552
+#* Managing transient internetwork links in the Xerox internet
+#@ Siranush Radicati
+#t 1984
+#c ACM Transactions on Information Systems (TOIS)
+#% 319290
+#% 320813
+#% 598870
+
+#index 553
+#* 38 offices: analyzing needs in individual offices
+#@ Raymond R. Panko
+#t 1984
+#c ACM Transactions on Information Systems (TOIS)
+#% 317956
+#% 602573
+
+#index 554
+#* On the optimal nesting order for computing N-relational joins
+#@ Toshihide Ibaraki;Tiko Kameda
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 2008
+#% 252608
+#% 287300
+#% 287647
+#% 287664
+#% 287667
+#% 289282
+#% 320113
+#% 321250
+#% 322880
+#% 346832
+#% 374001
+#% 408396
+#% 411554
+#% 411688
+#! Using the nested loops method, this paper addresses the problem of minimizing the number of page fetches necessary to evaluate a given query to a relational database. We first propose a data structure whereby the number of page fetches required for query evaluation is substantially reduced and then derive a formula for the expected number of page fetches. An optimal solution to our problem is the nesting order of relations in the evaluation program, which minimizes the number of page fetches. Since the minimization of the formula is NP-hard, as shown in the Appendix, we propose a heuristic algorithm which produces a good suboptimal solution in polynomial time. For the special case where the input query is a “tree query,” we present an efficient algorithm for finding an optimal nesting order.
+
+#index 555
+#* Optimism and consistency in partitioned distributed database systems
+#@ Susan B. Davidson
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 25998
+#% 287220
+#% 287231
+#% 287313
+#% 287799
+#% 289207
+#% 320902
+#% 408396
+#% 408638
+#% 602675
+#% 603821
+#% 649579
+#% 690107
+#% 835742
+#! A protocol for transaction processing during partition failures is presented which guarantees mutual consistency between copies of data-items after repair is completed. The protocol is “optimistic” in that transactions are processed without restrictions during failure; conflicts are then detected at repair time using a precedence graph, and are resolved by backing out transactions according to some backout strategy. The resulting database state then corresponds to a serial execution of some subset of transactions run during the failure. Results from simulation and probabilistic modeling show that the optimistic protocol is a reasonable alternative in many cases. Conditions under which the protocol performs well are noted, and suggestions are made as to how performance can be improved. In particular, a backout strategy is presented which takes into account individual transaction costs and attempts to minimize total backout cost. Although the problem of choosing transactions to minimize total backout cost is, in general, NP-complete, the backout strategy is efficient and produces very good results.
+
+#index 556
+#* The satisfiability problem for a class consisting of Horn sentences and some non-Horn sentences in porportional logic
+#@ Susumu Yamasaki;Shuji Doshita
+#t 1984
+#c Information and Control
+
+#index 557
+#* Repetition of subwords in DOL languages
+#@ A Ehrenfeucht;G Rozenberg
+#t 1984
+#c Information and Control
+
+#index 558
+#* Synchronous and asynchronous experiments on processes
+#@ M Hennessy
+#t 1984
+#c Information and Control
+
+#index 559
+#* Mental poker with three or more players
+#@ Imre Barany;Zoltan Furedi
+#t 1984
+#c Information and Control
+
+#index 560
+#* Regular dynamic logic is not interpretable in deterministic context-free dynamic logic
+#@ A P. Stolboushkin
+#t 1984
+#c Information and Control
+
+#index 561
+#* Algebraic semantics of recursive flowchart schemes
+#@ Hartmut Schmeck
+#t 1984
+#c Information and Control
+
+#index 562
+#* Semantics for classical AUTOMATH and related systems
+#@ Henk Barendregt;Adrian Rezus
+#t 1984
+#c Information and Control
+
+#index 563
+#* An N(superscript)3/2 lower bound on the monotone network complexity of the Boolean convolution
+#@ Jurgen Weiss
+#t 1984
+#c Information and Control
+
+#index 564
+#* Software for estimating sparse Jacobian matrices
+#@ Thomas F. Coleman;Burton S. Garbow;Jorge J. More
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 289420
+
+#index 565
+#* A constructive method for abstract algebraic software specification
+#@ Herbert A. Klaeren
+#t 1984
+#c Theoretical Computer Science
+
+#index 566
+#* Thinking FORTH: a language and philosophy for solving problems
+#@ Leo B. Brodie
+#t 1984
+#c Thinking FORTH: a language and philosophy for solving problems
+
+#index 567
+#* A probabilistic lower bound for checking disjointness of sets
+#@ Udi Manber
+#t 1984
+#c Information Processing Letters
+
+#index 568
+#* Proc. of the conference on 7th international conference on automated deduction
+#@ R. E. Shostak
+#t 1984
+#c Proc. of the conference on 7th international conference on automated deduction
+
+#index 569
+#* A portable environment for research in automated reasoning
+#@ Ewing L. Lusk;Ross A. Overbeek
+#t 1984
+#c Proc. of the conference on 7th international conference on automated deduction
+
+#index 570
+#* A natural proof system based on rewriting techniques
+#@ Deepak Kapur;Balakrishnan Krishnamurthy
+#t 1984
+#c Proc. of the conference on 7th international conference on automated deduction
+
+#index 571
+#* EKL—a mathematically oriented proof checker
+#@ Jussi Ketonen
+#t 1984
+#c Proc. of the conference on 7th international conference on automated deduction
+
+#index 572
+#* Computer number systems and arithmetic
+#@ Norman R. Scott
+#t 1984
+#c Computer number systems and arithmetic
+
+#index 573
+#* Managing database: four critical factors
+#@ Michael M. Gorman
+#t 1984
+#c Managing database: four critical factors
+
+#index 574
+#* Local area networks: selection guidelines
+#@ James S. Fritz;Charles F. Kaldenbach;Louis M. Progar
+#t 1985
+#c Local area networks: selection guidelines
+
+#index 575
+#* The logic of programming
+#@ Eric C.R. Hehner
+#t 1984
+#c The logic of programming
+
+#index 576
+#* Connected components in binary images: the detection problem
+#@ Christian Ronse;Pierre A. Devijver
+#t 1984
+#c Connected components in binary images: the detection problem
+
+#index 577
+#* The Motorola MC 68000 microprocessor family: assembly language, interface design, and system design
+#@ Thomas L. Harman;Barbara Lawson
+#t 1985
+#c The Motorola MC 68000 microprocessor family: assembly language, interface design, and system design
+
+#index 578
+#* Computer message systems
+#@ Jacques Vallee
+#t 1984
+#c Computer message systems
+
+#index 579
+#* 16-bit modern microcomputers: the Intel I8086 family
+#@ George W. Gorsline
+#t 1984
+#c 16-bit modern microcomputers: the Intel I8086 family
+
+#index 580
+#* A differential-equations algorithm for nonlinear equations
+#@ Filippo Aluffi-Pentini;Valerio Parisi;Francesco Zirilli
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 317476
+#% 317483
+#% 317522
+
+#index 581
+#* Algorithm 617: DAFNE: a differential-equations algorithm for nonlinear equations
+#@ Filippo Aluffi-Pentini;Valerio Parisi;Francesco Zirilli
+#t 1984
+#c ACM Transactions on Mathematical Software (TOMS)
+#% 580
+
+#index 582
+#* Optimal Asynchronous Newton Method for the Solution of Nonlinear Equations
+#@ A. Bojańczyk
+#t 1984
+#c Journal of the ACM (JACM)
+#% 289122
+
+#index 583
+#* A Proof Procedure for Data Dependencies
+#@ Catriel Beeri;Moshe Y. Vardi
+#t 1984
+#c Journal of the ACM (JACM)
+#% 286860
+#% 287295
+#% 287316
+#% 287339
+#% 287478
+#% 287677
+#% 287754
+#% 287792
+#% 287798
+#% 289164
+#% 289305
+#% 289321
+#% 289337
+#% 289351
+#% 289352
+#% 289384
+#% 289385
+#% 346829
+#% 346917
+#% 384112
+#% 416042
+#% 490909
+#% 598678
+
+#index 584
+#* Bounds for the Positive Eigenvectors of Nonnegative Matrices and for their Approximations by Decomposition
+#@ P.-J. Courtois;P Semal
+#t 1984
+#c Journal of the ACM (JACM)
+#% 289412
+
+#index 585
+#* Optimum Head Separation in a Disk System with Two Read/Write Heads
+#@ A. R. Calderbank;E. G. Coffman, Jr.;L. Flatto
+#t 1984
+#c Journal of the ACM (JACM)
+
+#index 586
+#* Algebraic Structures with Hard Equivalence and Minimization Problems
+#@ P. A. Bloniarz;H. B. Hunt, III;D. J. Rosenkrantz
+#t 1984
+#c Journal of the ACM (JACM)
+#% 288708
+#% 289157
+#% 289270
+#% 289314
+#% 289344
+#% 289409
+#% 375265
+#% 408396
+#% 408638
+#% 601159
+#% 602472
+
+#index 587
+#* Interactive message services: planning, designing, and implementing videotex
+#@ Dimitris N. Chorafās
+#t 1984
+#c Interactive message services: planning, designing, and implementing videotex
+
+#index 588
+#* Computer mathematics
+#@ D J. Cooke;H E. Bez
+#t 1984
+#c Computer mathematics
+
+#index 589
+#* Data structures for personal computers
+#@ Yedidyah Langsam;Moshe J. Augenstein;Aaron M. Tenenbaum
+#t 1984
+#c Data structures for personal computers
+
+#index 590
+#* Games programming
+#@ Eric Solomon
+#t 1984
+#c Games programming
+
+#index 591
+#* On a model of distributed information retrieval systems based on thesauri
+#@ Zygmunt Mazur
+#t 1984
+#c Information Processing and Management: an International Journal
+
+#index 592
+#* An integrated database design for accounting systems
+#@ Prabuddha De;William D. Haseman
+#t 1984
+#c Information Processing and Management: an International Journal
+
+#index 593
+#* Information processing in linear vector space
+#@ Milan Kunz
+#t 1984
+#c Information Processing and Management: an International Journal
+
+#index 594
+#* Toward native language software for information management
+#@ Eduardo M. Santaella;Vladimir Slamecka
+#t 1984
+#c Information Processing and Management: an International Journal
+
+#index 595
+#* Shared memory performance of multi-computer terminals in distributed information systems
+#@ Arumalla V. Reddi
+#t 1984
+#c Information Processing and Management: an International Journal
+
+#index 596
+#* Systems design with ADA.
+#@ R. J. A. Buhr
+#t 1984
+#c Systems design with ADA.
+
+#index 597
+#* Partial match retrieval in implicit data structures
+#@ Helmut Alt;Kurt Mehlhorn;J Ian Munro
+#t 1984
+#c Information Processing Letters
+
+#index 598
+#* Communication problems on MIMD parallel computers
+#@ G P. McKeown;V J. Rayward-Smith
+#t 1984
+#c Information Processing Letters
+
+#index 599
+#* Approximating block accesses in database organizations
+#@ Prashant Palvia;Salvatore T. March
+#t 1984
+#c Information Processing Letters
+
+#index 600
+#* Integer linear programming for microprograms register allocation
+#@ E Luque;A Ripoll
+#t 1984
+#c Information Processing Letters
+
+#index 601
+#* A linear algorithm of a deadlock avoidance for nonpreemptible resources
+#@ Ewa Klupsz
+#t 1984
+#c Information Processing Letters
+
+#index 602
+#* Area-time tradeoff for rectangular matrix multiplication in VLSI models
+#@ Grazia Lotti
+#t 1984
+#c Information Processing Letters
+
+#index 603
+#* An O(n log n) Manhattan path algorithm
+#@ Witold Lipski, Jr.
+#t 1984
+#c Information Processing Letters
+
+#index 604
+#* The complexity of data flow criteria for test data selection
+#@ Elaine J. Weyuker
+#t 1984
+#c Information Processing Letters
+
+#index 605
+#* Choice of grammatical word-class without global syntactic analysis: tagging words in the LOB Corpus.
+#@ Ian Marshall
+#t 1983
+#c Computers and the Humanities
+
+#index 606
+#* International Symposium on Symbolic and Algebraic Computation on EUROSAM 84
+#@ John Fitch
+#t 1984
+#c International Symposium on Symbolic and Algebraic Computation on EUROSAM 84
+
+#index 607
+#* The promotion and accumulation strategies in transformational programming
+#@ R. S. Bird
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS) - Lecture notes in computer science Vol. 174
+#% 289056
+#% 317976
+#% 318250
+#% 318271
+#% 320200
+#% 320220
+#% 349101
+#% 374789
+#% 407822
+#% 602858
+#% 686611
+
+#index 608
+#* Code selection through object code optimization
+#@ Jack W. Davidson;Christopher W. Fraser
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS) - Lecture notes in computer science Vol. 174
+#% 318201
+#% 318202
+#% 318251
+#% 318306
+#% 319038
+#% 321617
+#% 324895
+#% 328090
+#% 348995
+#% 349009
+#% 349098
+#% 399225
+#% 408615
+#% 411611
+#% 411613
+#% 598014
+#% 603068
+#% 603069
+#% 603086
+#% 604462
+#% 688336
+#% 689471
+#% 729290
+#% 834994
+#% 836139
+
+#index 609
+#* Magma2: a language oriented toward experiments in control
+#@ Franco Turini
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS) - Lecture notes in computer science Vol. 174
+#% 317822
+#% 317930
+#% 318170
+#% 318235
+#% 320134
+#% 320204
+#% 320388
+#% 320445
+#% 321969
+#% 374130
+#% 375015
+#% 604285
+#% 669850
+#% 1149910
+
+#index 610
+#* Unassigned objects
+#@ Robert I. Winner
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS) - Lecture notes in computer science Vol. 174
+#% 318262
+#% 374328
+#% 384051
+#% 669853
+#% 688139
+#% 729828
+
+#index 611
+#* Selective and locally controlled transport of privileges
+#@ Naftaly H. Minsky
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS) - Lecture notes in computer science Vol. 174
+#% 287670
+#% 289083
+#% 320870
+#% 398736
+#% 604231
+
+#index 612
+#* Optimization of parser tables for portable compilers
+#@ Peter Dencker;Karl Dürre;Johannes Heuft
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS) - Lecture notes in computer science Vol. 174
+#% 319789
+#% 319848
+#% 325044
+#% 325540
+#% 404010
+#% 671769
+#% 834994
+#% 1146988
+
+#index 613
+#* Transformations and reduction strategies for typed lambda expressions
+#@ Michael Georgeff
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS) - Lecture notes in computer science Vol. 174
+#% 320190
+#% 322628
+#% 323860
+#% 374789
+#% 377954
+#% 490888
+#% 598339
+#% 598991
+#% 669316
+#% 833150
+#% 835737
+
+#index 614
+#* The drinking philosophers problem
+#@ K. M. Chandy;J. Misra
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS) - Lecture notes in computer science Vol. 174
+#% 319331
+#% 320187
+#% 320204
+#% 321426
+#% 399076
+#% 600799
+
+#index 615
+#* Axiomatic semantics of communicating sequential processes
+#@ N. Soundararajan
+#t 1984
+#c ACM Transactions on Programming Languages and Systems (TOPLAS) - Lecture notes in computer science Vol. 174
+#% 289408
+#% 318213
+#% 320204
+#% 320790
+
+#index 616
+#* Organization and learnability in computer languages
+#@ T. R.G. Green;S J. Payne
+#t 1984
+#c International Journal of Man-Machine Studies - Lecture notes in computer science Vol. 174
+
+#index 617
+#* Perceptual structure cueing in a simple command language
+#@ S J. Payne;M E. Sime;T R.G. Green
+#t 1984
+#c International Journal of Man-Machine Studies - Lecture notes in computer science Vol. 174
+
+#index 618
+#* Comprehension and recall of miniature programs
+#@ D J. Gilmore;T R.G. Green
+#t 1984
+#c International Journal of Man-Machine Studies - Lecture notes in computer science Vol. 174
+
+#index 619
+#* Speech-controlled text-editing: effects of input modality and of command structure
+#@ D L. Morrison;T R.G. Green;A C. Shaw;S J. Payne
+#t 1984
+#c International Journal of Man-Machine Studies - Lecture notes in computer science Vol. 174
+
+#index 620
+#* The doctor's use of a computer in the consulting room: an analysis
+#@ Garry Brownbridge;Mike Fitter;Max Sime
+#t 1984
+#c International Journal of Man-Machine Studies - Lecture notes in computer science Vol. 174
+
+#index 621
+#* Software portability and standards
+#@ Ingemar Dahlstrand
+#t 1984
+#c Software portability and standards
+
+#index 622
+#* Technology and Science of Informatics
+#@ Bertrand Meyer
+#t 1984
+#c Technology and Science of Informatics
+
+#index 623
+#* Control structures in expert systems
+#@ Jean-Pierre Laurent
+#t 1984
+#c Technology and Science of Informatics
+
+#index 624
+#* The ADA/ED system: a large-scale experiment in software prototyping using SETL
+#@ Philippe Kruchten;Edmond Schonberg
+#t 1984
+#c Technology and Science of Informatics
+#! In my view, the most interesting aspect of thisexperiment with prototypes is its implications for software engineering:everyone talks about prototypes today, but is anyone really producingany? Or, amongst those who do produce prototypes, how many can resistthe temptation, once the prototype is complete, to treat it as thefinished product? The experiences described here present a clear cutcase: it would have been impossible to write the compiler immediately inits final form—the cost of perpetual modifications, in response torevisions to ADA, of a compiler written in a `traditional' languagewould have been intolerably high—designing a prototype seems tohave been the only way out.Finally, once a decision in favor of prototypes has been taken,either as a way of giving concrete expression to a set of specificationsor a way of `protecting' a particular design, a choice of language inwhich to write the prototype has to be made. The advantages of SETL areclearly demonstrated in this article, with particular stress laid on thefacilities it provides for using several semantic levels, and thereforerefining a prototype in successive stages until the final productemerges, or a program very close to the final product. Translation intoa language providing for a higher performance level, or at any rate intoa more common language, C in this case, is then a simple task. My guessis that a lot of TSI readers are going to want more information on SETLto enable them to use it in similar circumstances in the future.To sum up, this article is particularly interesting for threereasons: it provides a closer understanding of ADA, demonstrates thevalue of prototypes in software design, and makes a plea in favor ofSETL which does indeed appear wholly satisfactory as a language in whichto write such prototypes.—From the Commentary by E. Girard—Commentary recommended by E. A. Feustel, Sherborn, MA
+
+#index 625
+#* Specification or how to give reality to abstraction
+#@ J.-R. Abrial
+#t 1984
+#c Technology and Science of Informatics
+
+#index 626
+#* Access control lists in capability environments
+#@ Lanfranco Lopriore
+#t 1984
+#c Technology and Science of Informatics
+
+#index 627
+#* Advances in data communications management: Vol. 2
+#@ Jacob Slonim;E A. Unger;P. S. Fisher
+#t 1984
+#c Advances in data communications management: Vol. 2
+
+#index 628
+#* Data communications hardware and software
+#@ Malcolm G. Lane
+#t 1984
+#c Advances in data communications management: Vol. 2
+
+#index 629
+#* Considerations in a distributed environment
+#@ Eulous S. Butler, Jr.
+#t 1984
+#c Advances in data communications management: Vol. 2
+
+#index 630
+#* An introduction to cryptography
+#@ Whitfield Diffie;Martin E. Hellman
+#t 1984
+#c Advances in data communications management: Vol. 2
+
+#index 631
+#* Comparative evaluation of networks and protocols
+#@ Udo W. Pooch
+#t 1984
+#c Advances in data communications management: Vol. 2
+
+#index 632
+#* Electronic mail
+#@ Raymond R. Panko
+#t 1984
+#c Advances in data communications management: Vol. 2
+
+#index 633
+#* Videotex—a consumer information utility
+#@ Eulous S. Butler, Jr.
+#t 1984
+#c Advances in data communications management: Vol. 2
+
+#index 634
+#* The infotex service
+#@ Tony Allsop
+#t 1984
+#c Advances in data communications management: Vol. 2
+
+#index 635
+#* Computer graphics and applications
+#@ Dennis Harris
+#t 1984
+#c Computer graphics and applications
+
+#index 636
+#* A taxonomy of representations in information retrieval system design
+#@ Linda C. Smith;Amy J. Warner
+#t 1984
+#c Journal of Information Science
+
+#index 637
+#* Telecommuting and organizational change
+#@ Barbara M. Farwell;David C. Farwell
+#t 1984
+#c Computer Networks and ISDN Systems
+
+#index 638
+#* Concepts of the document interchange protocol for the telematic services - CCITT draft recommendation s.a
+#@ W Horak
+#t 1984
+#c Computer Networks and ISDN Systems
+
+#index 639
+#* State dependency issues in evaluating distributed database availability
+#@ Fabio A. Schreiber
+#t 1984
+#c Computer Networks and ISDN Systems
+
+#index 640
+#* Simulations of three adaptive, decentralized controlled, job scheduling algorithms
+#@ John A. Stankovic
+#t 1984
+#c Computer Networks and ISDN Systems
+
+#index 641
+#* Planning techniques for systems management
+#@ Robert V. Head
+#t 1984
+#c Planning techniques for systems management
+
+#index 642
+#* Mathematical applications of electronic spreadsheets
+#@ Deane E. Arganbright
+#t 1984
+#c Mathematical applications of electronic spreadsheets
+
+#index 643
+#* Coping with computers in the elementary and middle schools
+#@ C. Alan Riedesel;Douglas H. Clements
+#t 1984
+#c Coping with computers in the elementary and middle schools
+
+#index 644
+#* McGraw-Hill dictionary of electronics and computer technology
+#@ Sybil P. Parker
+#t 1984
+#c McGraw-Hill dictionary of electronics and computer technology
+
+#index 645
+#* On graph rewritings
+#@ Jean Claude Raoult
+#t 1984
+#c Theoretical Computer Science
+
+#index 646
+#* A linear-history semantics for languages for distributed programming
+#@ N. Francez;D Lehmann;A Pnueli
+#t 1984
+#c Theoretical Computer Science
+
+#index 647
+#* Linear indexed languages
+#@ J. Duske;R. Parchmann
+#t 1984
+#c Theoretical Computer Science
+
+#index 648
+#* The Nielsen reduction and P-complete problems in free groups
+#@ J Avenhaus;K Madlener
+#t 1984
+#c Theoretical Computer Science
+
+#index 649
+#* An extended direct branching algorithm for checking equivalence of deterministic pushdown automata
+#@ Etsuji Tomita
+#t 1984
+#c Theoretical Computer Science
+
+#index 650
+#* A parallel-design distributed-implementation (PDDI) general-purpose computer
+#@ Uzi Vishkin
+#t 1984
+#c Theoretical Computer Science
+
+#index 651
+#* Connections in acyclic hypergraphs
+#@ David Maier;Jeffrey D. Ullman
+#t 1984
+#c Theoretical Computer Science
+
+#index 652
+#* Biprefix codes, inverse semigroups and syntactic monoids of injective automata
+#@ T E. Hall
+#t 1984
+#c Theoretical Computer Science
+
+#index 653
+#* Dictionary of computing and new information technology (2nd ed.)
+#@ A. J Meadows;M. Gordon;A. Singleton
+#t 1984
+#c Dictionary of computing and new information technology (2nd ed.)
+
+#index 654
+#* Computer operations training: a strategy for change
+#@ Peter E. Berkeley
+#t 1984
+#c Computer operations training: a strategy for change
+
+#index 655
+#* Computer-based instruction: methods and development
+#@ Stephen M. Alessi;Stanley R. Trollip
+#t 1984
+#c Computer-based instruction: methods and development
+
+#index 656
+#* Effective information management: developing information systems strategies
+#@ R I. Tricker
+#t 1984
+#c Effective information management: developing information systems strategies
+
+#index 657
+#* Art and the computer
+#@ Melvin L. Prueitt
+#t 1984
+#c Art and the computer
+
+#index 658
+#* Programming languages and their definition
+#@ H Bekic;C B. Jones
+#t 1984
+#c Programming languages and their definition
+
+#index 659
+#* Computer design and architecture
+#@ Sajjan G. Shiva
+#t 1984
+#c Computer design and architecture
+
+#index 660
+#* A Mechanical Proof of the Unsolvability of the Halting Problem
+#@ Robert S. Boyer;J. Strother Moore
+#t 1984
+#c Journal of the ACM (JACM)
+#% 319994
+#% 835726
+
+#index 661
+#* An End-to-End Approach to the Resequencing Problem
+#@ François Baccelli;Erol Gelenbe;Brigitte Plateau
+#t 1984
+#c Journal of the ACM (JACM)
+#% 602640
+#% 836035
+
+#index 662
+#* Storing a Sparse Table with 0(1) Worst Case Access Time
+#@ Michael L. Fredman;János Komlós;Endre Szemerédi
+#t 1984
+#c Journal of the ACM (JACM)
+#% 289316
+#% 319568
+#% 319848
+#% 320478
+
+#index 663
+#* Incomplete Information in Relational Databases
+#@ Tomasz Imieliński;Witold Lipski, Jr.
+#t 1984
+#c Journal of the ACM (JACM)
+#% 285926
+#% 287313
+#% 287333
+#% 289283
+#% 322880
+#% 374001
+#% 408396
+#% 408504
+#% 411572
+#% 411660
+#% 411725
+#% 415959
+#% 416002
+#% 416017
+#% 599549
+#% 750877
+#% 835742
+
+#index 664
+#* Updates of Relational Views
+#@ Stavros S. Cosmadakis;Christos H. Papadimitriou
+#t 1984
+#c Journal of the ACM (JACM)
+#% 2008
+#% 286901
+#% 287295
+#% 287333
+#% 287339
+#% 287647
+#% 287664
+#% 287754
+#% 287762
+#% 289305
+#% 289321
+#% 322880
+#% 374001
+#% 408396
+#% 416007
+#% 416015
+#% 416017
+#% 601159
+#% 604734
+#% 993531
+
+#index 665
+#* Lower Bounds for Distributed Maximum-Finding Algorithms
+#@ Jan K. Pachl;E. Korach;D. Rotem
+#t 1984
+#c Journal of the ACM (JACM)
+#% 54742
+#% 234905
+#% 318286
+#% 319315
+#% 319731
+#% 319794
+
+#index 666
+#* Efficient Schemes for Parallel Communication
+#@ Eli Upfal
+#t 1984
+#c Journal of the ACM (JACM)
+#% 318218
+#% 319437
+#% 598399
+#% 598669
+#% 602775
+#% 604705
+#% 836006
+
+#index 667
+#* Introduction to simulation and SLAM II (2nd ed.)
+#@ A Alan B. Pritsker
+#t 1984
+#c Introduction to simulation and SLAM II (2nd ed.)
+
+#index 668
+#* AEDS Journal
+#@ Dennis W. Spuck
+#t 1984
+#c AEDS Journal
+
+#index 669
+#* Applied combinatorics
+#@ Fred S. Roberts
+#t 1984
+#c Applied combinatorics
+
+#index 670
+#* System design with Ada
+#@ R. J. A. Buhr
+#t 1984
+#c System design with Ada
+
+#index 671
+#* Personal computers and the disabled
+#@ Peter A. McWilliams
+#t 1984
+#c Personal computers and the disabled
+
+#index 672
+#* Data structures and algorithms 3: multi-dimensional searching and computational geometry
+#@ Kurt Mehlhorn
+#t 1984
+#c Data structures and algorithms 3: multi-dimensional searching and computational geometry
+
+#index 673
+#* The personal computer in business book
+#@ Peter A. McWilliams
+#t 1984
+#c The personal computer in business book
+
+#index 674
+#* Hackers: heroes of the computer revolution
+#@ Steven Levy
+#t 1984
+#c Hackers: heroes of the computer revolution
+
+#index 675
+#* Orbits for amateurs with a microcomputer
+#@ D Tattersfield
+#t 1984
+#c Orbits for amateurs with a microcomputer
+
+#index 676
+#* A practical guide to computer communications and networking 2nd ed.
+#@ Richard J. Deasington
+#t 1984
+#c A practical guide to computer communications and networking 2nd ed.
+
+#index 677
+#* Microcomputer displays, graphics, and animation
+#@ Bruce A. Artwick
+#t 1984
+#c Microcomputer displays, graphics, and animation
+
+#index 678
+#* Microcomputer applications in structural engineering
+#@ W H. Mosley;W J. Spencer
+#t 1984
+#c Microcomputer applications in structural engineering
+
+#index 679
+#* Whole earth software catalog
+#@ Stewart Brand
+#t 1984
+#c Whole earth software catalog
+
+#index 680
+#* On-line recognition of spoken words from a large vocabulary
+#@ Teuvo Kohonen;Heikki Riittinen;Erkki Reuhkala;Seppo Haltsonen
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 681
+#* Speaker-independent word recognition in connected speech on the basis of Phoneme recognition
+#@ Kiyoshi Maenobu;Yasuo Ariki;Toshiyuki Sakai
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 682
+#* Connected spoken word recognition algorithms by constant time delay DP, O (n) DP and augmented continuous DP matching
+#@ Sei-ichi Nakagawa
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 683
+#* A system for understanding continuous German speech
+#@ H Niemann;A Brietzmann;H.-W. Hein;R Mühlfeld;P Regel;G Schukat
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 684
+#* An expert system for mapping acoustic cues into phonetic features
+#@ Renato De Mori;Attilio Giordana;Pietro Laface;Lorenza Saitta
+#t 1984
+#c Information Sciences: an International Journal
+
+#index 685
+#* Optimal parallel algorithms for computing convex hulls and for sortng
+#@ S G. Akl
+#t 1984
+#c Computing
+
+#index 686
+#* Integrated concurrency control in shared B-trees
+#@ G Lausen
+#t 1984
+#c Computing
+
+#index 687
+#* Rounding error analysis of interpolation procedures
+#@ G Brügner
+#t 1984
+#c Computing
+
+#index 688
+#* A systems life cycle for office automation projects
+#@ Donald P. Ballou;Sung W. Kim
+#t 1984
+#c Information and Management
+
+#index 689
+#* A framework for systems analysis for decision support systems
+#@ Harish C. Bahl;Raymond G. Hunt
+#t 1984
+#c Information and Management
+
+#index 690
+#* Attitudes toward telecommuting: implications for work-at-home programs
+#@ Gerardine DeSanctis
+#t 1984
+#c Information and Management
+
+#index 691
+#* The impact of DSS on organizational communication
+#@ G Larry Sanders;James F. Courtney;Stephen L. Loy
+#t 1984
+#c Information and Management
+
+#index 692
+#* System design with microprocessors (2nd ed.)
+#@ D. Zissos
+#t 1984
+#c System design with microprocessors (2nd ed.)
+
+#index 693
+#* Applied combinatorics
+#@ Fred S. Roberts
+#t 1984
+#c Applied combinatorics
+
+#index 694
+#* Making computers work
+#@ Trevor J. Bentley
+#t 1984
+#c Making computers work
+
+#index 695
+#* The definitive word-processing book
+#@ Jonathan Price;Linda Pinnneau Urban
+#t 1984
+#c The definitive word-processing book
+
+#index 696
+#* An interactive decision support system for energy policy analysis
+#@ Larry R. Medsker
+#t 1984
+#c Communications of the ACM
+#% 375260
+#% 408047
+#% 408387
+
+#index 697
+#* A theory of the learnable
+#@ L. G. Valiant
+#t 1984
+#c Communications of the ACM
+#% 17631
+#% 318041
+#% 601159
+
+#index 698
+#* An optimal contour algorithm for iso-oriented rectangles
+#@ Ralf Hartmut Güting
+#t 1984
+#c Journal of Algorithms
+
+#index 699
+#* On symmetric algorithms for bilinear forms over finite fields
+#@ G Seroussi;A Lempel
+#t 1984
+#c Journal of Algorithms
+
+#index 700
+#* A non-factorial algorithm for canonical numbering of a graph
+#@ Derek Corneil;Mark Goldberg
+#t 1984
+#c Journal of Algorithms
+
+#index 701
+#* Optimum split trees
+#@ Yehoshua Perl
+#t 1984
+#c Journal of Algorithms
+
+#index 702
+#* Gauss codes, planar Hamiltonian graphs, and stack-sortable permutations
+#@ Pierre Rosenstiehl;Robert E. Tarjan
+#t 1984
+#c Journal of Algorithms
+
+#index 703
+#* A separator theorem for graphs of bounded genus
+#@ John R. Gilbert;Joan P. Hutchinson;Robert Endre Tarjan
+#t 1984
+#c Journal of Algorithms
+
+#index 704
+#* An O(n log n) algorithm for finding all repetitions in a string
+#@ Michael G. Main;Richard J. Lorentz
+#t 1984
+#c Journal of Algorithms
+
+#index 705
+#* MODULA-2 for PASCAL programmers
+#@ Richard Gleaves
+#t 1984
+#c MODULA-2 for PASCAL programmers
+
+#index 706
+#* Introduction to PEARL: process and experiment automation realtime language (2nd ed.)
+#@ Wulf Werum;Hans Windauer
+#t 1983
+#c Introduction to PEARL: process and experiment automation realtime language (2nd ed.)
+
+#index 707
+#* Computers in crisis: how to avert the coming worldwide computer systems collapse
+#@ Jerome T. Murray;Marilyn J. Murray
+#t 1984
+#c Computers in crisis: how to avert the coming worldwide computer systems collapse
+
+#index 708
+#* A structured approach to designing human-computer dialogues
+#@ Izak Benbasat;Yair Wand
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 709
+#* On conflicts
+#@ Z Pawlak
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 710
+#* The relationship of problem-solving ability and course performance among novice programmers
+#@ Ronald H. Nowaczyk
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 711
+#* Conditional statements and program coding: an experimental evaluation
+#@ Iris Vessey;Ron Weber
+#t 1984
+#c International Journal of Man-Machine Studies
+
+#index 712
+#* Basic concepts in knowledge-based systems
+#@ Jesse M. Heines
+#t 1983
+#c Machine-Mediated Learning
+
+#index 713
+#* A database cache for high performance and fast restart in database systems
+#@ Klaus Elhardt;Rudolf Bayer
+#t 1984
+#c ACM Transactions on Database Systems (TODS)
+#% 286836
+#% 287366
+#% 287725
+#% 317988
+#% 320902
+#% 531907
+#% 537569
+#% 544465
+#! Performance in database systems is strongly influenced by buffer management and transaction recovery methods. This paper presents the principles of the database cache, which replaces the traditional buffer. In comparison to buffer management, cache management is more carefully coordinated with transaction management, and integrates transaction recovery. High throughput ofsmall- and medium-sized transactions is achieved by fast commit processing and low database traffic. Very fast handling of transaction failures and short restart time after system failure are guaranteed in such an environment. Very long retrieval and update transactions are also supported.
