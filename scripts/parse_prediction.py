@@ -17,8 +17,9 @@ config = ConfigParser.ConfigParser()
 config.read(sys.argv[1])
 
 mapLocation = config.get('prediction', 'feature_map_location')
-predictionLocation = config.get('prediction', 'eval_feature_location')
+predictionLocation = config.get('prediction', 'svm_prediction_location')
 fullIdsLocation = config.get('prediction', 'full_id_list')
+paperRefsLocation = config.get('prediction', 'ref_count_location')
 resultsLocation = config.get('prediction', 'results_location')
 
 print "----------------------------------------------------------------------------"
@@ -28,6 +29,15 @@ print "- Load map from:        ", mapLocation
 print "- Load prediction from: ", predictionLocation
 print "- Results output at:    ", resultsLocation
 print "----------------------------------------------------------------------------"
+
+refCounts = {}
+
+with open(paperRefsLocation, "r") as refFile:
+    for line in refFile:
+        paperId, count = line.split(":")
+        refCounts[paperId] = int(count)
+
+print "- Loaded paper ref counts"
 
 resultsFile = open(resultsLocation, "w", 0)
 
@@ -55,6 +65,8 @@ with open(mapLocation, "r") as mapFile, open(predictionLocation, "r") as predict
             currentReferee = referee
         else:
             if label == "1":
+                if reference in refCounts:
+                    confidence = refCounts[reference]
                 refs = papers.appendMax((reference, confidence), refs, 10)
 
 

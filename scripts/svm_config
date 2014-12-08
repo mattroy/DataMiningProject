@@ -3,7 +3,9 @@ training_location=../data/AP_train.txt
 
 [prediction]
 eval_data=../data/AP_test_par.txt
-eval_feature_location=../output/eval_features.txt
-feature_map_location=../output/feature_map.txt
+eval_feature_location=../predict/eval_features.txt
+feature_map_location=../predict/feature_map.txt
+svm_prediction_location=../predict/eval_prediction
+ref_count_location=../output/paper_refs.txt
 full_id_list=../output/evaluation_prediction_temp.txt
 results_location=../predict/eval_results.txt
