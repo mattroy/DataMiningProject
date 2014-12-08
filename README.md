@@ -39,9 +39,12 @@ Scripts to be run on data here.
 * feature_gen.py - creates feature file for training svm. Output is in format for libsvm.
 * stop_words.txt - a list of stopwords to be removed from paper titles and abstracts when processing.
 * get_venues.py - list all the canonical venues found in a corpus. This is useful for seeing if papers have the same venue, but a slight naming difference causes them to be in different venues.
+* get\_paper\_refs.py - list the number of refs per paper for the training set.
 * eval_features.py - creates a feature file for papers in the eval data set.
+* parse_prediction.py - generate the results file from the svm-prediction file and the map file.
 
 ---
+* svm_config - final config for running the svm scripts.
 * config.cfg - contains settings for all scripts, this will be useful to run multiple experiments without needing to edit the code or move/edit the existing ouputs
 * config2.cfg - a config file for the evaluation set
 * test.cfg - this specifies some test data instead of evaluation data.
