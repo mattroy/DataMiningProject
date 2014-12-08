@@ -1,0 +1,100 @@
+#index 1875320
+#* Maximizing maximal angles for plane straight-line graphs
+#@ Oswin Aichholzer;Thomas Hackl;Michael Hoffmann;Clemens Huemer;Attila PóR;Francisco Santos;Bettina Speckmann;Birgit Vogtenhuber
+#t 2013
+#c Computational Geometry: Theory and Applications
+#! Let G=(S,E) be a plane straight-line graph on a finite point set S@?R^2 in general position. The incident angles of a point p@?S in G are the angles between any two edges of G that appear consecutively in the circular order of the edges incident to p. A plane straight-line graph is called @f-open if each vertex has an incident angle of size at least @f. In this paper we study the following type of question: What is the maximum angle @f such that for any finite set S@?R^2 of points in general position we can find a graph from a certain class of graphs on S that is @f-open? In particular, we consider the classes of triangulations, spanning trees, and spanning paths on S and give tight bounds in most cases.
+
+#index 1875325
+#* On approximating the Riemannian 1-center
+#@ Marc Arnaudon;Frank Nielsen
+#t 2013
+#c Computational Geometry: Theory and Applications
+#! We generalize the Euclidean 1-center approximation algorithm of Badoiu and Clarkson (2003) [6] to arbitrary Riemannian geometries, and study the corresponding convergence rate. We then show how to instantiate this generic algorithm to two particular settings: (1) the hyperbolic geometry, and (2) the Riemannian manifold of symmetric positive definite matrices.
+
+#index 1890816
+#* Variability-tolerant workload allocation for MPSoC energy minimization under real-time constraints
+#@ Francesco Paterna;Andrea Acquaviva;Francesco Papariello;Giuseppe Desoli;Luca Benini
+#t 2013
+#c ACM Transactions on Embedded Computing Systems (TECS)
+#! Sub-50nm CMOS technologies are affected by significant variability, which causes power and performance variations among nominally similar cores in MPSoC platforms. This undesired heterogeneity threatens execution predictability and energy efficiency. We propose two techniques to allocate sets of barrier-synchronized tasks. The first technique models allocation as an ILP and achieves optimal results, but requires an offline solver. The second technique adopts a two-stage heuristic approach, and it can be adapted to work online. We tested our approach on the virtual prototype of a next-generation industrial multicore platform. Experimental results demonstrate that our approach minimizes deadline violations while increasing energy efficiency.
+
+#index 1890830
+#* Optimization of task allocation and priority assignment in hard real-time distributed systems
+#@ Qi Zhu;Haibo Zeng;Wei Zheng;Marco DI Natale;Alberto Sangiovanni-Vincentelli
+#t 2013
+#c ACM Transactions on Embedded Computing Systems (TECS)
+#! The complexity and physical distribution of modern active safety, chassis, and powertrain automotive applications requires the use of distributed architectures. Complex functions designed as networks of function blocks exchanging signal information are deployed onto the physical HW and implemented in a SW architecture consisting of a set of tasks and messages. The typical configuration features priority-based scheduling of tasks and messages and imposes end-to-end deadlines. In this work, we present and compare formulations and procedures for the optimization of the task allocation, the signal to message mapping, and the assignment of priorities to tasks and messages in order to meet end-to-end deadline constraints and minimize latencies. Our formulations leverage worst-case response time analysis within a mixed integer linear optimization framework and are compared for performance against a simulated annealing implementation. The methods are applied for evaluation to an automotive case study of complexity comparable to industrial design problems.
+
+#index 1890831
+#* Adaptive real-time scheduling for legacy multimedia applications
+#@ Tommaso Cucinotta;Fabio Checconi;Luca Abeni;Luigi Palopoli
+#t 2013
+#c ACM Transactions on Embedded Computing Systems (TECS)
+#! Multimedia applications are often executed on standard personal computers. The absence of established standards has hindered the adoption of real-time scheduling solutions in this class of applications. Developers have adopted a wide range of heuristic approaches to achieve an acceptable timing behavior but the result is often unreliable. We propose a mechanism to extend the benefits of real-time scheduling to legacy applications based on the combination of two techniques: (1) a real-time monitor that observes and infers the activation period of the application, and (2) a feedback mechanism that adapts the scheduling parameters to improve its real-time performance.
+
+#index 1896751
+#* Robust ear identification using sparse representation of local texture descriptors
+#@ Ajay Kumar;Tak-Shing T. Chan
+#t 2013
+#c Pattern Recognition
+#! Automated personal identification using localized ear images has wide range of civilian and law-enforcement applications. This paper investigates a new approach for more accurate ear recognition and verification problem using the sparse representation of local gray-level orientations. We exploit the computational simplicity of localized Radon transform for the robust ear shape representation and also investigate the effectiveness of local curvature encoding using Hessian based feature representation. The ear representation problem is modeled as the sparse coding solution based on multi-orientation Radon transform dictionary whose solution is computed using the convex optimization approach. We also study the nonnegative formulation such problem, to address the limitations from the regularized optimization problem, in the sparse representation of localized ear features. The log-Gabor filter based approach and the localized Radon transform based feature representation has been used as baseline algorithm to ascertain the effectiveness of the proposed approach. We present experimental results from publically available UND and IITD ear databases which achieve significant improvement in the performance, both for the recognition and authentication problem, and confirm the usefulness of proposed approach for more accurate ear identification.
+
+#index 1896761
+#* Content-based image retrieval using color difference histogram
+#@ Guang-Hai Liu;Jing-Yu Yang
+#t 2013
+#c Pattern Recognition
+#! This paper presents a novel image feature representation method, namely color difference histograms (CDH), for image retrieval. This method is entirely different from the existing histograms; most of the existing histogram techniques merely count the number or frequency of pixels. However, the unique characteristic of CDHs is that they count the perceptually uniform color difference between two points under different backgrounds with regard to colors and edge orientations in L*a*b* color space. This method pays more attention to color, edge orientation and perceptually uniform color differences, and encodes color, orientation and perceptually uniform color difference via feature representation in a similar manner to the human visual system. The method can be considered as a novel visual attribute descriptor combining edge orientation, color and perceptually uniform color difference, as well as taking the spatial layout into account without any image segmentation, learning processes or clustering implementation. Experimental results demonstrate that it is much more efficient than the existing image feature descriptors that were originally developed for content-based image retrieval, such as MPEG-7 edge histogram descriptors, color autocorrelograms and multi-texton histograms. It has a strong discriminative power using the color, texture and shape features while accounting for spatial layout.
+
+#index 1896944
+#* A new heuristic for solving the p-median problem in the plane
+#@ Jack Brimberg;Zvi Drezner
+#t 2013
+#c Computers and Operations Research
+#! This paper presents a new local search for solving the continuous p-median problem in the plane. The basic idea is to first find a good starting solution by overlaying the area containing the set of demand points with a grid and solving heuristically the location problem on this grid. The solution is then used as an initial point for running an improved version of Cooper's well-known alternating local search.
+
+#index 1896948
+#* Invited Review: A comprehensive review and evaluation of permutation flowshop heuristics to minimize flowtime
+#@ Quan-Ke Pan;RubéN Ruiz
+#t 2013
+#c Computers and Operations Research
+#! In recent years, a large number of heuristics have been proposed for the minimization of the total or mean flowtime/completion time of the well-known permutation flowshop scheduling problem. Although some literature reviews and comparisons have been made, they do not include the latest available heuristics and results are hard to compare as no common benchmarks and computing platforms have been employed. Furthermore, existing partial comparisons lack the application of powerful statistical tools. The result is that it is not clear which heuristics, especially among the recent ones, are the best. This paper presents a comprehensive review and computational evaluation as well as a statistical assessment of 22 existing heuristics. From the knowledge obtained after such a detailed comparison, five new heuristics are presented. Careful designs of experiments and analyses of variance (ANOVA) techniques are applied to guarantee sound conclusions. The comparison results identify the best existing methods and show that the five newly presented heuristics are competitive or better than the best performing ones in the literature for the permutation flowshop problem with the total completion time criterion.
+
+#index 1896952
+#* Breakout Local Search for maximum clique problems
+#@ Una Benlic;Jin-Kao Hao
+#t 2013
+#c Computers and Operations Research
+#! The maximum clique problem (MCP) is one of the most popular combinatorial optimization problems with various practical applications. An important generalization of MCP is the maximum weight clique problem (MWCP) where a positive weight is associate to each vertex. In this paper, we present Breakout Local Search (BLS) which can be applied to both MC and MWC problems without any particular adaptation. BLS explores the search space by a joint use of local search and adaptive perturbation strategies. Extensive experimental evaluations using the DIMACS and BOSHLIB benchmarks show that the proposed approach competes favourably with the current state-of-art heuristic methods for MCP. Moreover, it is able to provide some new improved results for a number of MWCP instances. This paper also reports for the first time a detailed landscape analysis, which has been missing in the literature. This analysis not only explains the difficulty of several benchmark instances, but also justifies to some extent the behaviour of the proposed approach and the used parameter settings.
+
+#index 1896958
+#* Heuristics for dynamic and stochastic routing in industrial shipping
+#@ Gregorio Tirado;Lars Magnus Hvattum;Kjetil Fagerholt;Jean-FrançOis Cordeau
+#t 2013
+#c Computers and Operations Research
+#! Maritime transportation plays a central role in international trade, being responsible for the majority of long-distance shipments in terms of volume. One of the key aspects in the planning of maritime transportation systems is the routing of ships. While static and deterministic vehicle routing problems have been extensively studied in the last decades and can now be solved effectively with metaheuristics, many industrial applications are both dynamic and stochastic. In this spirit, this paper addresses a dynamic and stochastic maritime transportation problem arising in industrial shipping. Three heuristics adapted to this problem are considered and their performance in minimizing transportation costs is assessed. Extensive computational experiments show that the use of stochastic information within the proposed solution methods yields average cost savings of 2.5% on a set of realistic test instances.
+
+#index 1896960
+#* Heuristics for the multi-item capacitated lot-sizing problem with lost sales
+#@ Nabil Absi;Boris Detienne;StéPhane DauzèRe-PéRèS
+#t 2013
+#c Computers and Operations Research
+#! This paper deals with the multi-item capacitated lot-sizing problem with setup times and lost sales. Because of lost sales, demands can be partially or totally lost. To find a good lower bound, we use a Lagrangian relaxation of the capacity constraints, when single-item uncapacitated lot-sizing problems with lost sales have to be solved. Each subproblem is solved using an adaptation of the O(T^2) dynamic programming algorithm of Aksen et al. [5]. To find feasible solutions, we propose a non-myopic heuristic based on a probing strategy and a refining procedure. We also propose a metaheuristic based on the adaptive large neighborhood search principle to improve solutions. Some computational experiments showing the effectiveness and limitation of each approach are presented.
+
+#index 1896970
+#* An exact method for scheduling of the alternative technologies in R&D projects
+#@ Mohammad Ranjbar;Morteza Davari
+#t 2013
+#c Computers and Operations Research
+#! A fundamental challenge associated with research or new product development projects is identifying that innovative activity that will deliver success. In such projects, it is typically the case that innovative breakthroughs can be achieved by any of several possible alternative technologies, some of which may fail due to the technological risks involved. In some cases, the project payoff is obtained as soon as any single technology is completed successfully. We refer to such a project as alternative-technologies project and in this paper we consider the alternative-technologies project scheduling problem. We examine how to schedule alternative R&D activities in order to maximize the expected net present value, when each technology has a cost and a probability of failure. Although a branch-and-bound algorithm has been presented for this problem in the literature, we reformulate the problem and develop a new and improved branch-and-bound algorithm. We show using computational results that the new algorithm is much more efficient and outperforms the previous one.
+
+#index 1896971
+#* Solution method for the location planning problem of logistics park with variable capacity
+#@ Jianxun Tang;Lixin Tang;Xianpeng Wang
+#t 2013
+#c Computers and Operations Research
+#! In this paper we study a logistics park location planning problem in which the capacity of the logistics park is determined by the sectors used to establish it in an open site. Since the size of each sector is not necessarily the same in every potential site, the capacity of the logistics park is thus variable, which makes this problem different from the traditional location problems in which the capacity of each facility is fixed. The task of this problem is to determine the location of the logistics parks, the sectors to be used to establish the logistics park in each open site, and the allocation of customers to the established logistics parks so as to minimize the total costs for establishing the logistics parks and supplying the demands of customers. The size mode is introduced to deal with the nonlinear establishment cost function and consequently this problem is formulated as an integer linear programming (ILP) model. Since CPLEX can only solve the ILP model with small-size problems, a tabu search (TS) hybrid with filter and fan (F&F) is presented to obtain near optimal solutions. In the hybrid algorithm, the TS is used to improve the solution by changing the allocation of customers to open sites while the F&F is used to further improve the solution by adjusting the status of sites (i.e., open or closed). In addition, an elite solution pool is constructed to store good solutions found in the searching history. Whenever the hybrid algorithm is trapped in local minima, a new start solution will be generated from the elite pool so as to improve the search diversity. To evaluate the performance of the proposed hybrid TS method, the column generation (CG) method with an acceleration strategy is developed to provide tight lower bounds. Computational results showed that the proposed hybrid algorithm can obtain optimal solutions for most of the small size problems and satisfactory near-optimal solutions with comparison to lower bounds for large size problems.
+
+#index 1896987
+#* Weighted tardiness for the single machine scheduling problem: An examination of precedence theorem productivity
