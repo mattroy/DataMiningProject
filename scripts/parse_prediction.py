@@ -47,7 +47,6 @@ with open(mapLocation, "r") as mapFile, open(predictionLocation, "r") as predict
 
 
         if referee != currentReferee:
-            print "Next Referee"
             if currentReferee:
                 predictionOut = [x[0] for x in refs]
                 resultsFile.write(currentReferee + ", " + " ".join(predictionOut) + "\n")
