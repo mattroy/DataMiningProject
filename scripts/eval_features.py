@@ -16,7 +16,7 @@ import random
 config = ConfigParser.ConfigParser()
 config.read(sys.argv[1])
 
-trainingDataLocation = config.get('split_data', 'training_location')
+trainingDataLocation = config.get('prediction', 'training_location')
 evalDataLocation = config.get('prediction', 'eval_data')
 featureLocation = config.get('prediction', 'eval_feature_location')
 featureMapLocation = config.get('prediction', 'feature_map_location')
