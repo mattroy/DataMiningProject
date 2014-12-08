@@ -222,7 +222,7 @@ class Corpus:
 		"""
 		Initialize the stop word list from a file. Each stopword should be on a separate line.
 		"""
-		with open("../scripts/stop_words.txt", "r") as file:
+		with open("./scripts/stop_words.txt", "r") as file:
 			for line in file:
 				self.stopWords[line.strip().lower()] = 1
 

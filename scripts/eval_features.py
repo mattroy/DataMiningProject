@@ -20,7 +20,7 @@ trainingDataLocation = config.get('prediction', 'training_location')
 evalDataLocation = config.get('prediction', 'eval_data')
 featureLocation = config.get('prediction', 'eval_feature_location')
 featureMapLocation = config.get('prediction', 'feature_map_location')
-
+fullIdListLocation = config.get('prediction', 'full_id_list')
 
 print "----------------------------------------------------------------------------"
 print "- Load config from:          ", sys.argv[1]
@@ -38,6 +38,11 @@ evalData.readCorpus(evalDataLocation)
 
 print "- Loaded training file with: ", len(trainingData.papersByRef), " papers in it."
 print "----------------------------------------------------------------------------"
+
+with open(fullIdListLocation, "w", 0) as fullIdFile:
+   for paperId in evalData.papersByRef:
+      fullIdFile.write(paperId + ",\n")
+
 mapFile = open(featureMapLocation, "w", 0)
 
 with open(featureLocation, "w", 0) as file:
