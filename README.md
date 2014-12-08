@@ -2,14 +2,12 @@ DataMiningProject
 =================
 Project for cs6220
 
-###Steps for SVM Approach
-1.Run the gen_features.py script to generate training feature files.
-2.Run the eval_features.py script to generate feature files for prediction.
-3.Run svm-train on training features.
-4.Run svm-predict on eval features.
-5.Run generate_prediction.py script on svm prediction files.
+###Steps for generating new predictions.
+1. Add the training file to the data directory as "AP_train.txt"
+2. Add the new test file to the data directory as "AP\_test\_par.txt"
+3. Run `./MineDataSet.sh` from the main directory.
 
-###Steps for Baseline
+###Steps for Old Baseline
 1. Copy the ap_train.txt file to the data directory.
 2. Make sure you have python and numpy installed.
 2. Edit the config file if you have renamed any files or directories.
